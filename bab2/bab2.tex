@@ -1,0 +1,343 @@
+
+
+\chapter{TINJAUAN PUSTAKA}
+\label{cha:2-TinjauanPustaka}
+
+\section{Tinjauan 1 \label{sec:2-Tinjauan1}}
+Berisi tinjauan 1
+
+\section{Tinjauan 2 \label{sec:2-Tinjauan2}}
+Berisi tinjauan 2
+
+\section{Tinjauan N \label{sec:2-TinjauanN}}
+Berisi tinjauan N
+
+\section{Perbandingan Tinjauan \label{sec2-Banding}}
+Membandingkan dengan melihat kelebihan kekurangan dari masing-masing tinjauan, dan pilihan mana yang digunadakan atau diadaptasi.
+
+Dibawah ini adalah contoh mengacu kepada proceeding \cite{Ding:2005}, artikel di jurnal \cite{Bishr98}, buku \cite{Sheth:b}, desertasi \cite{Hoschek:2002}, tesis \cite{Kantere:2002}, publikasi lain \cite{Farias:a}.
+
+Dibawah ini adalah contoh long tabel, yaitu suatu tabel yang lebih dari satu halaman (long table) pada tabel \ref{tbl:2-ContohLongTabel}
+
+
+\begin{longtable}{|p{0.10\columnwidth}|p{0.10\columnwidth}|p{0.10\columnwidth}|p{0.10\columnwidth}|p{0.10\columnwidth}|p{0.10\columnwidth}|p{0.10\columnwidth}|p{0.10\columnwidth}|}
+\hline 
+\begin{sideways}
+{\small System}%
+\end{sideways}&
+\begin{sideways}
+{\small Data Model}%
+\end{sideways}&
+\begin{sideways}
+{\small Using of Ontology}%
+\end{sideways}&
+\begin{sideways}
+{\small Level of Mapping}%
+\end{sideways}&
+\begin{sideways}
+{\small Degree of Automation}%
+\end{sideways}&
+\begin{sideways}
+{\small Query Language}%
+\end{sideways}&
+\begin{sideways}
+{\small Architecture}%
+\end{sideways}&
+\begin{sideways}
+{\small Implementation}%
+\end{sideways}\tabularnewline
+\hline
+\endhead
+\hline 
+\caption{Contoh Long Table  \label{tbl:2-ContohLongTabel}}\\\hline{}\begin{sideways}{\small System}\end{sideways}&
+\begin{sideways}
+{\small Data Model}%
+\end{sideways}&
+\begin{sideways}
+{\small Using of Ontology}%
+\end{sideways}&
+\begin{sideways}
+{\small Level of Mapping}%
+\end{sideways}&
+\begin{sideways}
+{\small Degree of Automation}%
+\end{sideways}&
+\begin{sideways}
+{\small Query Language}%
+\end{sideways}&
+\begin{sideways}
+{\small Architecture}%
+\end{sideways}&
+\begin{sideways}
+{\small Implementation}%
+\end{sideways}\tabularnewline
+\hline
+\endfirsthead
+\hline 
+\multicolumn{8}{|c|}{Continue ...}\tabularnewline
+\hline
+\endfoot
+\endlastfoot
+\hline 
+{\tiny GARLIC}&
+{\tiny OO}&
+{\tiny Single, schema level}&
+{\tiny Schema integration}&
+{\tiny semi, supported by CLIO}&
+{\tiny OSQL?, global}&
+{\tiny Yes}&
+\tabularnewline
+\hline 
+{\tiny InfoMaster}&
+{\tiny ACL, KQML, KIF}&
+{\tiny Single, schema / ontology level}&
+{\tiny Schema integration}&
+{\tiny semi}&
+{\tiny SQL and OQL, global}&
+{\tiny Yes}&
+{\tiny Auto Car Manufacturing}\tabularnewline
+\hline 
+{\tiny MOMIS}&
+{\tiny ODL$_{\textrm{I$^{\textrm{3}}$}}$}&
+\begin{spacing}{0.7}
+{\tiny Single, schema / ontology level}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Schema integration}\end{spacing}
+&
+{\tiny semi}&
+{\tiny global}&
+{\tiny Yes}&
+\begin{spacing}{0.7}
+{\tiny A few test}\end{spacing}
+\tabularnewline
+\hline 
+&
+&
+&
+&
+&
+&
+&
+\tabularnewline
+\hline 
+{\tiny COG}&
+{\tiny XML}&
+\begin{spacing}{0.7}
+{\tiny Single, schema and ontology mapping}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Ontology merging}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny manual}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny SQL like, global}\end{spacing}
+&
+{\tiny Yes}&
+\begin{spacing}{0.7}
+{\tiny Manufacturing}\end{spacing}
+\tabularnewline
+\hline 
+{\tiny SIMS}&
+{\tiny Loom}&
+\begin{spacing}{0.7}
+{\tiny Single, schema and ontology mapping}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Ontologies sharing}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny manual}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Loom / SQL}\end{spacing}
+&
+{\tiny Yes}&
+\tabularnewline
+\hline 
+&
+&
+&
+&
+&
+&
+&
+\tabularnewline
+\hline 
+{\tiny AIDA}&
+&
+\begin{spacing}{0.7}
+{\tiny Mediated schema}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Schema / ontology mapping}\end{spacing}
+&
+{\tiny semi}&
+&
+&
+\begin{spacing}{0.7}
+{\tiny Simulation}\end{spacing}
+\tabularnewline
+\hline 
+{\tiny ARIADNE}&
+{\tiny Loom}&
+\begin{spacing}{0.7}
+{\tiny Mediated}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Schema mapping}\end{spacing}
+&
+{\tiny semi}&
+{\tiny SQL}&
+{\tiny Yes}&
+\begin{spacing}{0.7}
+{\tiny Geographic Information Display}\end{spacing}
+\tabularnewline
+\hline 
+{\tiny BUSTER}&
+\begin{spacing}{0.7}
+{\tiny XML, RDF, OWL}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Common \& local ontology}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Ontology mapping / semantic translation}\end{spacing}
+&
+{\tiny semi}&
+\begin{spacing}{0.7}
+{\tiny SQL like, QXML, QTDF, global}\end{spacing}
+&
+{\tiny Yes}&
+\begin{spacing}{0.7}
+{\tiny GIS, Biology}\end{spacing}
+\tabularnewline
+\hline 
+{\tiny COIN}&
+\begin{spacing}{0.7}
+{\tiny Relational+. F-Logic}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Mediated \& context}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Schema mapping}\end{spacing}
+&
+{\tiny semi}&
+\begin{spacing}{0.7}
+{\tiny SQL, global}\end{spacing}
+&
+{\tiny Yes}&
+\tabularnewline
+\hline 
+{\tiny DILEMMA}&
+{\tiny Description Logic}&
+{\tiny Mediated \& context}&
+{\tiny Context matching}&
+&
+{\tiny OQL}&
+{\tiny Yes}&
+\tabularnewline
+\hline 
+{\tiny HERMES}&
+\begin{spacing}{0.7}
+{\tiny Logic based}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Mediated schema. propose mediator}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Schema mapping}\end{spacing}
+&
+{\tiny semi}&
+\begin{spacing}{0.7}
+{\tiny SQI, rule base (Prolog like)}\end{spacing}
+&
+&
+\begin{spacing}{0.7}
+{\tiny US Army Corps of Engineers}\end{spacing}
+\tabularnewline
+\hline 
+{\tiny KRAFT}&
+&
+&
+&
+{\tiny semi}&
+{\tiny ?, local}&
+&
+\begin{spacing}{0.7}
+{\tiny bibliography}\end{spacing}
+\tabularnewline
+\hline 
+{\tiny MECOTA}&
+&
+\begin{spacing}{0.7}
+{\tiny Rule-base and integration rule mediator}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Ontology mapping}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny manual}\end{spacing}
+&
+&
+&
+\tabularnewline
+\hline 
+{\tiny Observer}&
+\begin{spacing}{0.7}
+{\tiny Description Logic}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Mediated ontology}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Ontology mapping and translation}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Manual}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny CLASSIC, local}\end{spacing}
+&
+{\tiny Yes}&
+\begin{spacing}{0.7}
+{\tiny Bibliography}\end{spacing}
+\tabularnewline
+\hline 
+{\tiny TSIMMIS}&
+{\tiny OEM}&
+\begin{spacing}{0.7}
+{\tiny Local and Common ontology}\end{spacing}
+&
+\begin{spacing}{0.7}
+{\tiny Ontology mapping}\end{spacing}
+&
+{\tiny semi}&
+\begin{spacing}{0.7}
+{\tiny Lorel MSL}\end{spacing}
+&
+{\tiny Yes}&
+\tabularnewline
+\hline 
+&
+&
+&
+&
+&
+&
+&
+\tabularnewline
+\hline 
+{\tiny InfoSleuth}&
+{\tiny KQML}&
+{\tiny Local and Common Ontology}&
+{\tiny Schema and Ontology mapping by Agents}&
+{\tiny semi}&
+{\tiny SQL \& KIF, global}&
+{\tiny Yes}&
+{\tiny Environment EDEN}\tabularnewline
+\hline
+\end{longtable}

@@ -1,0 +1,135 @@
+\documentclass[a4paper,12pt,oneside]{skripsi}
+
+\usepackage[bahasa]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[latin1]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{multind}
+\usepackage{rotating} %for rotate/sideway text
+\usepackage{subfig} %for make floating sub-figure
+
+%\makeindex{subject}
+\centerchapter
+\makeatletter
+\doublespacing
+\makeatother
+\parindent 3.0em
+%===================================================================
+\setlength{\textwidth}{15.0cm}
+\setlength{\evensidemargin}{2.5cm} % outer/right margin
+% \setlength{\topmargin}{0.3cm}    % top margin
+\setlength{\footskip}{2.5cm}       % distance between text and foot
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-\topmargin}
+\addtolength{\textheight}{-\headheight}
+\addtolength{\textheight}{-\headsep}
+\addtolength{\textheight}{-\footskip}
+\addtolength{\textheight}{-4cm}   % bottom margin
+%==============================================================================
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\addto\captionsbahasa{
+  \renewcommand{\contentsname}{DAFTAR ISI} 
+  \renewcommand{\listfigurename}{DAFTAR GAMBAR}
+  \renewcommand{\listtablename}{DAFTAR TABEL}
+  \renewcommand{\chaptername}{BAB}
+  \renewcommand{\chaptername}{BAB}
+  \renewcommand{\bibname}{DAFTAR PUSTAKA}
+}
+
+
+\begin{document}
+
+\nocite{*}
+%#start bagian administrasi #==================================================
+% bagian muka sebelum isi, umumnya halaman administrasi, kalau tidak digunakan
+% dapat diberikan tanda % didepannya
+
+%cover
+\pagestyle{empty}
+\pagenumbering{roman}
+\setcounter{page}{1}
+\include{cover}
+
+
+%halaman lembar pengesahan, abstraksi, kata pengantar
+\pagestyle{plain}
+\pagenumbering{roman}
+\setcounter{page}{2} %nilai halaman utk awal dari abstrak s/d ucapan terimakasih dlm romawi
+\include{lembarpengesahan}% menggabungkan file lembar pengesahan
+\include{abstraksi}% menggabungkan file abstraksi
+
+%menggabungkan file CV atau riwayat hidup ringkas
+%\include{cv}
+\include{katapengantar}% mengabungkan file kata pengantar
+
+%# akhir bagian administrasi # ==========================================
+
+% #mulai membuat daftar isi, daftar gambar dan  daftar tabel # ==========
+%\setcounter{page}{8} %set nilai halaman sesuai urutannya
+
+% membuat daftar isi
+\tableofcontents{}
+\addcontentsline{toc}{chapter}{DAFTAR ISI}
+
+%membuat daftar gambar
+\listoffigures
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}%masih masalah
+
+%% membuat daftar tabel
+\listoftables
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+
+%\include{daftarlampiran}
+
+% #akhir membuat daftar isi, daftar gambar dan  daftar tabel # ==========
+
+% # mulai bagian isi # ==================================================
+
+\newpage
+\pagestyle{headings}
+\pagenumbering{arabic} % jenis huruf arabic
+\setcounter{page}{1} %mulai dari halaman 1
+
+
+\input{bab1/bab1.tex} %Bab 1.Pendahuluan
+
+\input{bab2/bab2.tex} %Bab 2.Tinjauan Pustaka
+
+\input{bab3/bab3.tex} %Bab 3.Pendekatan
+
+\input{bab4/bab4.tex} %Bab 4.Hasil dan Analisis
+
+\input{bab5/bab5.tex} %Bab 5.Penutup
+
+% diatas menunjukkan SubDir/nama file tex, bisa ditambah/dikurang sesuai kebutuhan
+
+% # akhir bagian isi # ==================================================
+
+% # mulai bagian Daftar Pustaka # ============================================
+\newpage
+\pagestyle{plain}
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA} %memasukkan daftar pustaka di daftar isi
+\bibliographystyle{apalike}
+\bibliography{MainTemplateSkripsi} %file menyimpan bibtex
+
+% # akhir bagian referensi # ============================================
+
+\newpage
+\pagestyle{plain}
+\setcounter{page}{1} %mulai dari halaman L-1
+\renewcommand{\thepage}{L\arabic{page}}
+\include{lampiran}
+%\printindex{subject}{INDEKS}
+
+\end{document}
+%% Finish----------------
