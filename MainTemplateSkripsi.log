@@ -1,0 +1,473 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  4 APR 2020 01:22
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/son/work/skripsi/MainTemplateSkripsi.tex
+(/home/son/work/skripsi/MainTemplateSkripsi.tex
+LaTeX2e <2018-12-01>
+(/home/son/work/skripsi/skripsi.cls
+Document Class: skripsi 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/06/03 3.32 The Babel package
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-indonesian/bahasa.ldf
+Language: bahasa 2017/02/15 v1.0m Bahasa Indonesia support from the babel system
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel system
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)))) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+ (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen104
+\ar@mcellbox=\box27
+\extrarowheight=\dimen105
+\NC@list=\toks16
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box28
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count91
+\LTcapwidth=\dimen106
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count92
+\LT@rows=\count93
+\c@LT@tables=\count94
+\c@LT@chunks=\count95
+\LT@p@ftn=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+) (/home/son/work/skripsi/setspace.sty
+Package: setspace 1998/04/8 6.3 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.3 <1998/04/8>
+) (/home/son/work/skripsi/multind.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count96
+\rotFPtop=\skip49
+\rotFPbot=\skip50
+\rot@float@box=\box33
+\rot@mess@toks=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen109
+\captionmargin@=\dimen110
+\captionwidth=\dimen111
+\caption@tempdima=\dimen112
+\caption@indent=\dimen113
+\caption@parindent=\dimen114
+\caption@hangindent=\dimen115
+)
+\c@caption@flags=\count97
+\c@ContinuedFloat=\count98
+Package caption Info: longtable package is loaded.
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+)
+\c@KVtest=\count99
+\sf@farskip=\skip51
+\sf@captopadj=\dimen116
+\sf@capskip=\skip52
+\sf@nearskip=\skip53
+\c@subfigure=\count100
+\c@subfigure@save=\count101
+\c@lofdepth=\count102
+\c@subtable=\count103
+\c@subtable@save=\count104
+\c@lotdepth=\count105
+\sf@top=\skip54
+\sf@bottom=\skip55
+) (/home/son/work/skripsi/MainTemplateSkripsi.aux (/home/son/work/skripsi/cover.aux) (/home/son/work/skripsi/lembarpengesahan.aux) (/home/son/work/skripsi/abstraksi.aux) (/home/son/work/skripsi/katapengantar.aux) (/home/son/work/skripsi/lampiran.aux))
+\openout1 = `MainTemplateSkripsi.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+\big@size=\dimen117
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen118
+\scratchbox=\box34
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen119
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+\openout2 = `cover.aux'.
+
+ (/home/son/work/skripsi/cover.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 10.
+<gambar/LogoGunadarma.jpg, id=1, 27.14711pt x 26.78026pt>
+File: gambar/LogoGunadarma.jpg Graphic file (type jpg)
+<use gambar/LogoGunadarma.jpg>
+Package pdftex.def Info: gambar/LogoGunadarma.jpg  used on input line 16.
+(pdftex.def)             Requested size: 108.58807pt x 107.12067pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/son/work/skripsi/gambar/LogoGunadarma.jpg>]
+\openout2 = `lembarpengesahan.aux'.
+
+ (/home/son/work/skripsi/lembarpengesahan.tex) [2
+
+
+]
+\openout2 = `abstraksi.aux'.
+
+ (/home/son/work/skripsi/abstraksi.tex) [3
+
+
+]
+\openout2 = `katapengantar.aux'.
+
+ (/home/son/work/skripsi/katapengantar.tex [4
+
+
+]) [5] (/home/son/work/skripsi/MainTemplateSkripsi.toc [6
+
+
+])
+\tf@toc=\write3
+\openout3 = `MainTemplateSkripsi.toc'.
+
+ [7] (/home/son/work/skripsi/MainTemplateSkripsi.lof)
+\tf@lof=\write4
+\openout4 = `MainTemplateSkripsi.lof'.
+
+ [8
+
+] (/home/son/work/skripsi/MainTemplateSkripsi.lot)
+\tf@lot=\write5
+\openout5 = `MainTemplateSkripsi.lot'.
+
+ [9
+
+] (/home/son/work/skripsi/bab1/bab1.tex
+BAB 1.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 30.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+Package epstopdf Info: Source file: <bab1/ContohGbr1_1.eps>
+(epstopdf)                    date: 2008-03-22 10:41:56
+(epstopdf)                    size: 85751 bytes
+(epstopdf)             Output file: <bab1/ContohGbr1_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-03-30 10:49:25
+(epstopdf)                    size: 45940 bytes
+(epstopdf)             Command: <repstopdf --outfile=bab1/ContohGbr1_1-eps-converted-to.pdf bab1/ContohGbr1_1.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+<bab1/ContohGbr1_1-eps-converted-to.pdf, id=34, 435.6275pt x 379.4175pt>
+File: bab1/ContohGbr1_1-eps-converted-to.pdf Graphic file (type pdf)
+<use bab1/ContohGbr1_1-eps-converted-to.pdf>
+Package pdftex.def Info: bab1/ContohGbr1_1-eps-converted-to.pdf  used on input line 40.
+(pdftex.def)             Requested size: 298.75262pt x 260.20047pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 53.
+) [1
+
+] (/home/son/work/skripsi/bab2/bab2.tex [2 </home/son/work/skripsi/bab1/ContohGbr1_1-eps-converted-to.pdf>]
+BAB 2.
+
+Overfull \hbox (14.26247pt too wide) in alignment at lines 23--50
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.26247pt too wide) in alignment at lines 50--75
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.26247pt too wide) in alignment at lines 75--79
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.26247pt too wide) in alignment at lines 79--80
+ [] [] [] [] [] [] [] [] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+
+Overfull \hbox (14.26247pt too wide) in alignment at lines 80--343
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 343
+ []
+
+[3
+
+] [4] [5] [6]) (/home/son/work/skripsi/bab3/bab3.tex [7]
+BAB 3.
+Package epstopdf Info: Source file: <bab3/ContohGbr3_1.eps>
+(epstopdf)                    date: 2008-03-22 10:43:02
+(epstopdf)                    size: 150505 bytes
+(epstopdf)             Output file: <bab3/ContohGbr3_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-03-30 10:49:25
+(epstopdf)                    size: 77485 bytes
+(epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_1-eps-converted-to.pdf bab3/ContohGbr3_1.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+<bab3/ContohGbr3_1-eps-converted-to.pdf, id=61, 513.92pt x 303.1325pt>
+File: bab3/ContohGbr3_1-eps-converted-to.pdf Graphic file (type pdf)
+<use bab3/ContohGbr3_1-eps-converted-to.pdf>
+Package pdftex.def Info: bab3/ContohGbr3_1-eps-converted-to.pdf  used on input line 19.
+(pdftex.def)             Requested size: 170.71393pt x 100.69547pt.
+Package epstopdf Info: Source file: <bab3/ContohGbr3_2.eps>
+(epstopdf)                    date: 2008-03-22 10:43:02
+(epstopdf)                    size: 297704 bytes
+(epstopdf)             Output file: <bab3/ContohGbr3_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-03-30 10:49:25
+(epstopdf)                    size: 150317 bytes
+(epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_2-eps-converted-to.pdf bab3/ContohGbr3_2.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+<bab3/ContohGbr3_2-eps-converted-to.pdf, id=62, 515.9275pt x 492.84125pt>
+File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
+<use bab3/ContohGbr3_2-eps-converted-to.pdf>
+Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 21.
+(pdftex.def)             Requested size: 170.71393pt x 163.07426pt.
+Package epstopdf Info: Source file: <bab3/ContohGbr3_2.eps>
+(epstopdf)                    date: 2008-03-22 10:43:02
+(epstopdf)                    size: 297704 bytes
+(epstopdf)             Output file: <bab3/ContohGbr3_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-03-30 10:49:25
+(epstopdf)                    size: 150317 bytes
+(epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_2-eps-converted-to.pdf bab3/ContohGbr3_2.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
+<use bab3/ContohGbr3_2-eps-converted-to.pdf>
+Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 28.
+(pdftex.def)             Requested size: 170.71393pt x 163.07426pt.
+) (/home/son/work/skripsi/bab4/bab4.tex [8
+
+] [9 </home/son/work/skripsi/bab3/ContohGbr3_1-eps-converted-to.pdf> </home/son/work/skripsi/bab3/ContohGbr3_2-eps-converted-to.pdf>]
+BAB 4.
+) (/home/son/work/skripsi/bab5/bab5.tex [10
+
+]
+BAB 5.
+) [11
+
+] (/home/son/work/skripsi/MainTemplateSkripsi.bbl [12
+
+]) [13]
+\openout2 = `lampiran.aux'.
+
+ (/home/son/work/skripsi/lampiran.tex) [1
+
+] (/home/son/work/skripsi/MainTemplateSkripsi.aux (/home/son/work/skripsi/cover.aux) (/home/son/work/skripsi/lembarpengesahan.aux) (/home/son/work/skripsi/abstraksi.aux) (/home/son/work/skripsi/katapengantar.aux) (/home/son/work/skripsi/lampiran.aux)) ) 
+Here is how much of TeX's memory you used:
+ 4166 strings out of 493968
+ 63974 string characters out of 6165122
+ 189072 words of memory out of 5000000
+ 7821 multiletter control sequences out of 15000+600000
+ 50173 words of font info for 71 fonts, out of 8000000 for 9000
+ 309 hyphenation exceptions out of 8191
+ 44i,16n,52p,665b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/son/work/skripsi/MainTemplateSkripsi.pdf (23 pages, 393166 bytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
