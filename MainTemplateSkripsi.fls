@@ -115,7 +115,6 @@ INPUT /home/son/work/skripsi/cover.tex
 INPUT /home/son/work/skripsi/cover.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /home/son/work/skripsi/gambar/LogoGunadarma.jpg
 INPUT /home/son/work/skripsi/gambar/LogoGunadarma.jpg
 OUTPUT /home/son/work/skripsi/MainTemplateSkripsi.pdf
@@ -156,17 +155,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT /home/son/work/skripsi/lembarpengesahan.aux
 INPUT /home/son/work/skripsi/lembarpengesahan.tex
 INPUT /home/son/work/skripsi/lembarpengesahan.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 OUTPUT /home/son/work/skripsi/abstraksi.aux
 INPUT /home/son/work/skripsi/abstraksi.tex
 INPUT /home/son/work/skripsi/abstraksi.tex
