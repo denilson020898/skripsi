@@ -1,11 +1,13 @@
 \contentsline {chapter}{HALAMAN JUDUL}{i}% 
 \babel@toc {bahasa}{}
-\contentsline {chapter}{LEMBAR PENGESAHAN}{ii}% 
-\contentsline {chapter}{ABSTRAKSI}{iii}% 
-\contentsline {chapter}{KATA PENGANTAR}{iv}% 
-\contentsline {chapter}{DAFTAR ISI}{vii}% 
-\contentsline {chapter}{DAFTAR GAMBAR}{viii}% 
+\contentsline {chapter}{LEMBAR ORIGINALITAS DAN PUBLIKASI}{ii}% 
+\contentsline {chapter}{LEMBAR PENGESAHAN}{iii}% 
+\contentsline {chapter}{ABSTRAKSI}{iv}% 
+\contentsline {chapter}{KATA PENGANTAR}{v}% 
+\contentsline {chapter}{DAFTAR ISI}{viii}% 
 \contentsline {chapter}{DAFTAR TABEL}{ix}% 
+\contentsline {chapter}{DAFTAR GAMBAR}{x}% 
+\contentsline {chapter}{DAFTAR LAMPIRAN}{xi}% 
 \contentsline {chapter}{BAB \hbox to\@tempdima {I\hfil } : PENDAHULUAN}{1}% 
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}% 
 \contentsline {section}{\numberline {1.2}Batasan Masalah}{1}% 

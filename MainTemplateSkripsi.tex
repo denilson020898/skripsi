@@ -69,6 +69,9 @@
 \pagestyle{plain}
 \pagenumbering{roman}
 \setcounter{page}{2} %nilai halaman utk awal dari abstrak s/d ucapan terimakasih dlm romawi
+
+\include{lembaroriginalitas}
+
 \include{lembarpengesahan}% menggabungkan file lembar pengesahan
 
 \include{abstraksi}% menggabungkan file abstraksi
@@ -86,15 +89,15 @@
 \tableofcontents{}
 \addcontentsline{toc}{chapter}{DAFTAR ISI}
 
-%membuat daftar gambar
-\listoffigures
-\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}%masih masalah
-
 %% membuat daftar tabel
 \listoftables
 \addcontentsline{toc}{chapter}{DAFTAR TABEL}
 
-%\include{daftarlampiran}
+%membuat daftar gambar
+\listoffigures
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}%masih masalah
+
+\include{daftarlampiran}
 
 % #akhir membuat daftar isi, daftar gambar dan  daftar tabel # ==========
 
