@@ -2,6 +2,7 @@
 
 \usepackage[bahasa]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{setspace}
 \usepackage{mathptmx}
 \usepackage[latin1]{inputenc}
 \setcounter{secnumdepth}{3}
@@ -9,7 +10,6 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{graphicx}
-\usepackage{setspace}
 \usepackage{multind}
 \usepackage{rotating} %for rotate/sideway text
 \usepackage{subfig} %for make floating sub-figure
@@ -18,9 +18,11 @@
 %\makeindex{subject}
 \centerchapter
 \makeatletter
-\doublespacing
+\newcommand\thefontsize[1]{{#1 The current font size is: \f@size pt\par}}
 \makeatother
 \parindent 3.0em
+
+\setstretch{1.5}
 
 %===================================================================
 % \setlength{\textwidth}{15.0cm}
