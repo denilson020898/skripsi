@@ -16,25 +16,35 @@ Pemelajaran mesin atau \textit{machine learning} merupakan mekanisme yang memung
 untuk mengenali pola kompleks dari data empiris secara otomatis. Data empiris memiliki keterkaitan 
 antara variabel independen dan variabel dependen. Penelitian ini mengacu kepada pose dua dimensi 
 sebagai variabel independen dan pose tiga dimensi sebagai variabel dependen. Pemelajaran mesin 
-dapat melakukan pemetaan antara kedua variabel ini dalam bentuk jaringan saraf tiruan.
+dapat melakukan pemetaan antara kedua variabel ini dalam bentuk jaringan saraf tiruan dalam atau 
+\textit{deep neural network}.
 
-
+\textit{Residual Network (ResNet)} merupakan salah satu arsitektur yang termasuk kedalam golongan 
+\textit{deep neural network}. Arsitektur ini menerapkan skema \textit{skip connection} yang sejauh 
+ini metode terbaik dalam melakukan pemelajaran mesin. Pendekatan menggunakan \textit{ResNet} 
+memungkinkan pemetaan pose dua dimensi ke pose tiga dimensi pada setiap titik kunci spesifik dengan 
+tingkat akurasi yang relatif tinggi.
 
 \section{Batasan Masalah}
 \label{sec:1-BatasMasalah}
 
-Bagian ini menceritakan tentang :
-\begin{itemize}
-\item Batasan penelitian beserta alasannya.
-\item Definisi permasalahan dari penelitian
-\item Tujuan umum dan khusus dari penelitian
-\end{itemize}
+Penelitian ini menganggap setiap pose dua dimensi maupun pose tiga dimensi berada dalam koordinat 
+lokal. Setiap pose ditransformasi ke dalam observasi kamera dengan titik kunci pinggang 
+sebagai posisi tengah. Hal ini dilakukan karena pemetaan hanya menggunakan grafik datar tanpa 
+informasi kedalaman titik kunci. Hal ini dilakukan untuk menghindari masalah kedalaman yang ambigu. 
 
 \section{Tujuan Penelitian}
 \label{sec:1-TujuanPenelitian}
 
+Tujuan dari penelitian ini adalah untuk membuat sebuah aplikasi yang dapat membaca titik kunci dari 
+sebuah citra visual datar dan mentransformasikannya kedalam pose lokal dua dimensi sehingga dapat 
+dipetakan oleh jaringan saraf tiruan yang dimodelkan ke bentuk pose lokal tiga dimensi. Pose hasil
+juga divisualisasikan secara interaktif sehingga dapat dipergunakan untuk kepentingan yang sesuai.
+
 \section{Metode Penelitian}
 \label{sec:1-MetodePenelitian}
+
+Penelitian dibagi menjadi tiga tahap besar yang terdiri dari \textit{data preprocessing}, 
 
 \section{Sistematika Penulisan}
 \label{sec:1-SistematikaPenulisan}
