@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  7 APR 2020 00:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  7 APR 2020 00:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,15 +469,15 @@ BAB 5.
 
 ] (/home/son/work/skripsi/MainTemplateSkripsi.aux (/home/son/work/skripsi/cover.aux) (/home/son/work/skripsi/lembaroriginalitas.aux) (/home/son/work/skripsi/lembarpengesahan.aux) (/home/son/work/skripsi/abstraksi.aux) (/home/son/work/skripsi/katapengantar.aux) (/home/son/work/skripsi/daftarlampiran.aux) (/home/son/work/skripsi/lampiran.aux)) ) 
 Here is how much of TeX's memory you used:
- 4642 strings out of 493968
- 71285 string characters out of 6165122
+ 4640 strings out of 493968
+ 71264 string characters out of 6165122
  149005 words of memory out of 5000000
- 8281 multiletter control sequences out of 15000+600000
- 30305 words of font info for 47 fonts, out of 8000000 for 9000
+ 8280 multiletter control sequences out of 15000+600000
+ 28631 words of font info for 46 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
  44i,16n,52p,309b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/son/work/skripsi/MainTemplateSkripsi.pdf (23 pages, 337554 bytes).
+Output written on /home/son/work/skripsi/MainTemplateSkripsi.pdf (23 pages, 337552 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
