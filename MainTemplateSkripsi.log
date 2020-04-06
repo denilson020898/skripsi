@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  4 APR 2020 01:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  6 APR 2020 16:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -177,39 +177,61 @@ Package caption Info: rotating package is loaded.
 \c@lotdepth=\count105
 \sf@top=\skip54
 \sf@bottom=\skip55
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count106
+\Gm@cntv=\count107
+\c@Gm@tempcnt=\count108
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks20
 ) (/home/son/work/skripsi/MainTemplateSkripsi.aux (/home/son/work/skripsi/cover.aux) (/home/son/work/skripsi/lembarpengesahan.aux) (/home/son/work/skripsi/abstraksi.aux) (/home/son/work/skripsi/katapengantar.aux) (/home/son/work/skripsi/lampiran.aux))
 \openout1 = `MainTemplateSkripsi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 52.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\big@size=\dimen117
+\big@size=\dimen125
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen118
+\scratchcounter=\count109
+\scratchdimen=\dimen126
 \scratchbox=\box34
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen119
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks21
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen127
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks22
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -231,9 +253,6 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -249,9 +268,44 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(113.81102pt, 645.87756pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=645.87756pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=9.66724pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 \openout2 = `cover.aux'.
 
- (/home/son/work/skripsi/cover.tex
+(/home/son/work/skripsi/cover.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
@@ -333,68 +387,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 ] (/home/son/work/skripsi/bab1/bab1.tex
 BAB 1.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
-Package epstopdf Info: Source file: <bab1/ContohGbr1_1.eps>
-(epstopdf)                    date: 2008-03-22 10:41:56
-(epstopdf)                    size: 85751 bytes
-(epstopdf)             Output file: <bab1/ContohGbr1_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-03-30 10:49:25
-(epstopdf)                    size: 45940 bytes
-(epstopdf)             Command: <repstopdf --outfile=bab1/ContohGbr1_1-eps-converted-to.pdf bab1/ContohGbr1_1.eps>
-(epstopdf)             \includegraphics on input line 40.
-Package epstopdf Info: Output file is already uptodate.
-<bab1/ContohGbr1_1-eps-converted-to.pdf, id=34, 435.6275pt x 379.4175pt>
-File: bab1/ContohGbr1_1-eps-converted-to.pdf Graphic file (type pdf)
-<use bab1/ContohGbr1_1-eps-converted-to.pdf>
-Package pdftex.def Info: bab1/ContohGbr1_1-eps-converted-to.pdf  used on input line 40.
-(pdftex.def)             Requested size: 298.75262pt x 260.20047pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 53.
-) [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+) (/home/son/work/skripsi/bab2/bab2.tex [1
 
-] (/home/son/work/skripsi/bab2/bab2.tex [2 </home/son/work/skripsi/bab1/ContohGbr1_1-eps-converted-to.pdf>]
+] [2]
 BAB 2.
-
-Overfull \hbox (14.26247pt too wide) in alignment at lines 23--50
- [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (14.26247pt too wide) in alignment at lines 50--75
- [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (14.26247pt too wide) in alignment at lines 75--79
- [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (14.26247pt too wide) in alignment at lines 79--80
- [] [] [] [] [] [] [] [] 
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
-
-Overfull \hbox (14.26247pt too wide) in alignment at lines 80--343
- [] [] [] [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 343
- []
-
 [3
 
-] [4] [5] [6]) (/home/son/work/skripsi/bab3/bab3.tex [7]
+]) (/home/son/work/skripsi/bab3/bab3.tex [4]
 BAB 3.
 Package epstopdf Info: Source file: <bab3/ContohGbr3_1.eps>
 (epstopdf)                    date: 2008-03-22 10:43:02
@@ -405,11 +410,11 @@ Package epstopdf Info: Source file: <bab3/ContohGbr3_1.eps>
 (epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_1-eps-converted-to.pdf bab3/ContohGbr3_1.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<bab3/ContohGbr3_1-eps-converted-to.pdf, id=61, 513.92pt x 303.1325pt>
+<bab3/ContohGbr3_1-eps-converted-to.pdf, id=49, 513.92pt x 303.1325pt>
 File: bab3/ContohGbr3_1-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_1-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_1-eps-converted-to.pdf  used on input line 19.
-(pdftex.def)             Requested size: 170.71393pt x 100.69547pt.
+(pdftex.def)             Requested size: 159.333pt x 93.97935pt.
 Package epstopdf Info: Source file: <bab3/ContohGbr3_2.eps>
 (epstopdf)                    date: 2008-03-22 10:43:02
 (epstopdf)                    size: 297704 bytes
@@ -419,11 +424,11 @@ Package epstopdf Info: Source file: <bab3/ContohGbr3_2.eps>
 (epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_2-eps-converted-to.pdf bab3/ContohGbr3_2.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<bab3/ContohGbr3_2-eps-converted-to.pdf, id=62, 515.9275pt x 492.84125pt>
+<bab3/ContohGbr3_2-eps-converted-to.pdf, id=50, 515.9275pt x 492.84125pt>
 File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_2-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 21.
-(pdftex.def)             Requested size: 170.71393pt x 163.07426pt.
+(pdftex.def)             Requested size: 159.333pt x 152.20015pt.
 Package epstopdf Info: Source file: <bab3/ContohGbr3_2.eps>
 (epstopdf)                    date: 2008-03-22 10:43:02
 (epstopdf)                    size: 297704 bytes
@@ -436,38 +441,38 @@ Package epstopdf Info: Output file is already uptodate.
 File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_2-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 28.
-(pdftex.def)             Requested size: 170.71393pt x 163.07426pt.
-) (/home/son/work/skripsi/bab4/bab4.tex [8
+(pdftex.def)             Requested size: 159.333pt x 152.20015pt.
+) (/home/son/work/skripsi/bab4/bab4.tex [5
 
-] [9 </home/son/work/skripsi/bab3/ContohGbr3_1-eps-converted-to.pdf> </home/son/work/skripsi/bab3/ContohGbr3_2-eps-converted-to.pdf>]
+] [6 </home/son/work/skripsi/bab3/ContohGbr3_1-eps-converted-to.pdf> </home/son/work/skripsi/bab3/ContohGbr3_2-eps-converted-to.pdf>]
 BAB 4.
-) (/home/son/work/skripsi/bab5/bab5.tex [10
+) (/home/son/work/skripsi/bab5/bab5.tex [7
 
 ]
 BAB 5.
-) [11
+) [8
 
-] (/home/son/work/skripsi/MainTemplateSkripsi.bbl [12
+] (/home/son/work/skripsi/MainTemplateSkripsi.bbl [9
 
-]) [13]
+] [10]) [11]
 \openout2 = `lampiran.aux'.
 
  (/home/son/work/skripsi/lampiran.tex) [1
 
 ] (/home/son/work/skripsi/MainTemplateSkripsi.aux (/home/son/work/skripsi/cover.aux) (/home/son/work/skripsi/lembarpengesahan.aux) (/home/son/work/skripsi/abstraksi.aux) (/home/son/work/skripsi/katapengantar.aux) (/home/son/work/skripsi/lampiran.aux)) ) 
 Here is how much of TeX's memory you used:
- 4166 strings out of 493968
- 63974 string characters out of 6165122
- 189072 words of memory out of 5000000
- 7821 multiletter control sequences out of 15000+600000
- 50173 words of font info for 71 fonts, out of 8000000 for 9000
+ 4633 strings out of 493968
+ 70775 string characters out of 6165122
+ 147067 words of memory out of 5000000
+ 8282 multiletter control sequences out of 15000+600000
+ 36541 words of font info for 53 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 44i,16n,52p,665b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/son/work/skripsi/MainTemplateSkripsi.pdf (23 pages, 393166 bytes).
+ 44i,16n,52p,309b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/son/work/skripsi/MainTemplateSkripsi.pdf (21 pages, 335270 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

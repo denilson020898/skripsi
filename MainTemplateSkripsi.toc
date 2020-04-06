@@ -8,23 +8,27 @@
 \contentsline {chapter}{DAFTAR TABEL}{ix}% 
 \contentsline {chapter}{BAB \hbox to\@tempdima {I\hfil } : PENDAHULUAN}{1}% 
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}% 
-\contentsline {section}{\numberline {1.2}Batasan dan Tujuan}{1}% 
-\contentsline {section}{\numberline {1.3}Kontribusi}{1}% 
+\contentsline {section}{\numberline {1.2}Batasan Masalah}{1}% 
+\contentsline {section}{\numberline {1.3}Tujuan Penelitian}{2}% 
+\contentsline {section}{\numberline {1.4}Metode Penelitian}{2}% 
+\contentsline {section}{\numberline {1.5}Sistematika Penulisan}{2}% 
 \contentsline {chapter}{BAB \hbox to\@tempdima {II\hfil } : TINJAUAN PUSTAKA}{3}% 
-\contentsline {section}{\numberline {2.1}Tinjauan 1 }{3}% 
-\contentsline {section}{\numberline {2.2}Tinjauan 2 }{3}% 
-\contentsline {section}{\numberline {2.3}Tinjauan N }{3}% 
-\contentsline {section}{\numberline {2.4}Perbandingan Tinjauan }{3}% 
-\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : PENDEKATAN}{8}% 
-\contentsline {section}{\numberline {3.1}Motivasi }{8}% 
-\contentsline {section}{\numberline {3.2}Framework Riset}{8}% 
-\contentsline {section}{\numberline {3.3}Pendekatan }{8}% 
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN ANALISIS}{10}% 
-\contentsline {section}{\numberline {4.1}Persiapan pengujian}{10}% 
-\contentsline {section}{\numberline {4.2}Pelaksanaan Pengujian}{10}% 
-\contentsline {section}{\numberline {4.3}Hasil dan Diskusi}{10}% 
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{11}% 
-\contentsline {section}{\numberline {5.1}Kesimpulan}{11}% 
-\contentsline {section}{\numberline {5.2}Saran}{11}% 
-\contentsline {chapter}{DAFTAR PUSTAKA}{12}% 
+\contentsline {section}{\numberline {2.1}Teorema Penaksiran Universal }{3}% 
+\contentsline {section}{\numberline {2.2}Pemelajaran Mesin}{3}% 
+\contentsline {section}{\numberline {2.3}Jaringan Sarah Tiruan }{3}% 
+\contentsline {section}{\numberline {2.4}Transfer Learning}{4}% 
+\contentsline {section}{\numberline {2.5}Tinjauan N }{4}% 
+\contentsline {section}{\numberline {2.6}Perbandingan Tinjauan }{4}% 
+\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : PENDEKATAN}{5}% 
+\contentsline {section}{\numberline {3.1}Motivasi }{5}% 
+\contentsline {section}{\numberline {3.2}Framework Riset}{5}% 
+\contentsline {section}{\numberline {3.3}Pendekatan }{5}% 
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN ANALISIS}{7}% 
+\contentsline {section}{\numberline {4.1}Persiapan pengujian}{7}% 
+\contentsline {section}{\numberline {4.2}Pelaksanaan Pengujian}{7}% 
+\contentsline {section}{\numberline {4.3}Hasil dan Diskusi}{7}% 
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{8}% 
+\contentsline {section}{\numberline {5.1}Kesimpulan}{8}% 
+\contentsline {section}{\numberline {5.2}Saran}{8}% 
+\contentsline {chapter}{DAFTAR PUSTAKA}{9}% 
 \contentsline {chapter}{LAMPIRAN}{L1}% 

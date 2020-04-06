@@ -10,45 +10,45 @@ A level-1 auxiliary file: lampiran.aux
 Database file #1: MainTemplateSkripsi.bib
 Warning--can't use both author and editor fields in Sheth:b
 Warning--empty year in Sheth:b
-You've used 16 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            596 strings with 6203 characters,
-and the built_in function-call counts, 3793 in all, are:
-= -- 359
-> -- 151
+            616 strings with 6952 characters,
+and the built_in function-call counts, 5379 in all, are:
+= -- 491
+> -- 261
 < -- 2
-+ -- 69
-- -- 46
-* -- 203
-:= -- 696
-add.period$ -- 48
-call.type$ -- 16
-change.case$ -- 68
++ -- 112
+- -- 84
+* -- 306
+:= -- 974
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 168
-empty$ -- 322
-format.name$ -- 46
-if$ -- 773
+cite$ -- 23
+duplicate$ -- 232
+empty$ -- 445
+format.name$ -- 84
+if$ -- 1096
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 14
-newline$ -- 83
-num.names$ -- 33
-pop$ -- 92
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 108
+num.names$ -- 43
+pop$ -- 142
 preamble$ -- 1
-purify$ -- 55
+purify$ -- 84
 quote$ -- 0
-skip$ -- 94
+skip$ -- 129
 stack$ -- 0
-substring$ -- 123
-swap$ -- 14
+substring$ -- 148
+swap$ -- 22
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 70
 warning$ -- 2
-while$ -- 34
-width$ -- 18
-write$ -- 175
+while$ -- 44
+width$ -- 23
+write$ -- 225
 (There were 2 warnings)

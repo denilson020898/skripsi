@@ -13,6 +13,18 @@ Y.~Bishr.
 \newblock {\em Int. Journal of Geographical Information Science}, 12:299--314,
   1998.
 
+\bibitem{8765346}
+Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon}, S.~{Wei}, and Y.~A. {Sheikh}.
+\newblock Openpose: Realtime multi-person 2d pose estimation using part
+  affinity fields.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  2019.
+
+\bibitem{cao2017realtime}
+Z.~Cao, T.~Simon, S.-E. Wei, and Y.~Sheikh.
+\newblock Realtime multi-person 2d pose estimation using part affinity fields.
+\newblock In {\em CVPR}, 2017.
+
 \bibitem{Ding:2005}
 Z.~Ding, Y.~Peng, R.~Pan, and Y.~Yu.
 \newblock A {B}ayesian {M}ethodology {T}owards {A}utomatic {O}ntology
@@ -47,6 +59,12 @@ W.~Hoschek.
   Dynamic Distributed Content And Its Application For Scalable Service
   Discovery}.
 \newblock Dotors des technischen, Universitat WIen, 2002.
+
+\bibitem{fastbook}
+J.~Howard and S.~Gugger.
+\newblock {\em Deep Learning for Coders with Fastai and Pytorch: AI
+  Applications Without a PhD}.
+\newblock MCGraw Hill, 1994.
 
 \bibitem{Kantere:2002}
 V.~Kantere.
@@ -86,6 +104,17 @@ A.~Sheth.
 \newblock {\em Architectural {I}ssues of {W}eb-{E}nabled {E}lectronic
   {B}usiness}, chapter World Wide Web Search Technologies.
 \newblock Idea Group Publishing.
+
+\bibitem{simon2017hand}
+T.~Simon, H.~Joo, I.~Matthews, and Y.~Sheikh.
+\newblock Hand keypoint detection in single images using multiview
+  bootstrapping.
+\newblock In {\em CVPR}, 2017.
+
+\bibitem{wei2016cpm}
+S.-E. Wei, V.~Ramakrishna, T.~Kanade, and Y.~Sheikh.
+\newblock Convolutional pose machines.
+\newblock In {\em CVPR}, 2016.
 
 \bibitem{ucup05}
 A.~Yusuf.

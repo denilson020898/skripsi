@@ -13,6 +13,7 @@
 \usepackage{multind}
 \usepackage{rotating} %for rotate/sideway text
 \usepackage{subfig} %for make floating sub-figure
+\usepackage[top=4cm, bottom=3cm, left=4cm, right=3cm]{geometry}
 
 %\makeindex{subject}
 \centerchapter
@@ -20,17 +21,18 @@
 \doublespacing
 \makeatother
 \parindent 3.0em
+
 %===================================================================
-\setlength{\textwidth}{15.0cm}
-\setlength{\evensidemargin}{2.5cm} % outer/right margin
-% \setlength{\topmargin}{0.3cm}    % top margin
-\setlength{\footskip}{2.5cm}       % distance between text and foot
-\setlength{\textheight}{\paperheight}
-\addtolength{\textheight}{-\topmargin}
-\addtolength{\textheight}{-\headheight}
-\addtolength{\textheight}{-\headsep}
-\addtolength{\textheight}{-\footskip}
-\addtolength{\textheight}{-4cm}   % bottom margin
+% \setlength{\textwidth}{15.0cm}
+% \setlength{\evensidemargin}{2.5cm} % outer/right margin
+% % \setlength{\topmargin}{0.3cm}    % top margin
+% \setlength{\footskip}{2.5cm}       % distance between text and foot
+% \setlength{\textheight}{\paperheight}
+% \addtolength{\textheight}{-\topmargin}
+% \addtolength{\textheight}{-\headheight}
+% \addtolength{\textheight}{-\headsep}
+% \addtolength{\textheight}{-\footskip}
+% \addtolength{\textheight}{-4cm}   % bottom margin
 %==============================================================================
 \tolerance=1
 \emergencystretch=\maxdimen
@@ -66,6 +68,7 @@
 \pagenumbering{roman}
 \setcounter{page}{2} %nilai halaman utk awal dari abstrak s/d ucapan terimakasih dlm romawi
 \include{lembarpengesahan}% menggabungkan file lembar pengesahan
+
 \include{abstraksi}% menggabungkan file abstraksi
 
 %menggabungkan file CV atau riwayat hidup ringkas
