@@ -21,7 +21,7 @@ dapat melakukan pemetaan antara kedua variabel ini dalam bentuk jaringan saraf t
 
 \textit{Residual Network (ResNet)} merupakan salah satu arsitektur yang termasuk kedalam golongan 
 \textit{deep neural network}. Arsitektur ini menerapkan skema \textit{skip connection} yang sejauh 
-ini metode terbaik dalam melakukan pemelajaran mesin. Pendekatan menggunakan \textit{ResNet} 
+ini merupakan metode terbaik dalam melakukan pemelajaran mesin. Pendekatan menggunakan \textit{ResNet} 
 memungkinkan pemetaan pose dua dimensi ke pose tiga dimensi pada setiap titik kunci spesifik dengan 
 tingkat akurasi yang relatif tinggi.
 
@@ -31,13 +31,13 @@ tingkat akurasi yang relatif tinggi.
 Penelitian ini menganggap setiap pose dua dimensi maupun pose tiga dimensi berada dalam koordinat 
 lokal. Setiap pose ditransformasi ke dalam observasi kamera dengan titik kunci pinggang 
 sebagai posisi tengah. Hal ini dilakukan karena pemetaan hanya menggunakan grafik datar tanpa 
-informasi kedalaman titik kunci. Hal ini dilakukan untuk menghindari masalah kedalaman yang ambigu. 
+informasi kedalaman titik kunci sehingga dapat menghindari masalah kedalaman yang ambigu. 
 
 \section{Tujuan Penelitian}
 \label{sec:1-TujuanPenelitian}
 
 Tujuan dari penelitian ini adalah untuk membuat sebuah aplikasi yang dapat membaca titik kunci dari 
-sebuah citra visual datar dan mentransformasikannya kedalam pose lokal dua dimensi sehingga dapat 
+sebuah citra visual datar dan melakukan transformasi ke pose lokal dua dimensi sehingga dapat 
 dipetakan oleh jaringan saraf tiruan yang dimodelkan ke bentuk pose lokal tiga dimensi. Pose hasil
 juga divisualisasikan secara interaktif sehingga dapat dipergunakan untuk kepentingan yang sesuai.
 
@@ -55,7 +55,7 @@ yang berbeda beserta dengan koordinat setiap titik kunci dari hasil penangkapan 
 \textit{motion capture}~\cite{h36m_pami}.
 
 Pose dua dimensi dan tiga dimensi merupakan variabel yang relevan untuk masalah. Pada tahap 
-\textit{data preprocessing} akan dilakukan ekstraksi variabel ini kedalam bentuk text sehingga 
+\textit{data preprocessing} akan dilakukan ekstraksi variabel ini kedalam bentuk numerik sehingga 
 mudah untuk digunakan saat melakukan pelatihan jaringan saraf tiruan. Tahap selanjutnya akan 
 dilakukan pembuatan, permodelan, pelatihan, dan evaluasi jaringan saraf tiruan dalam untuk 
 pemetaan titik kunci yang kemudian dilanjutkan dengan percobaan model dengan video. Tahap terakhir 

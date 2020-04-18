@@ -70,6 +70,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /home/son/work/skripsi/MainTemplateSkripsi.aux
 INPUT /home/son/work/skripsi/MainTemplateSkripsi.aux
 INPUT /home/son/work/skripsi/cover.aux
@@ -80,6 +82,8 @@ INPUT /home/son/work/skripsi/lembarpengesahan.aux
 INPUT /home/son/work/skripsi/lembarpengesahan.aux
 INPUT /home/son/work/skripsi/abstraksi.aux
 INPUT /home/son/work/skripsi/abstraksi.aux
+INPUT /home/son/work/skripsi/abstract.aux
+INPUT /home/son/work/skripsi/abstract.aux
 INPUT /home/son/work/skripsi/katapengantar.aux
 INPUT /home/son/work/skripsi/katapengantar.aux
 INPUT /home/son/work/skripsi/daftarlampiran.aux
@@ -168,6 +172,9 @@ INPUT /home/son/work/skripsi/lembarpengesahan.tex
 OUTPUT /home/son/work/skripsi/abstraksi.aux
 INPUT /home/son/work/skripsi/abstraksi.tex
 INPUT /home/son/work/skripsi/abstraksi.tex
+OUTPUT /home/son/work/skripsi/abstract.aux
+INPUT /home/son/work/skripsi/abstract.tex
+INPUT /home/son/work/skripsi/abstract.tex
 OUTPUT /home/son/work/skripsi/katapengantar.aux
 INPUT /home/son/work/skripsi/katapengantar.tex
 INPUT /home/son/work/skripsi/katapengantar.tex
@@ -188,10 +195,10 @@ INPUT /home/son/work/skripsi/bab1/bab1.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT /home/son/work/skripsi/bab2/bab2.tex
 INPUT /home/son/work/skripsi/bab2/bab2.tex
 INPUT /home/son/work/skripsi/bab3/bab3.tex
@@ -243,6 +250,8 @@ INPUT /home/son/work/skripsi/lembarpengesahan.aux
 INPUT /home/son/work/skripsi/lembarpengesahan.aux
 INPUT /home/son/work/skripsi/abstraksi.aux
 INPUT /home/son/work/skripsi/abstraksi.aux
+INPUT /home/son/work/skripsi/abstract.aux
+INPUT /home/son/work/skripsi/abstract.aux
 INPUT /home/son/work/skripsi/katapengantar.aux
 INPUT /home/son/work/skripsi/katapengantar.aux
 INPUT /home/son/work/skripsi/daftarlampiran.aux

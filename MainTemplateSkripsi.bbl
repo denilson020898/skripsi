@@ -20,6 +20,11 @@ C.~Ionescu, D.~Papava, V.~Olaru, and C.~Sminchisescu.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   36(7):1325--1339, jul 2014.
 
+\bibitem{kratsios2019universal}
+A.~Kratsios.
+\newblock The universal approximation property: Characterizations, existence,
+  and a canonical topology for deep-learning, 2019.
+
 \bibitem{simon2017hand}
 T.~Simon, H.~Joo, I.~Matthews, and Y.~Sheikh.
 \newblock Hand keypoint detection in single images using multiview
