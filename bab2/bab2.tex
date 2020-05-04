@@ -3,56 +3,78 @@
 \chapter{TINJAUAN PUSTAKA}
 \label{cha:2-TinjauanPustaka}
 
-\section{Kecerdasan Buatan \label{sec:2-KecerdasanBuatan}}
-
 \section{Teorema Penaksiran Universal \label{sec:2-TeoremaPenaksiranUniversal}}
-Berisi tinjauan Teorema Penaksiran Universal~\cite{fastbook} \cite{8765346}
+Teorema penaksiran universal atau \textit{universal approximation theorem} menyatakan bahwa sebuah
+model jaringan \textit{feed-forward} dapat membentuk fungsi apapun secara subjektif. Sebuah model
+jaringan saraf tiruan dibentuk dari serangkaian lapisan yang didalamnya terdapat deretan sel saraf
+atau \textit{neuron} dengan kuantitas tertentu. Semakin panjang rangkaian lapisan yang tersedia,
+maka semakin banyak saraf yang tersedia sehingga dapat memetakan fungsi yang sulit.
+Model jaringan yang memiliki banyak saraf dapat mempelajari pola-pola yang ada dari satu
+domain ke domain lainnya~\cite{2016arXiv160100013G}.
 
-\section{Pemelajaran Mesin\label{sec:2-PemelajaranMesin}}
-Apa itu pemelajaran mesin / machine learning.
-\begin{enumerate}
-  \item Klasifikasi (probabilitas diskrit)
-  \begin{itemize}
-    \item Binary Label
-    \item Multi Label
-    \item Multi Class
-  \end{itemize}
-  \item Regresi (Kuantitas Numerik)
-\end{enumerate}
-
-\section{Pemelajaran Mesin Dalam\label{sec:2-PemelajaranMesinDalam}}
+Teorema penaksiran universal memiliki dua sifat yang dikategorikan berdasarkan pemanfaatannya dalam
+melakukan pemelajaran mesin. Sifat pertama adalah suatu model jaringan saraf tiruan dapat
+memperkirakan suatu fungsi dengan batasan-batasan tertentu sesuai dengan fungsi aktivasi pada
+lapisan terakhir. Sifat kedua adalah sebuah fungsi kontinu dengan jumlah variabel sembarang dapat
+ditiru oleh sebuah jaringan saraf tiruan dengan jumlah yang sembarang~\cite{2019arXiv191003344K}.
 
 \section{Jaringan Saraf Tiruan \label{sec:2-JaringanSarafTiruan}}
-Berisi tinjauan Jaringan Saraf Tiruan
+Penelitian mengenai otak manusia sudah dimulai sejak ribuan tahun yang lalu.
+Otak manusia terdiri dari kumpulan sel saraf yang saling terkoneksi satu sama lain. Sebuah sel saraf
+adalah sel yang dapat memproses dan mengantarkan informasi apabila dirangsang dengan tegangan
+elektrokimia. Sel-sel saraf tidak pernah memperbanyak dirinya dan tidak digantikan apabila ada yang
+rusak. Jumlah sel saraf yang terdapat dalam otak manusia diperkirakan sebanyak satu miliar. Setiap
+sel saraf diperkirakan berkoneksi dengan sepuluh ribu sel saraf lainnya melalui sinapsis yang
+berarti otak manusia beroperasi seperti prosesor dengan kecepatan satu triliun bit per
+detik~\cite{10.3389/neuro.09.031.2009}.
 
-\begin{itemize}
-  \item model
-  \item arsitektur
-  \item input
-  \item parameter
-  \item variabel independen
-  \item label
-  \item variable dependen
-  \item hasil/prediksi
-  \item loss
-  \item optimizer
-\end{itemize}
+Bentuk sel saraf sangat bervariasi dengan berbagai ukuran, bentuk, dan sifat elektrokimianya. Sebuah
+sel saraf memiliki badan yang terdiri dari beberapa struktur penting seperti pada
+gambar~\ref{fig:selsaraf}.
 
-Batasan:
-\begin{itemize}
-  \item Model tidak bisa dibuat tanpa data
-  \item Model hanya bisa mempelajari pola dari data yang digunakan.
-  \item Hanya menghasilkan prediksi/ramalan, bukan rekomendasi keputusan
-  \item Memerlukan data input dan label yang umumnya dibuat manual
-\end{itemize}
+\begin{figure}[h]
+  \begin{center}
+    \fbox{\includegraphics[scale=1.0]{bab2/gambar/selsaraf.jpg}}
+  \end{center}
+  \vspace{-20pt}
+  \captionsetup{labelfont=bf, textfont=bf}
+  \caption{Ilustrasi Sebuah Sel Saraf}
+  \vspace{-10pt}
+  \captionsetup{labelfont=md, textfont=md}
+  \caption*{Sumber: Sumber yang Berbahaya}
+  \label{fig:selsaraf}
+\end{figure}
+
+Bentuk sel saraf sangat bervariasi dengan berbagai ukuran, bentuk, dan sifat elektrokimianya. Sebuah
+sel saraf memiliki badan yang terdiri dari beberapa struktur penting seperti pada gambar
+% ~\cite{2019arXiv190601703Z}.
+
+
 
 \section{Residual Network \label{sec:2-ResidualNetwork}}
-Berisi tinjauan N
 
-\section{Deteksi Objek\label{sec:2-DeteksiObjek}}
+\begin{table}[h]
+  \captionsetup{labelfont=bf, textfont=bf}
+  \caption{Sebuah tabel}
+  \vspace{-20pt}
+  \begin{center}
+    \begin{tabular}{| l c r |}
+      \hline
+      1 & 2 & 3 \\
+      4 & 5 & 6 \\
+      7 & 8 & 9 \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \vspace{-10pt}
+  \captionsetup{labelfont=md, textfont=md}
+  \caption*{Sumber: Bego Lu}
+\end{table}
 
-\section{Estimasi Pose\label{sec:2-EstimasiPose}}
+\section{Fungsi Aktivasi\label{sec:2-FungsiAktivasi}}
 
-\section{Perbandingan Tinjauan \label{sec2-Banding}}
-Membandingkan dengan melihat kelebihan kekurangan dari masing-masing tinjauan, dan pilihan mana
-yang digunadakan atau diadaptasi.
+\section{Estimasi Pose Dua Dimensi\label{sec:2-EstimasiPoseDuaDimensi}}
+citasi~\cite{8765346}
+
+\section{Estimasi Pose Tiga Dimensi\label{sec:2-EstimasiPoseTigaDimensi}}
+citasi~\cite{martinez_2017_3dbaseline}

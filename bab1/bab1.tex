@@ -5,25 +5,30 @@
 \section{Latar Belakang}
 \label{sec:1-LatarBelakang}
 
-Pemanfaatan teknologi digital pada era modern selalu meninggalkan jejak digital dalam bentuk data
-digital. Bentuk data digital yang paling berguna bagi manusia adalah teks, citra audio, dan citra
-visual. Jejak digital ini akan selalu menjadi acuan dalam langkah pengambilan keputusan dalam
-berbagai bidang baik dari lingkup nasional maupun internasional. Penggunaan data digital yang ada
-juga harus mengikuti peraturan perundang-undangan yang berlaku sehingga produk dan perangkat lunak
-yang dihasilkan jauh dari tindak penyalahgunaan.
+Pemanfaatan teknologi yang terkomputerisasi oleh manusia selalu meninggalkan rekam jejak yang
+tersimpan dalam bentuk data digital. Data digital yang umumnya dimanfaatkan oleh manusia
+meliputi teks, citra audio, citra visual, dan citra audio visual yang dimampatkan kedalam suatu
+media penyimpanan. Pengaksesan data ini tergolong mudah karena data dikonstruksi dengan struktur
+dan format yang sama sehingga dapat diakses dimana saja. Jumlah rekam jejak digital yang tersedia
+semakin bertambah seiring dengan mudahnya akses terhadap teknologi secara skala besar.
 
-Pemelajaran mesin atau \textit{machine learning} merupakan mekanisme yang memungkinkan komputer
-untuk mengenali pola kompleks dari data empiris secara otomatis. Data empiris memiliki keterkaitan
-antara variabel independen dan variabel dependen. Penelitian ini mengacu kepada pose dua dimensi
-sebagai variabel independen dan pose tiga dimensi sebagai variabel dependen. Pemelajaran mesin
-dapat melakukan pemetaan antara kedua variabel ini dalam bentuk jaringan saraf tiruan dalam atau
-\textit{deep neural network}.
+Rekam jejak digital yang terkumpul bersifat laten yang berarti data yang tersedia tidak
+memiliki semantik. Data ini hanya akan berguna apabila ada suatu aturan yang ditentukan
+oleh pengguna. Proses pembuatan citra visual terbentuk dari hasil perekaman kamera dengan mengubah
+gelombang elektromagnetik yang dipantulkan oleh benda dari posisi tertentu menuju lensa kamera
+menjadi tiga lapis deretan angka numerik yang mewakili warna merah, hijau, dan biru. Citra visual
+yang tercipta hanya memiliki informasi numerik mengenai warna dalam bentuk gambar, sedangkan
+informasi posisi benda saat perekaman sudah hilang. Otak manusia dapat mengartikan kondisi suatu
+benda dalam suatu gambar tanpa kita ketahui cara kerjanya secara pasti. Hal yang sama dapat
+dilakukan oleh komputer dengan membuat pemetaan dari suatu gambar ke suatu kondisi yang diinginkan.
 
-\textit{Residual Network (ResNet)} merupakan salah satu arsitektur yang termasuk kedalam golongan
-\textit{deep neural network}. Arsitektur ini menerapkan skema \textit{skip connection} yang sejauh
-ini merupakan metode terbaik dalam melakukan pemelajaran mesin. Pendekatan menggunakan \textit{ResNet}
-memungkinkan pemetaan pose dua dimensi ke pose tiga dimensi pada setiap titik kunci spesifik dengan
-tingkat akurasi yang relatif tinggi.
+Permasalahan yang ingin diselesaikan adalah mengembalikan informasi posisi pose tubuh manusia yang
+telah hilang dengan membuat pemetaan dari gambar yang ditangkap menggunakan kamera monokuler ke
+koordinat setiap titik kunci dari pose tersebut.
+Permodelan pemelajaran dalam atau \textit{deep learning} dapat pemetaan suatu domain ke
+domain lainnya secara otomatis menggunakan pelatihan jaringan saraf tiruan dalam atau
+\textit{deep neural network}. Fungsi pemetaan dapat dihasilkan dengan melatih jaringan saraf tiruan
+dengan jumlah data yang besar.
 
 \section{Batasan Masalah}
 \label{sec:1-BatasMasalah}
@@ -68,16 +73,6 @@ Perangkat keras yang digunakan dalam penelitian ini adalah satu unit laptop deng
   \item GPU NVIDIA GTX 1060 6GB
   \item SSD NVME SAMSUNG 120 GB
   \item HDD SATA 1 TB
-\end{itemize}
-
-Perangkat lunak yang digunakan dalam penelitian ini adalah satu unit laptop dengan spesifikasi:
-\begin{itemize}
-  \item Python 3.7
-  \item Jupyter Lab
-  \item Git
-  \item GitHub
-  \item Mozzila Firefox
-  \item LaTeX
 \end{itemize}
 
 \section{Sistematika Penulisan}

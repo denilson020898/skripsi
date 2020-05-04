@@ -7,11 +7,16 @@ Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon}, S.~{Wei}, and Y.~A. {Sheikh}.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   2019.
 
-\bibitem{fastbook}
-J.~Howard and S.~Gugger.
-\newblock {\em Deep Learning for Coders with Fastai and Pytorch: AI
-  Applications Without a PhD}.
-\newblock MCGraw Hill, 1994.
+\bibitem{2016arXiv160100013G}
+N.~J. {Guliyev} and V.~E. {Ismailov}.
+\newblock {A single hidden layer feedforward network with only one neuron in
+  the hidden layer can approximate any univariate function}.
+\newblock {\em arXiv e-prints}, page arXiv:1601.00013, Dec. 2015.
+
+\bibitem{10.3389/neuro.09.031.2009}
+S.~Herculano-Houzel.
+\newblock The human brain in numbers: a linearly scaled-up primate brain.
+\newblock {\em Frontiers in Human Neuroscience}, 3:31, 2009.
 
 \bibitem{h36m_pami}
 C.~Ionescu, D.~Papava, V.~Olaru, and C.~Sminchisescu.
@@ -20,15 +25,21 @@ C.~Ionescu, D.~Papava, V.~Olaru, and C.~Sminchisescu.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   36(7):1325--1339, jul 2014.
 
-\bibitem{kratsios2019universal}
-A.~Kratsios.
-\newblock The universal approximation property: Characterizations, existence,
-  and a canonical topology for deep-learning, 2019.
+\bibitem{2019arXiv191003344K}
+A.~{Kratsios}.
+\newblock {The Universal Approximation Property: Characterizations, Existence,
+  and a Canonical Topology for Deep-Learning}.
+\newblock {\em arXiv e-prints}, page arXiv:1910.03344, Oct. 2019.
 
-\bibitem{simon2017hand}
-T.~Simon, H.~Joo, I.~Matthews, and Y.~Sheikh.
-\newblock Hand keypoint detection in single images using multiview
-  bootstrapping.
-\newblock In {\em CVPR}, 2017.
+\bibitem{martinez_2017_3dbaseline}
+J.~Martinez, R.~Hossain, J.~Romero, and J.~J. Little.
+\newblock A simple yet effective baseline for 3d human pose estimation.
+\newblock In {\em ICCV}, 2017.
+
+\bibitem{2019arXiv190601703Z}
+J.~{Zhang}.
+\newblock {Basic Neural Units of the Brain: Neurons, Synapses and Action
+  Potential}.
+\newblock {\em arXiv e-prints}, page arXiv:1906.01703, May 2019.
 
 \end{thebibliography}

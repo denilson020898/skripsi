@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  4 MAY 2020 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  5 MAY 2020 02:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -213,21 +213,21 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 ) (d:/code/kampus/skripsi/MainTemplateSkripsi.aux (d:/code/kampus/skripsi/cover.aux) (d:/code/kampus/skripsi/lembaroriginalitas.aux) (d:/code/kampus/skripsi/lembarpengesahan.aux) (d:/code/kampus/skripsi/abstraksi.aux) (d:/code/kampus/skripsi/abstract.aux) (d:/code/kampus/skripsi/katapengantar.aux) (d:/code/kampus/skripsi/daftarlampiran.aux) (d:/code/kampus/skripsi/lampiran.aux))
 \openout1 = `MainTemplateSkripsi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 65.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -406,15 +406,21 @@ BAB 1.
 [1
 
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 66.
+] [2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 71.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [2]) [3] (d:/code/kampus/skripsi/bab2/bab2.tex [4]
+)) (d:/code/kampus/skripsi/bab2/bab2.tex [3]
 BAB 2.
-[5
+[4
 
-]) (d:/code/kampus/skripsi/bab3/bab3.tex [6]
+]
+<bab2/gambar/selsaraf.jpg, id=57, 338.76563pt x 185.94469pt>
+File: bab2/gambar/selsaraf.jpg Graphic file (type jpg)
+<use bab2/gambar/selsaraf.jpg>
+Package pdftex.def Info: bab2/gambar/selsaraf.jpg  used on input line 37.
+(pdftex.def)             Requested size: 338.76479pt x 185.94421pt.
+) (d:/code/kampus/skripsi/bab3/bab3.tex [5 <d:/code/kampus/skripsi/bab2/gambar/selsaraf.jpg>]
 BAB 3.
 Package epstopdf Info: Source file: <bab3/ContohGbr3_1.eps>
 (epstopdf)                    date: 2008-03-22 10:43:02
@@ -425,7 +431,7 @@ Package epstopdf Info: Source file: <bab3/ContohGbr3_1.eps>
 (epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_1-eps-converted-to.pdf bab3/ContohGbr3_1.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<bab3/ContohGbr3_1-eps-converted-to.pdf, id=63, 513.92pt x 303.1325pt>
+<bab3/ContohGbr3_1-eps-converted-to.pdf, id=61, 513.92pt x 303.1325pt>
 File: bab3/ContohGbr3_1-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_1-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_1-eps-converted-to.pdf  used on input line 19.
@@ -439,7 +445,7 @@ Package epstopdf Info: Source file: <bab3/ContohGbr3_2.eps>
 (epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_2-eps-converted-to.pdf bab3/ContohGbr3_2.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<bab3/ContohGbr3_2-eps-converted-to.pdf, id=64, 515.9275pt x 492.84125pt>
+<bab3/ContohGbr3_2-eps-converted-to.pdf, id=62, 515.9275pt x 492.84125pt>
 File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_2-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 21.
@@ -457,17 +463,17 @@ File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_2-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 28.
 (pdftex.def)             Requested size: 159.333pt x 152.20015pt.
-) (d:/code/kampus/skripsi/bab4/bab4.tex [7
+) (d:/code/kampus/skripsi/bab4/bab4.tex [6
 
  <d:/code/kampus/skripsi/bab3/ContohGbr3_1-eps-converted-to.pdf> <d:/code/kampus/skripsi/bab3/ContohGbr3_2-eps-converted-to.pdf>]
 BAB 4.
-) (d:/code/kampus/skripsi/bab5/bab5.tex [8
+) (d:/code/kampus/skripsi/bab5/bab5.tex [7
 
 ]
 BAB 5.
-) [9
+) [8
 
-] (d:/code/kampus/skripsi/MainTemplateSkripsi.bbl) [10
+] (d:/code/kampus/skripsi/MainTemplateSkripsi.bbl) [9
 
 ]
 \openout2 = `lampiran.aux'.
@@ -476,18 +482,18 @@ BAB 5.
 
 ] (d:/code/kampus/skripsi/MainTemplateSkripsi.aux (d:/code/kampus/skripsi/cover.aux) (d:/code/kampus/skripsi/lembaroriginalitas.aux) (d:/code/kampus/skripsi/lembarpengesahan.aux) (d:/code/kampus/skripsi/abstraksi.aux) (d:/code/kampus/skripsi/abstract.aux) (d:/code/kampus/skripsi/katapengantar.aux) (d:/code/kampus/skripsi/daftarlampiran.aux) (d:/code/kampus/skripsi/lampiran.aux)) ) 
 Here is how much of TeX's memory you used:
- 5206 strings out of 480608
- 80587 string characters out of 5907537
- 339076 words of memory out of 5000000
- 20899 multiletter control sequences out of 15000+600000
+ 5214 strings out of 480608
+ 80801 string characters out of 5907537
+ 339065 words of memory out of 5000000
+ 20905 multiletter control sequences out of 15000+600000
  559060 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,16n,54p,301b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/code/kampus/skripsi/MainTemplateSkripsi.pdf (23 pages, 327253 bytes).
+Output written on d:/code/kampus/skripsi/MainTemplateSkripsi.pdf (22 pages, 365918 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
