@@ -2,8 +2,8 @@
 \chapter{PENDAHULUAN}
 \label{cha:1-Pendahuluan}
 
-\section{Latar Belakang}
-\label{sec:1-LatarBelakang}
+\section{Latar Belakang Masalah}
+\label{sec:1-LatarBelakangMasalah}
 
 Pemanfaatan teknologi yang terkomputerisasi oleh manusia selalu meninggalkan rekam jejak yang
 tersimpan dalam bentuk data digital. Data digital yang umumnya dimanfaatkan oleh manusia
@@ -22,13 +22,18 @@ informasi posisi benda saat perekaman sudah hilang. Otak manusia dapat mengartik
 benda dalam suatu gambar tanpa kita ketahui cara kerjanya secara pasti. Hal yang sama dapat
 dilakukan oleh komputer dengan membuat pemetaan dari suatu gambar ke suatu kondisi yang diinginkan.
 
-Permasalahan yang ingin diselesaikan adalah mengembalikan informasi posisi pose tubuh manusia yang
-telah hilang dengan membuat pemetaan dari gambar yang ditangkap menggunakan kamera monokuler ke
-koordinat setiap titik kunci dari pose tersebut.
 Permodelan pemelajaran dalam atau \textit{deep learning} dapat pemetaan suatu domain ke
 domain lainnya secara otomatis menggunakan pelatihan jaringan saraf tiruan dalam atau
 \textit{deep neural network}. Fungsi pemetaan dapat dihasilkan dengan melatih jaringan saraf tiruan
-dengan jumlah data yang besar.
+yang memerlukan jumlah data besar secara efisien. Pemelajaran dalam menggunakan jaringan
+saraf tiruan dalam dapat digunakan untuk memajukan teknologi khususnya pada bidang visi komputer.
+
+\section{Rumusan Masalah}
+\label{sec:1-RumusanMasalah}
+Permasalahan yang ingin diselesaikan adalah mengembalikan informasi posisi pose tubuh manusia yang
+telah hilang dengan membuat pemetaan dari gambar yang ditangkap menggunakan kamera monokuler ke
+koordinat setiap titik kunci dari pose. Model yang telah dilatih harus mampu melakukan proses
+pemetaan terhadap gambar baru.
 
 \section{Batasan Masalah}
 \label{sec:1-BatasMasalah}
@@ -75,21 +80,30 @@ Perangkat keras yang digunakan dalam penelitian ini adalah satu unit laptop deng
   \item HDD SATA 1 TB
 \end{itemize}
 
+Perangkat lunak yang digunakan dalam penelitian ini adalah satu unit laptop dengan spesifikasi:
+\begin{itemize}
+  \item Python 3.7
+  \item Jupyter Lab
+  \item Git
+  \item GitHub
+  \item LaTeX
+\end{itemize}
+
 \section{Sistematika Penulisan}
 \label{sec:1-SistematikaPenulisan}
 
 Adapun sistematika penulisan yang digunakan dalam penulisan ini adalah sebagai berikut:
 
-PENDAHULUAN, mengemukakan latar belakang masalah, batasan masalah, tujuan penelitian, metode
-penelitian, dan sistematika penulisan.
+PENDAHULUAN, mengemukakan latar belakang masalah, rumusan masalah, batasan masalah, tujuan
+penelitian, metode penelitian, dan sistematika penulisan.
 
-TINJAUAN PUSTAKA, menjelaskan kumpulan teori yang digunakan dalam mendukung proses penyelesaian
+TELAAH PUSTAKA, menjelaskan kumpulan teori yang digunakan dalam mendukung proses penyelesaian
 program.
 
 PENDEKATAN, mengemukakan langkah-langkah yang dicapai untuk membuat program.
 
 HASIL DAN ANALISIS, menghubungkan hasil yang didapatkan dengan teori-teori yang dibahas pada bab
-\ref{cha:2-TinjauanPustaka}.
+\ref{cha:2-TelaahPustaka}.
 
 PENUTUP, mengulas lebih lanjut mengenai kesimpulan yang dapat ditarik dari hasil disertai dengan
 saran yang dapat menyempurnakan penelitian selanjutnya.
