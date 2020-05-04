@@ -5,60 +5,60 @@
 \section{Latar Belakang}
 \label{sec:1-LatarBelakang}
 
-Pemanfaatan teknologi digital pada era modern selalu meninggalkan jejak digital dalam bentuk data 
-digital. Bentuk data digital yang paling berguna bagi manusia adalah teks, citra audio, dan citra 
-visual. Jejak digital ini akan selalu menjadi acuan dalam langkah pengambilan keputusan dalam 
-berbagai bidang baik dari lingkup nasional maupun internasional. Penggunaan data digital yang ada 
-juga harus mengikuti peraturan perundang-undangan yang berlaku sehingga produk dan perangkat lunak 
+Pemanfaatan teknologi digital pada era modern selalu meninggalkan jejak digital dalam bentuk data
+digital. Bentuk data digital yang paling berguna bagi manusia adalah teks, citra audio, dan citra
+visual. Jejak digital ini akan selalu menjadi acuan dalam langkah pengambilan keputusan dalam
+berbagai bidang baik dari lingkup nasional maupun internasional. Penggunaan data digital yang ada
+juga harus mengikuti peraturan perundang-undangan yang berlaku sehingga produk dan perangkat lunak
 yang dihasilkan jauh dari tindak penyalahgunaan.
 
-Pemelajaran mesin atau \textit{machine learning} merupakan mekanisme yang memungkinkan komputer 
-untuk mengenali pola kompleks dari data empiris secara otomatis. Data empiris memiliki keterkaitan 
-antara variabel independen dan variabel dependen. Penelitian ini mengacu kepada pose dua dimensi 
-sebagai variabel independen dan pose tiga dimensi sebagai variabel dependen. Pemelajaran mesin 
-dapat melakukan pemetaan antara kedua variabel ini dalam bentuk jaringan saraf tiruan dalam atau 
+Pemelajaran mesin atau \textit{machine learning} merupakan mekanisme yang memungkinkan komputer
+untuk mengenali pola kompleks dari data empiris secara otomatis. Data empiris memiliki keterkaitan
+antara variabel independen dan variabel dependen. Penelitian ini mengacu kepada pose dua dimensi
+sebagai variabel independen dan pose tiga dimensi sebagai variabel dependen. Pemelajaran mesin
+dapat melakukan pemetaan antara kedua variabel ini dalam bentuk jaringan saraf tiruan dalam atau
 \textit{deep neural network}.
 
-\textit{Residual Network (ResNet)} merupakan salah satu arsitektur yang termasuk kedalam golongan 
-\textit{deep neural network}. Arsitektur ini menerapkan skema \textit{skip connection} yang sejauh 
-ini merupakan metode terbaik dalam melakukan pemelajaran mesin. Pendekatan menggunakan \textit{ResNet} 
-memungkinkan pemetaan pose dua dimensi ke pose tiga dimensi pada setiap titik kunci spesifik dengan 
+\textit{Residual Network (ResNet)} merupakan salah satu arsitektur yang termasuk kedalam golongan
+\textit{deep neural network}. Arsitektur ini menerapkan skema \textit{skip connection} yang sejauh
+ini merupakan metode terbaik dalam melakukan pemelajaran mesin. Pendekatan menggunakan \textit{ResNet}
+memungkinkan pemetaan pose dua dimensi ke pose tiga dimensi pada setiap titik kunci spesifik dengan
 tingkat akurasi yang relatif tinggi.
 
 \section{Batasan Masalah}
 \label{sec:1-BatasMasalah}
 
-Penelitian ini menganggap setiap pose dua dimensi maupun pose tiga dimensi berada dalam koordinat 
-lokal. Setiap pose ditransformasi ke dalam observasi kamera dengan titik kunci pinggang 
-sebagai posisi tengah. Hal ini dilakukan karena pemetaan hanya menggunakan grafik datar tanpa 
-informasi kedalaman titik kunci sehingga dapat menghindari masalah kedalaman yang ambigu. 
+Penelitian ini menganggap setiap pose dua dimensi maupun pose tiga dimensi berada dalam koordinat
+lokal. Setiap pose ditransformasi ke dalam observasi kamera dengan titik kunci pinggang
+sebagai posisi tengah. Hal ini dilakukan karena pemetaan hanya menggunakan grafik datar tanpa
+informasi kedalaman titik kunci sehingga dapat menghindari masalah kedalaman yang ambigu.
 
 \section{Tujuan Penelitian}
 \label{sec:1-TujuanPenelitian}
 
-Tujuan dari penelitian ini adalah untuk membuat sebuah aplikasi yang dapat membaca titik kunci dari 
-sebuah citra visual datar dan melakukan transformasi ke pose lokal dua dimensi sehingga dapat 
+Tujuan dari penelitian ini adalah untuk membuat sebuah aplikasi yang dapat membaca titik kunci dari
+sebuah citra visual datar dan melakukan transformasi ke pose lokal dua dimensi sehingga dapat
 dipetakan oleh jaringan saraf tiruan yang dimodelkan ke bentuk pose lokal tiga dimensi. Pose hasil
 juga divisualisasikan secara interaktif sehingga dapat dipergunakan untuk kepentingan yang sesuai.
 
 \section{Metode Penelitian}
 \label{sec:1-MetodePenelitian}
 
-Penelitian dibagi menjadi tiga tahap besar terurut yang terdiri dari \textit{data preprocessing}, 
-pelatihan model jaringan saraf tiruan, dan visualisasi. Tahap pertama dan tahap ketiga tidak 
-melibatkan pemelajaran mesin. Masalah utama dari penelitian ini berada pada tahap kedua tentang 
+Penelitian dibagi menjadi tiga tahap besar terurut yang terdiri dari \textit{data preprocessing},
+pelatihan model jaringan saraf tiruan, dan visualisasi. Tahap pertama dan tahap ketiga tidak
+melibatkan pemelajaran mesin. Masalah utama dari penelitian ini berada pada tahap kedua tentang
 pelatihan jaringan saraf tiruan untuk melakukan pemetaan pose dua dimensi ke pose tiga dimensi.
 
-\textit{Dataset} yang digunakan dalam penelitian ini adalah \textit{Human3.6M} yang berisi 3,6 juta 
-pose unik yang dilakukan oleh sebelas aktor profesional dan direkam menggunakan empat sudut kamera 
-yang berbeda beserta dengan koordinat setiap titik kunci dari hasil penangkapan alat 
+\textit{Dataset} yang digunakan dalam penelitian ini adalah \textit{Human3.6M} yang berisi 3,6 juta
+pose unik yang dilakukan oleh sebelas aktor profesional dan direkam menggunakan empat sudut kamera
+yang berbeda beserta dengan koordinat setiap titik kunci dari hasil penangkapan alat
 \textit{motion capture}~\cite{h36m_pami}.
 
-Pose dua dimensi dan tiga dimensi merupakan variabel yang relevan untuk masalah. Pada tahap 
-\textit{data preprocessing} akan dilakukan ekstraksi variabel ini kedalam bentuk numerik sehingga 
-mudah untuk digunakan saat melakukan pelatihan jaringan saraf tiruan. Tahap selanjutnya akan 
-dilakukan pembuatan, permodelan, pelatihan, dan evaluasi jaringan saraf tiruan dalam untuk 
-pemetaan titik kunci yang kemudian dilanjutkan dengan percobaan model dengan video. Tahap terakhir 
+Pose dua dimensi dan tiga dimensi merupakan variabel yang relevan untuk masalah. Pada tahap
+\textit{data preprocessing} akan dilakukan ekstraksi variabel ini kedalam bentuk numerik sehingga
+mudah untuk digunakan saat melakukan pelatihan jaringan saraf tiruan. Tahap selanjutnya akan
+dilakukan pembuatan, permodelan, pelatihan, dan evaluasi jaringan saraf tiruan dalam untuk
+pemetaan titik kunci yang kemudian dilanjutkan dengan percobaan model dengan video. Tahap terakhir
 menampilkan visualisasi gambar, pose dua dimensi, dan pose tiga dimensi.
 
 Perangkat keras yang digunakan dalam penelitian ini adalah satu unit laptop dengan spesifikasi:
@@ -85,10 +85,10 @@ Perangkat lunak yang digunakan dalam penelitian ini adalah satu unit laptop deng
 
 Adapun sistematika penulisan yang digunakan dalam penulisan ini adalah sebagai berikut:
 
-PENDAHULUAN, mengemukakan latar belakang masalah, batasan masalah, tujuan penelitian, metode 
+PENDAHULUAN, mengemukakan latar belakang masalah, batasan masalah, tujuan penelitian, metode
 penelitian, dan sistematika penulisan.
 
-TINJAUAN PUSTAKA, menjelaskan kumpulan teori yang digunakan dalam mendukung proses penyelesaian 
+TINJAUAN PUSTAKA, menjelaskan kumpulan teori yang digunakan dalam mendukung proses penyelesaian
 program.
 
 PENDEKATAN, mengemukakan langkah-langkah yang dicapai untuk membuat program.
@@ -96,5 +96,5 @@ PENDEKATAN, mengemukakan langkah-langkah yang dicapai untuk membuat program.
 HASIL DAN ANALISIS, menghubungkan hasil yang didapatkan dengan teori-teori yang dibahas pada bab
 \ref{cha:2-TinjauanPustaka}.
 
-PENUTUP, mengulas lebih lanjut mengenai kesimpulan yang dapat ditarik dari hasil disertai dengan 
+PENUTUP, mengulas lebih lanjut mengenai kesimpulan yang dapat ditarik dari hasil disertai dengan
 saran yang dapat menyempurnakan penelitian selanjutnya.

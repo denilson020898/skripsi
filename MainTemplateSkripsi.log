@@ -1,52 +1,50 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.1)  18 APR 2020 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  4 MAY 2020 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/son/work/skripsi/MainTemplateSkripsi.tex
-(/home/son/work/skripsi/MainTemplateSkripsi.tex
-LaTeX2e <2018-12-01>
-(/home/son/work/skripsi/skripsi.cls
+**d:/code/kampus/skripsi/MainTemplateSkripsi.tex
+(d:/code/kampus/skripsi/MainTemplateSkripsi.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (d:/code/kampus/skripsi/skripsi.cls
 Document Class: skripsi 2001/04/21 v1.4e Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+(c:/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2019/06/03 3.32 The Babel package
- (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2019/06/03 3.32 Babel switching mechanism
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-indonesian/bahasa.ldf
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/03/22 3.42 The Babel package
+ (c:/texlive/2020/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+) (c:/texlive/2020/texmf-dist/tex/generic/babel-indonesian/bahasa.ldf
 Language: bahasa 2017/02/15 v1.0m Bahasa Indonesia support from the babel system
- (/usr/share/texlive/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
+ (c:/texlive/2020/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
 Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel system
- (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2019/06/03 3.32 Babel common definitions
-\babel@savecnt=\count89
-\U@D=\dimen103
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count90
-)))) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/home/son/work/skripsi/setspace.sty
+ (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+ (c:/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count177
+)))) (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (d:/code/kampus/skripsi/setspace.sty
 Package: setspace 1998/04/8 6.3 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.3 <1998/04/8>
-) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+) (c:/texlive/2020/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -81,199 +79,197 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
- (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+ (c:/texlive/2020/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
-)) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen104
-\ar@mcellbox=\box27
-\extrarowheight=\dimen105
-\NC@list=\toks16
-\extratabsurround=\skip43
-\backup@length=\skip44
-\ar@cellbox=\box28
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip45
-\LTright=\skip46
-\LTpre=\skip47
-\LTpost=\skip48
-\LTchunksize=\count91
-\LTcapwidth=\dimen106
-\LT@head=\box29
-\LT@firsthead=\box30
-\LT@foot=\box31
-\LT@lastfoot=\box32
-\LT@cols=\count92
-\LT@rows=\count93
-\c@LT@tables=\count94
-\c@LT@chunks=\count95
-\LT@p@ftn=\toks17
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+)) (c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen136
+\ar@mcellbox=\box45
+\extrarowheight=\dimen137
+\NC@list=\toks17
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box46
+) (c:/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count178
+\LTcapwidth=\dimen138
+\LT@head=\box47
+\LT@firsthead=\box48
+\LT@foot=\box49
+\LT@lastfoot=\box50
+\LT@cols=\count179
+\LT@rows=\count180
+\c@LT@tables=\count181
+\c@LT@chunks=\count182
+\LT@p@ftn=\toks18
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+\KV@toks@=\toks19
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen107
-\Gin@req@width=\dimen108
-) (/home/son/work/skripsi/multind.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (d:/code/kampus/skripsi/multind.sty) (c:/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
- (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+ (c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count96
-\rotFPtop=\skip49
-\rotFPbot=\skip50
-\rot@float@box=\box33
-\rot@mess@toks=\toks19
-) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+\c@r@tfl@t=\count183
+\rotFPtop=\skip55
+\rotFPbot=\skip56
+\rot@float@box=\box51
+\rot@mess@toks=\toks20
+) (c:/texlive/2020/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen109
-\captionmargin@=\dimen110
-\captionwidth=\dimen111
-\caption@tempdima=\dimen112
-\caption@indent=\dimen113
-\caption@parindent=\dimen114
-\caption@hangindent=\dimen115
+ (c:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (c:/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen141
+\captionmargin@=\dimen142
+\captionwidth=\dimen143
+\caption@tempdima=\dimen144
+\caption@indent=\dimen145
+\caption@parindent=\dimen146
+\caption@hangindent=\dimen147
+Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count97
-\c@ContinuedFloat=\count98
+\c@caption@flags=\count184
+\c@continuedfloat=\count185
 Package caption Info: longtable package is loaded.
- (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+ (c:/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 )
-\c@KVtest=\count99
-\sf@farskip=\skip51
-\sf@captopadj=\dimen116
-\sf@capskip=\skip52
-\sf@nearskip=\skip53
-\c@subfigure=\count100
-\c@subfigure@save=\count101
-\c@lofdepth=\count102
-\c@subtable=\count103
-\c@subtable@save=\count104
-\c@lotdepth=\count105
-\sf@top=\skip54
-\sf@bottom=\skip55
-) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count106
-\Gm@cntv=\count107
-\c@Gm@tempcnt=\count108
-\Gm@bindingoffset=\dimen117
-\Gm@wd@mp=\dimen118
-\Gm@odd@mp=\dimen119
-\Gm@even@mp=\dimen120
-\Gm@layoutwidth=\dimen121
-\Gm@layoutheight=\dimen122
-\Gm@layouthoffset=\dimen123
-\Gm@layoutvoffset=\dimen124
-\Gm@dimlist=\toks20
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box34
-\beforetitleunit=\skip56
-\aftertitleunit=\skip57
-\ttl@plus=\dimen125
-\ttl@minus=\dimen126
-\ttl@toksa=\toks21
-\titlewidth=\dimen127
-\titlewidthlast=\dimen128
-\titlewidthfirst=\dimen129
-) (/home/son/work/skripsi/MainTemplateSkripsi.aux (/home/son/work/skripsi/cover.aux) (/home/son/work/skripsi/lembaroriginalitas.aux) (/home/son/work/skripsi/lembarpengesahan.aux) (/home/son/work/skripsi/abstraksi.aux) (/home/son/work/skripsi/abstract.aux) (/home/son/work/skripsi/katapengantar.aux) (/home/son/work/skripsi/daftarlampiran.aux) (/home/son/work/skripsi/lampiran.aux))
+\c@KVtest=\count186
+\sf@farskip=\skip57
+\sf@captopadj=\dimen148
+\sf@capskip=\skip58
+\sf@nearskip=\skip59
+\c@subfigure=\count187
+\c@subfigure@save=\count188
+\c@lofdepth=\count189
+\c@subtable=\count190
+\c@subtable@save=\count191
+\c@lotdepth=\count192
+\sf@top=\skip60
+\sf@bottom=\skip61
+) (c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks21
+) (c:/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen157
+\ttl@minus=\dimen158
+\ttl@toksa=\toks22
+\titlewidth=\dimen159
+\titlewidthlast=\dimen160
+\titlewidthfirst=\dimen161
+) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count196
+\l__pdf_internal_box=\box53
+) (d:/code/kampus/skripsi/MainTemplateSkripsi.aux (d:/code/kampus/skripsi/cover.aux) (d:/code/kampus/skripsi/lembaroriginalitas.aux) (d:/code/kampus/skripsi/lembarpengesahan.aux) (d:/code/kampus/skripsi/abstraksi.aux) (d:/code/kampus/skripsi/abstract.aux) (d:/code/kampus/skripsi/katapengantar.aux) (d:/code/kampus/skripsi/daftarlampiran.aux) (d:/code/kampus/skripsi/lampiran.aux))
 \openout1 = `MainTemplateSkripsi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 61.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 61.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\big@size=\dimen130
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+\big@size=\dimen162
+ (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen131
-\scratchbox=\box35
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen132
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks23
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: LuaTeX not detected.
+\scratchcounter=\count197
+\scratchdimen=\dimen163
+\scratchbox=\box54
+\nofMPsegments=\count198
+\nofMParguments=\count199
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count266
+\MPscratchDim=\dimen164
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
+\everyMPtoPDFconversion=\toks24
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (c:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (c:/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
@@ -316,34 +312,30 @@ Package caption Info: End \AtBeginDocument code.
 
 \openout2 = `cover.aux'.
 
-(/home/son/work/skripsi/cover.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
+(d:/code/kampus/skripsi/cover.tex
 <gambar/LogoGunadarma.jpg, id=1, 27.14711pt x 26.78026pt>
 File: gambar/LogoGunadarma.jpg Graphic file (type jpg)
 <use gambar/LogoGunadarma.jpg>
 Package pdftex.def Info: gambar/LogoGunadarma.jpg  used on input line 14.
 (pdftex.def)             Requested size: 122.16158pt x 120.51074pt.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 24.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 24.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 24.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 24.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 24.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -355,50 +347,50 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/son/work/skripsi/gambar/LogoGunadarma.jpg>]
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <d:/code/kampus/skripsi/gambar/LogoGunadarma.jpg>]
 \openout2 = `lembaroriginalitas.aux'.
 
- (/home/son/work/skripsi/lembaroriginalitas.tex) [2
+ (d:/code/kampus/skripsi/lembaroriginalitas.tex) [2
 
 
 ]
 \openout2 = `lembarpengesahan.aux'.
 
- (/home/son/work/skripsi/lembarpengesahan.tex) [3
+ (d:/code/kampus/skripsi/lembarpengesahan.tex) [3
 
 
 ]
 \openout2 = `abstraksi.aux'.
 
- (/home/son/work/skripsi/abstraksi.tex) [4
+ (d:/code/kampus/skripsi/abstraksi.tex) [4
 
 
 ]
 \openout2 = `abstract.aux'.
 
- (/home/son/work/skripsi/abstract.tex) [5
+ (d:/code/kampus/skripsi/abstract.tex) [5
 
 
 ]
 \openout2 = `katapengantar.aux'.
 
- (/home/son/work/skripsi/katapengantar.tex [6
+ (d:/code/kampus/skripsi/katapengantar.tex [6
 
 
-]) [7] (/home/son/work/skripsi/MainTemplateSkripsi.toc [8
+]) [7] (d:/code/kampus/skripsi/MainTemplateSkripsi.toc [8
 
 
 ])
 \tf@toc=\write3
 \openout3 = `MainTemplateSkripsi.toc'.
 
- [9] (/home/son/work/skripsi/MainTemplateSkripsi.lot)
+ [9] (d:/code/kampus/skripsi/MainTemplateSkripsi.lot)
 \tf@lot=\write4
 \openout4 = `MainTemplateSkripsi.lot'.
 
  [10
 
-] (/home/son/work/skripsi/MainTemplateSkripsi.lof)
+] (d:/code/kampus/skripsi/MainTemplateSkripsi.lof)
 \tf@lof=\write5
 \openout5 = `MainTemplateSkripsi.lof'.
 
@@ -407,25 +399,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 \openout2 = `daftarlampiran.aux'.
 
- (/home/son/work/skripsi/daftarlampiran.tex) [12
+ (d:/code/kampus/skripsi/daftarlampiran.tex) [12
 
-] (/home/son/work/skripsi/bab1/bab1.tex
+] (d:/code/kampus/skripsi/bab1/bab1.tex
 BAB 1.
 [1
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 66.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
- [2]) [3] (/home/son/work/skripsi/bab2/bab2.tex [4]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 66.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [2]) [3] (d:/code/kampus/skripsi/bab2/bab2.tex [4]
 BAB 2.
 [5
 
-]) (/home/son/work/skripsi/bab3/bab3.tex [6]
+]) (d:/code/kampus/skripsi/bab3/bab3.tex [6]
 BAB 3.
 Package epstopdf Info: Source file: <bab3/ContohGbr3_1.eps>
 (epstopdf)                    date: 2008-03-22 10:43:02
@@ -436,7 +425,7 @@ Package epstopdf Info: Source file: <bab3/ContohGbr3_1.eps>
 (epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_1-eps-converted-to.pdf bab3/ContohGbr3_1.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<bab3/ContohGbr3_1-eps-converted-to.pdf, id=64, 513.92pt x 303.1325pt>
+<bab3/ContohGbr3_1-eps-converted-to.pdf, id=63, 513.92pt x 303.1325pt>
 File: bab3/ContohGbr3_1-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_1-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_1-eps-converted-to.pdf  used on input line 19.
@@ -450,7 +439,7 @@ Package epstopdf Info: Source file: <bab3/ContohGbr3_2.eps>
 (epstopdf)             Command: <repstopdf --outfile=bab3/ContohGbr3_2-eps-converted-to.pdf bab3/ContohGbr3_2.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<bab3/ContohGbr3_2-eps-converted-to.pdf, id=65, 515.9275pt x 492.84125pt>
+<bab3/ContohGbr3_2-eps-converted-to.pdf, id=64, 515.9275pt x 492.84125pt>
 File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_2-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 21.
@@ -468,37 +457,37 @@ File: bab3/ContohGbr3_2-eps-converted-to.pdf Graphic file (type pdf)
 <use bab3/ContohGbr3_2-eps-converted-to.pdf>
 Package pdftex.def Info: bab3/ContohGbr3_2-eps-converted-to.pdf  used on input line 28.
 (pdftex.def)             Requested size: 159.333pt x 152.20015pt.
-) (/home/son/work/skripsi/bab4/bab4.tex [7
+) (d:/code/kampus/skripsi/bab4/bab4.tex [7
 
- </home/son/work/skripsi/bab3/ContohGbr3_1-eps-converted-to.pdf> </home/son/work/skripsi/bab3/ContohGbr3_2-eps-converted-to.pdf>]
+ <d:/code/kampus/skripsi/bab3/ContohGbr3_1-eps-converted-to.pdf> <d:/code/kampus/skripsi/bab3/ContohGbr3_2-eps-converted-to.pdf>]
 BAB 4.
-) (/home/son/work/skripsi/bab5/bab5.tex [8
+) (d:/code/kampus/skripsi/bab5/bab5.tex [8
 
 ]
 BAB 5.
 ) [9
 
-] (/home/son/work/skripsi/MainTemplateSkripsi.bbl) [10
+] (d:/code/kampus/skripsi/MainTemplateSkripsi.bbl) [10
 
 ]
 \openout2 = `lampiran.aux'.
 
- (/home/son/work/skripsi/lampiran.tex) [1
+ (d:/code/kampus/skripsi/lampiran.tex) [1
 
-] (/home/son/work/skripsi/MainTemplateSkripsi.aux (/home/son/work/skripsi/cover.aux) (/home/son/work/skripsi/lembaroriginalitas.aux) (/home/son/work/skripsi/lembarpengesahan.aux) (/home/son/work/skripsi/abstraksi.aux) (/home/son/work/skripsi/abstract.aux) (/home/son/work/skripsi/katapengantar.aux) (/home/son/work/skripsi/daftarlampiran.aux) (/home/son/work/skripsi/lampiran.aux)) ) 
+] (d:/code/kampus/skripsi/MainTemplateSkripsi.aux (d:/code/kampus/skripsi/cover.aux) (d:/code/kampus/skripsi/lembaroriginalitas.aux) (d:/code/kampus/skripsi/lembarpengesahan.aux) (d:/code/kampus/skripsi/abstraksi.aux) (d:/code/kampus/skripsi/abstract.aux) (d:/code/kampus/skripsi/katapengantar.aux) (d:/code/kampus/skripsi/daftarlampiran.aux) (d:/code/kampus/skripsi/lampiran.aux)) ) 
 Here is how much of TeX's memory you used:
- 4897 strings out of 493968
- 74720 string characters out of 6165122
- 154465 words of memory out of 5000000
- 8525 multiletter control sequences out of 15000+600000
- 30305 words of font info for 47 fonts, out of 8000000 for 9000
- 309 hyphenation exceptions out of 8191
- 44i,16n,52p,309b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/son/work/skripsi/MainTemplateSkripsi.pdf (23 pages, 334994 bytes).
+ 5206 strings out of 480608
+ 80587 string characters out of 5907537
+ 339076 words of memory out of 5000000
+ 20899 multiletter control sequences out of 15000+600000
+ 559060 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,16n,54p,301b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on d:/code/kampus/skripsi/MainTemplateSkripsi.pdf (23 pages, 327253 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
