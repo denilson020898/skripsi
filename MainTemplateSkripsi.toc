@@ -16,23 +16,27 @@
 \contentsline {section}{\numberline {1.4}Tujuan Penelitian}{2}%
 \contentsline {section}{\numberline {1.5}Metode Penelitian}{2}%
 \contentsline {section}{\numberline {1.6}Sistematika Penulisan}{4}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {II\hfil } : TELAAH PUSTAKA}{5}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {II\hfil } : TINJAUAN PUSTAKA}{5}%
 \contentsline {section}{\numberline {2.1}Teorema Penaksiran Universal}{5}%
-\contentsline {section}{\numberline {2.2}Jaringan Saraf Tiruan}{5}%
-\contentsline {section}{\numberline {2.3}Residual Network}{6}%
+\contentsline {section}{\numberline {2.2}Jaringan Saraf}{5}%
+\contentsline {section}{\numberline {2.3}Jaringan Saraf Tiruan}{6}%
 \contentsline {section}{\numberline {2.4}Fungsi Aktivasi}{6}%
-\contentsline {section}{\numberline {2.5}Estimasi Pose Dua Dimensi}{6}%
-\contentsline {section}{\numberline {2.6}Estimasi Pose Tiga Dimensi}{6}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : ANALISIS DAN PERANCANGAN}{7}%
-\contentsline {section}{\numberline {3.1}Motivasi}{7}%
-\contentsline {section}{\numberline {3.2}Framework Riset}{7}%
-\contentsline {section}{\numberline {3.3}Pendekatan}{7}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : PEMBUATAN DAN UJI COBA}{8}%
-\contentsline {section}{\numberline {4.1}Persiapan pengujian}{8}%
-\contentsline {section}{\numberline {4.2}Pelaksanaan Pengujian}{8}%
-\contentsline {section}{\numberline {4.3}Hasil dan Diskusi}{8}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{9}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{9}%
-\contentsline {section}{\numberline {5.2}Saran}{9}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{10}%
+\contentsline {section}{\numberline {2.5}Residual Network}{6}%
+\contentsline {section}{\numberline {2.6}Optimisasi Arsitektur}{6}%
+\contentsline {section}{\numberline {2.7}Estimasi Pose Dua Dimensi}{6}%
+\contentsline {section}{\numberline {2.8}Estimasi Pose Tiga Dimensi}{7}%
+\contentsline {section}{\numberline {2.9}PyTorch}{7}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : PENDEKATAN}{8}%
+\contentsline {section}{\numberline {3.1}Langkah-Langkah yang dilakukan}{8}%
+\contentsline {section}{\numberline {3.2}Alur Pelatihan Model}{8}%
+\contentsline {section}{\numberline {3.3}Pra Pemrosesan Data}{8}%
+\contentsline {section}{\numberline {3.4}Arsitektur}{8}%
+\contentsline {section}{\numberline {3.5}Pelatihan Model}{8}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN ANALISIS}{9}%
+\contentsline {section}{\numberline {4.1}Plot Grafik}{9}%
+\contentsline {section}{\numberline {4.2}Matplotlib}{9}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{10}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{10}%
+\contentsline {section}{\numberline {5.2}Saran}{10}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{11}%
 \contentsline {chapter}{LAMPIRAN}{L1}%

@@ -1,7 +1,7 @@
 
 
-\chapter{TELAAH PUSTAKA}
-\label{cha:2-TelaahPustaka}
+\chapter{TINJAUAN PUSTAKA}
+\label{cha:2-TinjauanPustaka}
 
 \section{Teorema Penaksiran Universal}
 \label{sec:2-TeoremaPenaksiranUniversal}
@@ -20,8 +20,8 @@ memperkirakan suatu fungsi dengan batasan-batasan tertentu sesuai dengan fungsi 
 lapisan terakhir. Sifat kedua adalah sebuah fungsi kontinu dengan jumlah variabel sembarang dapat
 ditiru oleh sebuah jaringan saraf tiruan dengan jumlah yang sembarang~\cite{2019arXiv191003344K}.
 
-\section{Jaringan Saraf Tiruan}
-\label{sec:2-JaringanSarafTiruan}
+\section{Jaringan Saraf}
+\label{sec:2-JaringanSaraf}
 
 Otak manusia terdiri dari kumpulan sel saraf yang saling terkoneksi satu sama lain. Sebuah sel saraf
 adalah sel yang dapat memproses dan mengantarkan informasi apabila dirangsang dengan tegangan
@@ -32,50 +32,49 @@ berarti otak manusia beroperasi seperti prosesor dengan kecepatan satu triliun b
 detik~\cite{10.3389/neuro.09.031.2009}.
 
 Bentuk sel saraf sangat bervariasi dengan berbagai ukuran, bentuk, dan sifat elektrokimianya. Sebuah
-sel saraf memiliki badan yang terdiri dari beberapa struktur penting seperti pada
-gambar~\ref{fig:selsaraf}.
+sel saraf memiliki badan yang terdiri dari beberapa struktur penting meliputi \textit{soma},
+\textit{dendrites}, \textit{axon}, dan \textit{synapses} seperti pada gambar~\ref{fig:selsaraf}.
+Sebuah sel saraf akan menerima beberapa masukan melalui \textit{synapses}, memproses inputan
+tersebut melewati \textit{dendrites}, kemudian diteruskan melalui \textit{soma}, dan diberikan
+kepada sel saraf lainnya melalui \textit{axon}~\cite{2019arXiv190601703Z}.
+
+
 
 \begin{figure}[htbp]
-  \begin{center}
-    \fbox{\includegraphics[scale=1.0]{bab2/gambar/selsaraf.jpg}}
-  \end{center}
-  \vspace{-20pt}
-  \captionsetup{labelfont=bf, textfont=bf}
-  \caption{Ilustrasi Sel Saraf}
-  \vspace{-10pt}
-  \captionsetup{labelfont=md, textfont=md}
-  % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
-  \caption*{Sumber: Zhang (2019)}
-  \label{fig:selsaraf}
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab2/gambar/selsaraf.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Ilustrasi Sel Saraf}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:selsaraf}
 \end{figure}
 
-Bentuk sel saraf sangat bervariasi dengan berbagai ukuran, bentuk, dan sifat elektrokimianya. Sebuah
-sel saraf memiliki badan yang terdiri dari beberapa struktur penting seperti pada gambar
-% ~\cite{2019arXiv190601703Z}.
+\section{Jaringan Saraf Tiruan}
+\label{sec:2-JaringanSarafTiruan}
+
+Jaringan Saraf Tiruan adalah sistem komputasi yang cara kerjanya menyerupai jaringan saraf pada otak
+makhluk hidup.
+
+layer, input, weight, output, inisialisasi
+
+\section{Fungsi Aktivasi}
+\label{sec:2-FungsiAktivasi}
+
+sigmoid relu dkk
 
 \section{Residual Network}
 \label{sec:2-ResidualNetwork}
 
-\begin{table}[htbp]
-  \captionsetup{labelfont=bf, textfont=bf}
-  \caption{Sebuah tabel}
-  \vspace{-20pt}
-  \begin{center}
-    \begin{tabular}{| l c r |}
-      \hline
-      1 & 2 & 3 \\
-      4 & 5 & 6 \\
-      7 & 8 & 9 \\
-      \hline
-    \end{tabular}
-  \end{center}
-  \vspace{-10pt}
-  \captionsetup{labelfont=md, textfont=md}
-  \caption*{Sumber: Bego Lu}
-\end{table}
+arsitektur resnet
 
-\section{Fungsi Aktivasi}
-\label{sec:2-FungsiAktivasi}
+\section{Optimisasi Arsitektur}
+\label{sec:2-OptimisasiArsitektur}
+lr, adam, loss function
 
 \section{Estimasi Pose Dua Dimensi}
 \label{sec:2-EstimasiPoseDuaDimensi}
@@ -83,4 +82,29 @@ citasi~\cite{8765346}
 
 \section{Estimasi Pose Tiga Dimensi}
 \label{sec:2-EstimasiPoseTigaDimensi}
+
 citasi~\cite{martinez_2017_3dbaseline}
+
+\section{PyTorch}
+\label{sec:2-PyTorch}
+
+pytorch dynamic graph
+
+\begin{table}[htbp]
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Sebuah tabel}
+    \vspace{-20pt}
+    \begin{center}
+        \begin{tabular}{| l c r |}
+            \hline
+            1 & 2 & 3 \\
+            4 & 5 & 6 \\
+            7 & 8 & 9 \\
+            \hline
+        \end{tabular}
+    \end{center}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    \caption*{Sumber: Bego Lu}
+\end{table}
+
