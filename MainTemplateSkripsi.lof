@@ -1,7 +1,13 @@
 \babel@toc {bahasa}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ilustrasi Sel Saraf\relax }}{6}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ilustrasi Jaringan Saraf Manusia\relax }}{6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ilustrasi Sel Saraf Manusia\relax }}{6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ilustrasi Jaringan Saraf Tiruan\relax }}{7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Ilustrasi Sel Saraf Tiruan\relax }}{7}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit {Rectified Linear Unit}\relax }}{8}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \textit {\textit {Residual Block}}\relax }}{9}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \textit {\textit {Gradient Descent}}\relax }}{10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

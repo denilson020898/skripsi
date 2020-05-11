@@ -1,4 +1,16 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{croann}
+O.~Abiodun, A.~Jantan, O.~Omolara, K.~Dada, A.~Umar, O.~Linus, H.~Arshad,
+  A.~Aminu~Kazaure, U.~Gana, and M.~Kiru.
+\newblock Comprehensive review of artificial neural network applications to
+  pattern recognition.
+\newblock {\em IEEE Access}, PP:1--1, 10 2019.
+
+\bibitem{2014arXiv1412.6830A}
+F.~{Agostinelli}, M.~{Hoffman}, P.~{Sadowski}, and P.~{Baldi}.
+\newblock {Learning Activation Functions to Improve Deep Neural Networks}.
+\newblock {\em arXiv e-prints}, page arXiv:1412.6830, Dec. 2014.
 
 \bibitem{8765346}
 Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon}, S.~{Wei}, and Y.~A. {Sheikh}.
@@ -7,16 +19,32 @@ Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon}, S.~{Wei}, and Y.~A. {Sheikh}.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   2019.
 
+\bibitem{2018arXiv181006773C}
+X.~{Cui}, W.~{Zhang}, Z.~{T{\"u}ske}, and M.~{Picheny}.
+\newblock {Evolutionary Stochastic Gradient Descent for Optimization of Deep
+  Neural Networks}.
+\newblock {\em arXiv e-prints}, page arXiv:1810.06773, Oct. 2018.
+
 \bibitem{2016arXiv160100013G}
 N.~J. {Guliyev} and V.~E. {Ismailov}.
 \newblock {A single hidden layer feedforward network with only one neuron in
   the hidden layer can approximate any univariate function}.
 \newblock {\em arXiv e-prints}, page arXiv:1601.00013, Dec. 2015.
 
+\bibitem{2015arXiv151203385H}
+K.~{He}, X.~{Zhang}, S.~{Ren}, and J.~{Sun}.
+\newblock {Deep Residual Learning for Image Recognition}.
+\newblock {\em arXiv e-prints}, page arXiv:1512.03385, Dec. 2015.
+
 \bibitem{10.3389/neuro.09.031.2009}
 S.~Herculano-Houzel.
 \newblock The human brain in numbers: a linearly scaled-up primate brain.
 \newblock {\em Frontiers in Human Neuroscience}, 3:31, 2009.
+
+\bibitem{Hinton_rectifiedlinear}
+G.~E. Hinton.
+\newblock Rectified linear units improve restricted boltzmann machines vinod
+  nair.
 
 \bibitem{h36m_pami}
 C.~Ionescu, D.~Papava, V.~Olaru, and C.~Sminchisescu.
@@ -35,6 +63,22 @@ A.~{Kratsios}.
 J.~Martinez, R.~Hossain, J.~Romero, and J.~J. Little.
 \newblock A simple yet effective baseline for 3d human pose estimation.
 \newblock In {\em ICCV}, 2017.
+
+\bibitem{2018arXiv181103378N}
+C.~{Nwankpa}, W.~{Ijomah}, A.~{Gachagan}, and S.~{Marshall}.
+\newblock {Activation Functions: Comparison of trends in Practice and Research
+  for Deep Learning}.
+\newblock {\em arXiv e-prints}, page arXiv:1811.03378, Nov. 2018.
+
+\bibitem{2016arXiv160904747R}
+S.~{Ruder}.
+\newblock {An overview of gradient descent optimization algorithms}.
+\newblock {\em arXiv e-prints}, page arXiv:1609.04747, Sept. 2016.
+
+\bibitem{Sharma2012ACS}
+V.~Sharma, S.~Rai, and A.~Dev.
+\newblock A comprehensive study of artificial neural networks.
+\newblock 2012.
 
 \bibitem{2019arXiv190601703Z}
 J.~{Zhang}.

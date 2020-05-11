@@ -11,44 +11,46 @@ A level-1 auxiliary file: daftarlampiran.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: lampiran.aux
 Database file #1: MainTemplateSkripsi.bib
-You've used 7 entries,
+Warning--empty booktitle in Sharma2012ACS
+You've used 15 entries,
             2118 wiz_defined-function locations,
-            545 strings with 5189 characters,
-and the built_in function-call counts, 3019 in all, are:
-= -- 327
-> -- 108
-< -- 3
-+ -- 45
-- -- 36
-* -- 143
-:= -- 420
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 39
+            588 strings with 6706 characters,
+and the built_in function-call counts, 7170 in all, are:
+= -- 781
+> -- 285
+< -- 8
++ -- 116
+- -- 98
+* -- 335
+:= -- 962
+add.period$ -- 44
+call.type$ -- 15
+change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 178
-empty$ -- 204
-format.name$ -- 36
-if$ -- 705
+cite$ -- 16
+duplicate$ -- 427
+empty$ -- 453
+format.name$ -- 98
+if$ -- 1694
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 7
-newline$ -- 38
-num.names$ -- 14
-pop$ -- 42
+int.to.str$ -- 15
+missing$ -- 14
+newline$ -- 77
+num.names$ -- 30
+pop$ -- 109
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 79
 quote$ -- 0
-skip$ -- 191
+skip$ -- 481
 stack$ -- 0
-substring$ -- 166
-swap$ -- 107
-text.length$ -- 3
+substring$ -- 374
+swap$ -- 278
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
-warning$ -- 0
-while$ -- 19
-width$ -- 8
-write$ -- 77
+type$ -- 60
+warning$ -- 1
+while$ -- 41
+width$ -- 17
+write$ -- 159
+(There was 1 warning)
