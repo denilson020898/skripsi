@@ -260,12 +260,50 @@ seperti pada persamaan dibawah~\cite{TORABI201376}.
 
 \section{Estimasi Pose Dua Dimensi}
 \label{sec:2-EstimasiPoseDuaDimensi}
-citasi~\cite{8765346}
+
+Estimasi pose dua dimensi melakukan lokalisasi titik kunci anatomi atau bagian tubuh manusia
+berdasarkan fungsi dari bagian tersebut. Permasalahan ini menjadi sulit untuk diselesaikan oleh
+komputer dikarenakan banyaknya variasi kesulitan. Setiap gambar unik dapat berisi jumlah orang
+yang berbeda dan dapat muncul dengan posisi dan ukuran yang berbeda-beda. Interaksi antara manusia
+dengan benda disekitarnya dapat menyebabkan oklusi dan hilangnya titik kunci anatomi yang dicari.
+Kompleksitas permasalahan ini juga semakin meningkat berbanding lurus dengan jumlah orang yang ada
+dalam suatu gambar~\cite{psfor}~\cite{kposolet}.
+
+Pendekatan yang umum dilakukan adalah dengan mendeteksi setiap orang dalam setiap gambar secara
+individu. Hal pertama yang dideteksi adalah lokalisasi kemunculan suatu benda yang dianggap sebagai
+objek manusia dan kemudian mencari titik kunci anatomi dari objek tersebut.
+Pendekatan \textit{top-down} seperti ini cocok dipakai untuk mendapatkan
+\textit{single-person} dengan mudah tetapi kompleksitas yang proporsional dengan jumlah orang.
+Sebaliknya dengan pendekatan \textit{bottom-up} dimana deteksi dilakukan dengan mencari alamat piksel
+pada gambar yang dianggap adalah titik kunci anatomi dan dilanjutkan dengan membangun pose manusia
+dari kandidat yang ada. Pendekatan \textit{bottom-up} cocok untuk menyelesaikan masalah
+\textit{multi-person} dikarenakan pencarian kandidat titik kunci dapat dilakukan terlebih dahulu tanpa
+harus mengetahui jumlah orang. Perbedaan pendekatan \textit{top-down} dan \textit{bottom-up}
+dapat dilihat pada gambar~\ref{fig:tdbu}~\cite{8765346}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab2/gambar/tdbu.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Pendekatan \textit{Top-Down} dan \textit{Bottom-Up}}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:tdbu}
+\end{figure}
+
 
 \section{Estimasi Pose Tiga Dimensi}
 \label{sec:2-EstimasiPoseTigaDimensi}
 
+lokal
 citasi~\cite{martinez_2017_3dbaseline}
+
+global
+~\cite{2017arXiv170402447Z}
 
 \section{PyTorch}
 \label{sec:2-PyTorch}
