@@ -146,7 +146,7 @@ Persamaan fungsi aktivasi \textit{Rectified Linear Unit} dapat dilihat seperti p
     \label{fig:relu}
 \end{figure}
 
-\section{Residual Network}
+\section{\textit{Residual Network}}
 \label{sec:2-ResidualNetwork}
 
 \textit{Residual Network} atau \textit{ResNet} merupakan model jaringan saraf tiruan yang menggunakan \textit{residual block}
@@ -198,7 +198,7 @@ pada gambar~\ref{fig:gradientdescent}.
     \label{fig:gradientdescent}
 \end{figure}
 
-\subsection{Backpropagation}
+\subsection{\textit{Backpropagation}}
 
 \textit{Backpropagation} adalah sebuah prosedur pelatihan jaringan saraf tiruan yang secara
 berulang-ulang kali menyesuaikan bobot setiap sel hingga selisih antara keluaran dan target menjadi
@@ -224,7 +224,7 @@ dapat dilihat pada gambar~\ref{fig:backprop}.
     \label{fig:backprop}
 \end{figure}
 
-\subsection{Learning Rate}
+\subsection{\textit{Learning Rate}}
 
 \textit{Learning rate} adalah sebuah nilai skalar yang menentukan seberapa besar sebuah bobot pada
 jaringan saraf akan ditambahkan. Nilai \textit{learning rate} umumnya bernilai kecil karena
@@ -247,7 +247,7 @@ yang banyak seperti pada gambar~\ref{fig:backprop}~\cite{2019arXiv190801878Y}.
     \label{fig:backprop}
 \end{figure}
 
-\subsection{Mean Squared Error}
+\subsection{\textit{Mean Squared Error}}
 \textit{Mean squared error} adalah sebuah persamaan estimasi kesalahan dengan merata-ratakan
 hasil dari pangkat dua selisih antara dua vektor. Fungsi kesalahan ini dipakai untuk mengukur
 kesalahan model regresi dimana keluaran yang diukur bersifat kontinu. Persamaan ini akan selalu
@@ -262,8 +262,8 @@ seperti pada persamaan dibawah~\cite{TORABI201376}.
 \label{sec:2-EstimasiPoseDuaDimensi}
 
 Estimasi pose dua dimensi melakukan lokalisasi titik kunci anatomi atau bagian tubuh manusia
-berdasarkan fungsi dari bagian tersebut. Permasalahan ini menjadi sulit untuk diselesaikan oleh
-komputer dikarenakan banyaknya variasi kesulitan. Setiap gambar unik dapat berisi jumlah orang
+berdasarkan fungsi dari bagian tersebut pada sebuah gambar dua dimensi.
+Setiap gambar unik dapat berisi jumlah orang
 yang berbeda dan dapat muncul dengan posisi dan ukuran yang berbeda-beda. Interaksi antara manusia
 dengan benda disekitarnya dapat menyebabkan oklusi dan hilangnya titik kunci anatomi yang dicari.
 Kompleksitas permasalahan ini juga semakin meningkat berbanding lurus dengan jumlah orang yang ada
@@ -295,36 +295,63 @@ dapat dilihat pada gambar~\ref{fig:tdbu}~\cite{8765346}.
     \label{fig:tdbu}
 \end{figure}
 
-
 \section{Estimasi Pose Tiga Dimensi}
 \label{sec:2-EstimasiPoseTigaDimensi}
 
-lokal
-citasi~\cite{martinez_2017_3dbaseline}
+Algoritma estimasi pose tiga dimensi merekonstruksi titik kunci tiga dimensi tubuh manusia dari
+sebuah gambar dua dimensi. Proses pencarian titik kunci dibagi menjadi dua golongan yaitu pencarian
+secara langsung menggunakan gambar sebagai masukkan dan pencarian bertahap dengan mencari titik kunci
+anatomi dua dimensi terlebih dahulu kemudian dilanjutkan dengan pencarian titik kunci tiga dimensi.
+Titik kunci yang didapatkan dapat berada dalam koordinat lokal dan global.
+Pencarian secara langsung tidak menghasilkan akurasi yang tinggi dan cenderung buruk dalam mendeteksi
+orientasi yang benar~\cite{2020arXiv200210322C}.
 
-global
-~\cite{2017arXiv170402447Z}
+Titik kunci tiga dimensi yang berada dalam koordinat lokal menjadikan posisi pinggang sebagai titik
+nol yang berarti lokasi pinggang akan selalu bernilai $\vec{hip} = [0.0, 0.0, 0.0]$. Posisi titik
+kunci lain relatif terhadap titik pinggang. Hal ini menyebabkan pose yang ditangkap hanya bersifat
+lokal yang berarti hanya memiliki sati orientasi lokal. Pencarian pose tiga dimensi lokal dari gambar
+dua dimensi diilustrasikan pada gambar~\ref{fig:lokal}~\cite{martinez_2017_3dbaseline}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab2/gambar/lokal.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Pencarian Pose Tiga Dimensi Lokal}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:lokal}
+\end{figure}
+
+Titik kunci tiga dimensi dapat juga berada dalam koordinat global yang berarti orientasi kamera
+saat mengambil gambar diperhitungkan sebagai sebuah observasi virtual. Kompleksitas yang dihadapi
+berkaitan dengan orientasi kamera yang berubah. Estimasi pose tiga dimensi global umumnya dilakukan
+dengan mendeteksi titik kunci anatomi tubuh manusia kedalam suatu dunia virtual tiga dimensi sehingga
+dapat diamati dari berbagai sudut yang berkorelasi dengan kamera~\cite{2017arXiv170402447Z, 2019arXiv190700837M}.
+Pencarian pose tiga dimensi global dari gambar dua dimensi diilustrasikan pada gambar~\ref{fig:global}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab2/gambar/global.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Pencarian Pose Tiga Dimensi Global}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:global}
+\end{figure}
 
 \section{PyTorch}
 \label{sec:2-PyTorch}
 
-pytorch dynamic graph
-
-\begin{table}[htbp]
-    \captionsetup{labelfont=bf, textfont=bf}
-    \caption{Sebuah tabel}
-    \vspace{-20pt}
-    \begin{center}
-        \begin{tabular}{| l c r |}
-            \hline
-            1 & 2 & 3 \\
-            4 & 5 & 6 \\
-            7 & 8 & 9 \\
-            \hline
-        \end{tabular}
-    \end{center}
-    \vspace{-10pt}
-    \captionsetup{labelfont=md, textfont=md}
-    \caption*{Sumber: Bego Lu}
-\end{table}
+PyTorch merupakan \textit{framework} untuk melakukan \textit{deep learning} dengan bahasa pemrograman
+python. Penggiat data sebagai dasar aplikasi umumnya menggunakan bahasa pemrograman ini dalam melakukan
+riset. PyTorch menyediakan implementasi grafik jaringan saraf tiruan yang bersifat dinamis. Hal
+ini memungkinkan pengguna untuk mengubah arsitektur model secara cepat dalam setiap iterasi~\cite{2019arXiv191201703P}.
 
