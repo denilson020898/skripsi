@@ -1,90 +1,104 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{h36m_pami}
-Ionescu, C., Papava, D., Olaru, V., dan Sminchisescu, C., (2014), ``Human3.6m:
-  Large scale datasets and predictive methods for 3d human sensing in natural
-  environments,'' {\em IEEE Transactions on Pattern Analysis and Machine
-  Intelligence}, vol.~36, pp.~1325--1339.
-
-\bibitem{8765346}
-{Cao}, Z., {Hidalgo Martinez}, G., {Simon}, T., {Wei}, S., dan {Sheikh}, Y.~A.,
-  (2019), ``Openpose: Realtime multi-person 2d pose estimation using part
-  affinity fields,'' {\em IEEE Transactions on Pattern Analysis and Machine
-  Intelligence}.
-
-\bibitem{2019arXiv191003344K}
-{Kratsios}, A., (2019), ``{The Universal Approximation Property:
-  Characterizations, Existence, and a Canonical Topology for Deep-Learning},''
-  {\em arXiv e-prints}, p.~arXiv:1910.03344.
-
-\bibitem{2016arXiv160100013G}
-{Guliyev}, N.~J. dan {Ismailov}, V.~E., (2015), ``{A single hidden layer
-  feedforward network with only one neuron in the hidden layer can approximate
-  any univariate function},'' {\em arXiv e-prints}, p.~arXiv:1601.00013.
-
-\bibitem{martinez_2017_3dbaseline}
-Martinez, J., Hossain, R., Romero, J., dan Little, J.~J., (2017), ``A simple
-  yet effective baseline for 3d human pose estimation,'' in {\em ICCV}.
-
-\bibitem{2019arXiv190601703Z}
-{Zhang}, J., (2019), ``{Basic Neural Units of the Brain: Neurons, Synapses and
-  Action Potential},'' {\em arXiv e-prints}, p.~arXiv:1906.01703.
-
-\bibitem{10.3389/neuro.09.031.2009}
-Herculano-Houzel, S., (2009), ``The human brain in numbers: a linearly
-  scaled-up primate brain,'' {\em Frontiers in Human Neuroscience}, vol.~3,
-  p.~31.
-
-\bibitem{croann}
+\bibitem[\protect\astroncite{Abiodun et~al.}{2019}]{croann}
 Abiodun, O., Jantan, A., Omolara, O., Dada, K., Umar, A., Linus, O., Arshad,
-  H., Aminu~Kazaure, A., Gana, U., dan Kiru, M., (2019), ``Comprehensive review
-  of artificial neural network applications to pattern recognition,'' {\em IEEE
-  Access}, vol.~PP, pp.~1--1.
+  H., Aminu~Kazaure, A., Gana, U., dan Kiru, M. (2019).
+\newblock Comprehensive review of artificial neural network applications to
+  pattern recognition.
+\newblock {\em IEEE Access}, PP:1--1.
 
-\bibitem{Sharma2012ACS}
-Sharma, V., Rai, S., dan Dev, A., (2012), ``A comprehensive study of artificial
-  neural networks,''
+\bibitem[\protect\astroncite{{Agostinelli} et~al.}{2014}]{2014arXiv1412.6830A}
+{Agostinelli}, F., {Hoffman}, M., {Sadowski}, P., dan {Baldi}, P. (2014).
+\newblock {Learning Activation Functions to Improve Deep Neural Networks}.
+\newblock {\em arXiv e-prints}, page arXiv:1412.6830.
 
-\bibitem{2018arXiv181103378N}
-{Nwankpa}, C., {Ijomah}, W., {Gachagan}, A., dan {Marshall}, S., (2018),
-  ``{Activation Functions: Comparison of trends in Practice and Research for
-  Deep Learning},'' {\em arXiv e-prints}, p.~arXiv:1811.03378.
+\bibitem[\protect\astroncite{{Cao} et~al.}{2019}]{8765346}
+{Cao}, Z., {Hidalgo Martinez}, G., {Simon}, T., {Wei}, S., dan {Sheikh}, Y.~A.
+  (2019).
+\newblock Openpose: Realtime multi-person 2d pose estimation using part
+  affinity fields.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence}.
 
-\bibitem{2014arXiv1412.6830A}
-{Agostinelli}, F., {Hoffman}, M., {Sadowski}, P., dan {Baldi}, P., (2014),
-  ``{Learning Activation Functions to Improve Deep Neural Networks},'' {\em
-  arXiv e-prints}, p.~arXiv:1412.6830.
+\bibitem[\protect\astroncite{{Guliyev} dan
+  {Ismailov}}{2015}]{2016arXiv160100013G}
+{Guliyev}, N.~J. dan {Ismailov}, V.~E. (2015).
+\newblock {A single hidden layer feedforward network with only one neuron in
+  the hidden layer can approximate any univariate function}.
+\newblock {\em arXiv e-prints}, page arXiv:1601.00013.
 
-\bibitem{Hinton_rectifiedlinear}
-Hinton, G.~E., ``Rectified linear units improve restricted boltzmann machines
-  vinod nair.''
+\bibitem[\protect\astroncite{{He} et~al.}{2015}]{2015arXiv151203385H}
+{He}, K., {Zhang}, X., {Ren}, S., dan {Sun}, J. (2015).
+\newblock {Deep Residual Learning for Image Recognition}.
+\newblock {\em arXiv e-prints}, page arXiv:1512.03385.
 
-\bibitem{2015arXiv151203385H}
-{He}, K., {Zhang}, X., {Ren}, S., dan {Sun}, J., (2015), ``{Deep Residual
-  Learning for Image Recognition},'' {\em arXiv e-prints}, p.~arXiv:1512.03385.
+\bibitem[\protect\astroncite{Herculano-Houzel}{2009}]{10.3389/neuro.09.031.2009}
+Herculano-Houzel, S. (2009).
+\newblock The human brain in numbers: a linearly scaled-up primate brain.
+\newblock {\em Frontiers in Human Neuroscience}, 3:31.
 
-\bibitem{2016arXiv160904747R}
-{Ruder}, S., (2016), ``{An overview of gradient descent optimization
-  algorithms},'' {\em arXiv e-prints}, p.~arXiv:1609.04747.
+\bibitem[\protect\astroncite{Hinton}{}]{Hinton_rectifiedlinear}
+Hinton, G.~E.
+\newblock Rectified linear units improve restricted boltzmann machines vinod
+  nair.
 
-\bibitem{Rumelhart:1986we}
-Rumelhart, D.~E., Hinton, G.~E., dan Williams, R.~J., (1986), ``{Learning
-  Representations by Back-propagating Errors},'' {\em Nature}, vol.~323,
-  no.~6088, pp.~533--536.
+\bibitem[\protect\astroncite{Ionescu et~al.}{2014}]{h36m_pami}
+Ionescu, C., Papava, D., Olaru, V., dan Sminchisescu, C. (2014).
+\newblock Human3.6m: Large scale datasets and predictive methods for 3d human
+  sensing in natural environments.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  36(7):1325--1339.
 
-\bibitem{2019arXiv190801878Y}
-{You}, K., {Long}, M., {Wang}, J., dan {Jordan}, M.~I., (2019), ``{How Does
-  Learning Rate Decay Help Modern Neural Networks?},'' {\em arXiv e-prints},
-  p.~arXiv:1908.01878.
+\bibitem[\protect\astroncite{{Kingma} dan {Ba}}{2014}]{2014arXiv1412.6980K}
+{Kingma}, D.~P. dan {Ba}, J. (2014).
+\newblock {Adam: A Method for Stochastic Optimization}.
+\newblock {\em arXiv e-prints}, page arXiv:1412.6980.
 
-\bibitem{TORABI201376}
-Torabi, M. dan Rao, J., (2013), ``Estimation of mean squared error of
-  model-based estimators of small area means under a nested error linear
-  regression model,'' {\em Journal of Multivariate Analysis}, vol.~117, pp.~76
-  -- 87.
+\bibitem[\protect\astroncite{{Kratsios}}{2019}]{2019arXiv191003344K}
+{Kratsios}, A. (2019).
+\newblock {The Universal Approximation Property: Characterizations, Existence,
+  and a Canonical Topology for Deep-Learning}.
+\newblock {\em arXiv e-prints}, page arXiv:1910.03344.
 
-\bibitem{2014arXiv1412.6980K}
-{Kingma}, D.~P. dan {Ba}, J., (2014), ``{Adam: A Method for Stochastic
-  Optimization},'' {\em arXiv e-prints}, p.~arXiv:1412.6980.
+\bibitem[\protect\astroncite{Martinez et~al.}{2017}]{martinez_2017_3dbaseline}
+Martinez, J., Hossain, R., Romero, J., dan Little, J.~J. (2017).
+\newblock A simple yet effective baseline for 3d human pose estimation.
+\newblock In {\em ICCV}.
+
+\bibitem[\protect\astroncite{{Nwankpa} et~al.}{2018}]{2018arXiv181103378N}
+{Nwankpa}, C., {Ijomah}, W., {Gachagan}, A., dan {Marshall}, S. (2018).
+\newblock {Activation Functions: Comparison of trends in Practice and Research
+  for Deep Learning}.
+\newblock {\em arXiv e-prints}, page arXiv:1811.03378.
+
+\bibitem[\protect\astroncite{{Ruder}}{2016}]{2016arXiv160904747R}
+{Ruder}, S. (2016).
+\newblock {An overview of gradient descent optimization algorithms}.
+\newblock {\em arXiv e-prints}, page arXiv:1609.04747.
+
+\bibitem[\protect\astroncite{Rumelhart et~al.}{1986}]{Rumelhart:1986we}
+Rumelhart, D.~E., Hinton, G.~E., dan Williams, R.~J. (1986).
+\newblock {Learning Representations by Back-propagating Errors}.
+\newblock {\em Nature}, 323(6088):533--536.
+
+\bibitem[\protect\astroncite{Sharma et~al.}{2012}]{Sharma2012ACS}
+Sharma, V., Rai, S., dan Dev, A. (2012).
+\newblock A comprehensive study of artificial neural networks.
+
+\bibitem[\protect\astroncite{Torabi dan Rao}{2013}]{TORABI201376}
+Torabi, M. dan Rao, J. (2013).
+\newblock Estimation of mean squared error of model-based estimators of small
+  area means under a nested error linear regression model.
+\newblock {\em Journal of Multivariate Analysis}, 117:76 -- 87.
+
+\bibitem[\protect\astroncite{{You} et~al.}{2019}]{2019arXiv190801878Y}
+{You}, K., {Long}, M., {Wang}, J., dan {Jordan}, M.~I. (2019).
+\newblock {How Does Learning Rate Decay Help Modern Neural Networks?}
+\newblock {\em arXiv e-prints}, page arXiv:1908.01878.
+
+\bibitem[\protect\astroncite{{Zhang}}{2019}]{2019arXiv190601703Z}
+{Zhang}, J. (2019).
+\newblock {Basic Neural Units of the Brain: Neurons, Synapses and Action
+  Potential}.
+\newblock {\em arXiv e-prints}, page arXiv:1906.01703.
 
 \end{thebibliography}

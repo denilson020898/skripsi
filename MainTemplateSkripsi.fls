@@ -75,6 +75,8 @@ INPUT c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def

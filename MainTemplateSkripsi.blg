@@ -8,49 +8,50 @@ A level-1 auxiliary file: abstraksi.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: katapengantar.aux
 A level-1 auxiliary file: daftarlampiran.aux
-The style file: myieeetr.bst
+The style file: apa.bst
 A level-1 auxiliary file: lampiran.aux
 Database file #1: MainTemplateSkripsi.bib
+Warning--empty year in Hinton_rectifiedlinear
 Warning--empty booktitle in Sharma2012ACS
 You've used 18 entries,
-            1882 wiz_defined-function locations,
-            592 strings with 6986 characters,
-and the built_in function-call counts, 6613 in all, are:
-= -- 736
-> -- 199
-< -- 0
-+ -- 74
-- -- 56
-* -- 312
-:= -- 752
-add.period$ -- 16
+            1940 wiz_defined-function locations,
+            585 strings with 7192 characters,
+and the built_in function-call counts, 9613 in all, are:
+= -- 1034
+> -- 329
+< -- 17
++ -- 118
+- -- 112
+* -- 595
+:= -- 1372
+add.period$ -- 52
 call.type$ -- 18
-change.case$ -- 18
-chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 471
-empty$ -- 501
-format.name$ -- 56
-if$ -- 1741
-int.to.chr$ -- 0
-int.to.str$ -- 18
+change.case$ -- 146
+chr.to.int$ -- 18
+cite$ -- 20
+duplicate$ -- 547
+empty$ -- 581
+format.name$ -- 136
+if$ -- 2142
+int.to.chr$ -- 1
+int.to.str$ -- 0
 missing$ -- 17
-newline$ -- 57
-num.names$ -- 18
-pop$ -- 61
+newline$ -- 91
+num.names$ -- 54
+pop$ -- 149
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 146
 quote$ -- 0
-skip$ -- 521
+skip$ -- 599
 stack$ -- 0
-substring$ -- 396
-swap$ -- 334
-text.length$ -- 0
+substring$ -- 594
+swap$ -- 327
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 1
-while$ -- 37
-width$ -- 20
-write$ -- 163
-(There was 1 warning)
+type$ -- 108
+warning$ -- 2
+while$ -- 51
+width$ -- 0
+write$ -- 227
+(There were 2 warnings)
