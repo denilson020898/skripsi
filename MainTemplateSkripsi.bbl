@@ -19,12 +19,6 @@ Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon}, S.~{Wei}, and Y.~A. {Sheikh}.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   2019.
 
-\bibitem{2018arXiv181006773C}
-X.~{Cui}, W.~{Zhang}, Z.~{T{\"u}ske}, and M.~{Picheny}.
-\newblock {Evolutionary Stochastic Gradient Descent for Optimization of Deep
-  Neural Networks}.
-\newblock {\em arXiv e-prints}, page arXiv:1810.06773, Oct. 2018.
-
 \bibitem{2016arXiv160100013G}
 N.~J. {Guliyev} and V.~E. {Ismailov}.
 \newblock {A single hidden layer feedforward network with only one neuron in
@@ -53,6 +47,11 @@ C.~Ionescu, D.~Papava, V.~Olaru, and C.~Sminchisescu.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   36(7):1325--1339, jul 2014.
 
+\bibitem{2014arXiv1412.6980K}
+D.~P. {Kingma} and J.~{Ba}.
+\newblock {Adam: A Method for Stochastic Optimization}.
+\newblock {\em arXiv e-prints}, page arXiv:1412.6980, Dec. 2014.
+
 \bibitem{2019arXiv191003344K}
 A.~{Kratsios}.
 \newblock {The Universal Approximation Property: Characterizations, Existence,
@@ -75,10 +74,26 @@ S.~{Ruder}.
 \newblock {An overview of gradient descent optimization algorithms}.
 \newblock {\em arXiv e-prints}, page arXiv:1609.04747, Sept. 2016.
 
+\bibitem{Rumelhart:1986we}
+D.~E. Rumelhart, G.~E. Hinton, and R.~J. Williams.
+\newblock {Learning Representations by Back-propagating Errors}.
+\newblock {\em Nature}, 323(6088):533--536, 1986.
+
 \bibitem{Sharma2012ACS}
 V.~Sharma, S.~Rai, and A.~Dev.
 \newblock A comprehensive study of artificial neural networks.
 \newblock 2012.
+
+\bibitem{TORABI201376}
+M.~Torabi and J.~Rao.
+\newblock Estimation of mean squared error of model-based estimators of small
+  area means under a nested error linear regression model.
+\newblock {\em Journal of Multivariate Analysis}, 117:76 -- 87, 2013.
+
+\bibitem{2019arXiv190801878Y}
+K.~{You}, M.~{Long}, J.~{Wang}, and M.~I. {Jordan}.
+\newblock {How Does Learning Rate Decay Help Modern Neural Networks?}
+\newblock {\em arXiv e-prints}, page arXiv:1908.01878, Aug. 2019.
 
 \bibitem{2019arXiv190601703Z}
 J.~{Zhang}.

@@ -70,9 +70,10 @@ kepada sel saraf lainnya melalui \textit{axon}~\cite{2019arXiv190601703Z}.
 \label{sec:2-JaringanSarafTiruan}
 
 Jaringan Saraf Tiruan adalah sistem komputasi yang cara kerjanya menyerupai jaringan saraf pada otak
-makhluk hidup. Tidak seperti pemrograman secara konvensional, sebuah jaringan saraf tiruan dapat
-memodelkan fungsi sembarang yang tingkat kesulitannya sesuai dengan jumlah koneksi yang ada. Sama
-seperti jaringan saraf asli, sebuah saraf tiruan juga menerima banyak masukkan dari saraf lainnya
+makhluk hidup. Sebuah jaringan saraf tiruan dapat dengan otomatis
+memodelkan fungsi sembarang yang tingkat kesulitannya sesuai dengan jumlah koneksi yang tesedia.
+Jarigan ini menyerupai jaringan saraf asli dimana
+sebuah saraf tiruan menerima banyak masukkan dari saraf lainnya
 kemudian dioperasikan dengan bobot yang terkadung pada sel tersebut dan akhirnya diteruskan ke sel
 berikutnya. Jaringan saraf umumnya dibentuk kedalam beberapa lapisan seperti pada
 gambar~\ref{fig:jaringansaraftiruan}~\cite{croann}.
@@ -162,7 +163,7 @@ Jenis-jenis \textit{residual block} dapat dilihat pada gambar~\ref{fig:resblock}
     \end{center}
     \vspace{-20pt}
     \captionsetup{labelfont=bf, textfont=bf}
-    \caption{\textit{\textit{Residual Block}}}
+    \caption{\textit{Residual Block}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
     % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
@@ -177,8 +178,8 @@ Algoritma optimisasi model yang paling populer dalam melakukan pelatihan model \
 adalah \textit{gradient descent}. \textit{Gradient descent} meminimalisir selisih antara prediksi
 model dan target sebenarnya dengan merubah bobot-bobot yang terdapat dalam model. Nilai bobot yang
 ditambahkan berbanding terbalik dengan gradien hasil fungsi kesalahan terhadap masing-masing bobot.
-Proses optimisasi dilakukan dengan melakukan \textit{forward-pass} dan \textit{backpropagation} yang
-melibatkan beberapa elemen seperti \textit{learning rate}, \textit{optimizer},
+Proses optimisasi dilakukan dengan melakukan \textit{backpropagation} yang
+melibatkan beberapa elemen seperti \textit{learning rate},
 dan \textit{loss function}. Tujuannya adalah untuk mencapai titik optimal pada sebuah bidang berdasarkan
 hasil dari \textit{loss function}~\cite{2016arXiv160100013G}. Ilustrasi titik optimal digambarkan
 pada gambar~\ref{fig:gradientdescent}.
@@ -189,7 +190,7 @@ pada gambar~\ref{fig:gradientdescent}.
     \end{center}
     \vspace{-20pt}
     \captionsetup{labelfont=bf, textfont=bf}
-    \caption{\textit{\textit{Gradient Descent}}}
+    \caption{\textit{Gradient Descent}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
     % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
@@ -197,7 +198,65 @@ pada gambar~\ref{fig:gradientdescent}.
     \label{fig:gradientdescent}
 \end{figure}
 
-lr, adam, loss function
+\subsection{Backpropagation}
+
+\textit{Backpropagation} adalah sebuah prosedur pelatihan jaringan saraf tiruan yang secara
+berulang-ulang kali menyesuaikan bobot setiap sel hingga selisih antara keluaran dan target menjadi
+lebih kecil. Algoritma ini merupakan mengorganisasikan sebuah model jaringan untuk secara mandiri
+mencari titik optimal secara berkala. Optimisasi dilakukan dengan melakukan \textit{forward-pass}
+pada satu atau sebagian atau semua data yang ada kedalam model untuk mendapatkan hasil prediksi.
+Hasil tersebut kemudian diukur selisihnya dengan target yang sebenarnya menggunakan sebuah fungsi
+kesalahan. Turuan parsial masing-masing bobot terhadap selisih kesalahan ini adalah kuantitas negatif
+yang harus ditambahkan bobot yang berkaitan~\cite{Rumelhart:1986we}. Skema algoritma \textit{backpropagation}
+dapat dilihat pada gambar~\ref{fig:backprop}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab2/gambar/backprop.png}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Skema \textit{Backpropagation}}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:backprop}
+\end{figure}
+
+\subsection{Learning Rate}
+
+\textit{Learning rate} adalah sebuah nilai skalar yang menentukan seberapa besar sebuah bobot pada
+jaringan saraf akan ditambahkan. Nilai \textit{learning rate} umumnya bernilai kecil karena
+besar turunan parsial pada setiap iterasi akan berubah-ubah. Nilai \textit{learning rate} yang besar
+akan merubah dalam skala yang besar sehingga akurasi model cederung tidak stabil. Nilai
+\textit{learning rate} yang kecil akan menghasilkan model yang stabil tetapi memerlukan jumlah iterasi
+yang banyak seperti pada gambar~\ref{fig:backprop}~\cite{2019arXiv190801878Y}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab2/gambar/lr.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Ilustrasi Perbedaan \textit{Learning Rate}}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:backprop}
+\end{figure}
+
+\subsection{Mean Squared Error}
+\textit{Mean squared error} adalah sebuah persamaan estimasi kesalahan dengan merata-ratakan
+hasil dari pangkat dua selisih antara dua vektor. Fungsi kesalahan ini dipakai untuk mengukur
+kesalahan model regresi dimana keluaran yang diukur bersifat kontinu. Persamaan ini akan selalu
+bernilai positif dan nilai yang mendekati nol menandakan bahwa selisih antara dua vektor semakin kecil
+seperti pada persamaan dibawah~\cite{TORABI201376}.
+
+\begin{equation*}
+    MSE = \frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}
+\end{equation*}
 
 \section{Estimasi Pose Dua Dimensi}
 \label{sec:2-EstimasiPoseDuaDimensi}
