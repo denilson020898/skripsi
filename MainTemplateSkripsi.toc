@@ -21,13 +21,13 @@
 \contentsline {section}{\numberline {2.2}Jaringan Saraf}{5}%
 \contentsline {section}{\numberline {2.3}Jaringan Saraf Tiruan}{7}%
 \contentsline {section}{\numberline {2.4}Fungsi Aktivasi}{8}%
-\contentsline {section}{\numberline {2.5}\textit {Residual Network}}{8}%
+\contentsline {section}{\numberline {2.5}\textit {Residual Network}}{9}%
 \contentsline {section}{\numberline {2.6}Optimisasi Model}{9}%
 \contentsline {subsection}{\numberline {2.6.1}\textit {Backpropagation}}{10}%
-\contentsline {subsection}{\numberline {2.6.2}\textit {Learning Rate}}{10}%
+\contentsline {subsection}{\numberline {2.6.2}\textit {Learning Rate}}{11}%
 \contentsline {subsection}{\numberline {2.6.3}\textit {Mean Squared Error}}{11}%
-\contentsline {section}{\numberline {2.7}Estimasi Pose Dua Dimensi}{12}%
-\contentsline {section}{\numberline {2.8}Estimasi Pose Tiga Dimensi}{12}%
+\contentsline {section}{\numberline {2.7}Estimasi Pose Dua Dimensi}{11}%
+\contentsline {section}{\numberline {2.8}Estimasi Pose Tiga Dimensi}{13}%
 \contentsline {section}{\numberline {2.9}PyTorch}{14}%
 \contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : PENDEKATAN}{15}%
 \contentsline {section}{\numberline {3.1}Perancangan Aplikasi}{15}%
