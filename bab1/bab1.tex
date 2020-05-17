@@ -5,58 +5,60 @@
 \section{Latar Belakang Masalah}
 \label{sec:1-LatarBelakangMasalah}
 
-Pemanfaatan teknologi yang terkomputerisasi oleh manusia selalu meninggalkan rekam jejak yang
-tersimpan dalam bentuk data digital. Data digital yang umumnya dimanfaatkan oleh manusia
-meliputi teks, citra audio, citra visual, dan citra audio visual yang dimampatkan kedalam suatu
-media penyimpanan. Pengaksesan data ini tergolong mudah karena data dikonstruksi dengan struktur
-dan format yang tertentu sehingga dapat diakses dimana saja. Jumlah rekam jejak digital yang tersedia
-semakin bertambah seiring dengan mudahnya akses terhadap teknologi secara skala besar.
+Pemanfaatan teknologi yang terkomputerisasi oleh manusia selalu meninggalkan jejak yang
+tersimpan dalam bentuk data digital. Rekam jejak ini merupakan bukti perilaku dan karakteristik
+manusia  sehingga dijadikan acuan pengembangan teknologi dan ilmu pengetahuan pada masa mendatang.
+Data digital yang umumnya dimanfaatkan oleh manusia meliputi teks, citra audio, citra visual, dan
+citra audio visual yang disimpan kedalam suatu media penyimpanan. Jumlah data yang tersedia
+tergolong banyak dan akan semakin bertambah seiring dengan gaya hidup manusia yang semakin
+bergantung pada teknologi digital.
 
-Rekam jejak digital yang terkumpul bersifat laten yang berarti data yang tersedia tidak
-memiliki arti semantik. Data ini hanya akan berguna apabila ada suatu aturan yang ditentukan
-oleh pengguna. Proses pembuatan citra visual terbentuk dari hasil perekaman kamera dengan mengubah
-gelombang elektromagnetik yang dipantulkan oleh benda dari posisi tertentu menuju lensa kamera
-menjadi tiga lapis deretan angka numerik yang mewakili warna merah, hijau, dan biru. Citra visual
-yang tercipta hanya memiliki informasi numerik mengenai warna dalam bentuk gambar, sedangkan
-informasi posisi benda saat perekaman sudah hilang. Otak manusia dapat mengartikan kondisi suatu
-benda dalam suatu gambar tanpa kita ketahui cara kerjanya secara pasti. Hal yang sama dapat
-dilakukan oleh komputer dengan membuat pemetaan dari suatu gambar ke suatu kondisi yang diinginkan.
+Jejak digital bersifat laten yang berarti data digital memiliki makna khusus dan hanya dapat diolah
+dengan prosedur khusus. Citra visual terbentuk dari penangkapan pantulan gelombang elektromagnetik
+benda yang berada depan kamera dan kemudian disimpan dalam bentuk digital. Hasil akhir citra visual
+yang tercipta hanya memiliki informasi numerik mengenai warna, sedangkan
+informasi posisi benda saat penangkapan sudah hilang. Otak manusia dapat mengartikan kondisi suatu
+benda dalam suatu gambar tanpa diketahui cara kerjanya secara pasti. Hal yang sama dapat
+dilakukan komputer dengan membuat fungsi pemetaan dari suatu gambar terhadap suatu kondisi dengan
+memanfaatkan data gambar dalam jumlah besar sebagai acuan.
 
 Permodelan pemelajaran dalam atau \textit{deep learning} dapat memetakan suatu domain ke
-domain lainnya secara otomatis menggunakan pelatihan jaringan saraf tiruan dalam atau
+domain lainnya secara mandiri menggunakan pelatihan jaringan saraf tiruan dalam atau
 \textit{deep neural network}. Pemelajaran dalam menggunakan jaringan
-saraf tiruan dalam dapat digunakan untuk memajukan teknologi khususnya pada bidang visi komputer
+saraf tiruan dapat digunakan untuk memajukan teknologi khususnya di bidang visi komputer
 seperti melakukan estimasi pose tiga dimensi tubuh manusia yang terdapat dalam suatu gambar.
 
 \section{Rumusan Masalah}
 \label{sec:1-RumusanMasalah}
-Permasalahan yang ingin diselesaikan adalah mengembalikan informasi posisi pose tubuh manusia yang
-telah hilang dengan membuat pemetaan dari gambar yang ditangkap menggunakan kamera monokuler ke
-koordinat setiap titik kunci dari pose. Model yang telah dilatih harus mampu melakukan proses
-pemetaan terhadap gambar baru.
+Permasalahan yang ingin diselesaikan adalah mengestimasi pose tubuh manusia yang
+telah hilang dengan membuat sebuah pemetaan dari gambar yang ditangkap kamera monokuler ke
+koordinat setiap titik kunci dari pose menggunakan model \textit{deep neural network}.
+Model yang telah terlatik mampu melakukan proses
+pemetaan terhadap gambar baru sehingga dapat dijadikan sebagai acuan aplikasi pembaca pose tubuh
+manusia dari gambar monokuler.
 
 \section{Batasan Masalah}
 \label{sec:1-BatasMasalah}
 
 Penelitian ini menganggap setiap pose dua dimensi maupun pose tiga dimensi berada dalam koordinat
-lokal. Setiap pose ditransformasi ke dalam observasi kamera dengan titik kunci pinggang
-sebagai posisi tengah. Hal ini dilakukan karena pemetaan hanya menggunakan grafik datar tanpa
-informasi kedalaman titik kunci sehingga dapat menghindari masalah kedalaman yang ambigu.
+lokal. Setiap pose ditransformasi ke dalam sistem koordinat kamera dengan titik kunci pinggang
+sebagai titik koordinat tengah. Hal ini dilakukan karena pemetaan hanya menggunakan gambar dua dimensi
+tanpa informasi kedalaman titik kunci sehingga dapat mengesampingkan masalah kedalaman yang ambigu.
 
 \section{Tujuan Penelitian}
 \label{sec:1-TujuanPenelitian}
 
-Tujuan dari penelitian ini adalah untuk membuat sebuah aplikasi yang dapat membaca titik kunci dari
+Tujuan dari penelitian ini adalah untuk membuat sebuah aplikasi yang dapat mengestimasi titik kunci dari
 sebuah citra visual datar dan melakukan transformasi ke pose lokal dua dimensi sehingga dapat
 dipetakan oleh jaringan saraf tiruan yang dimodelkan ke bentuk pose lokal tiga dimensi. Pose hasil
-juga divisualisasikan secara interaktif sehingga dapat dipergunakan untuk kepentingan yang sesuai.
+juga divisualisasikan secara interaktif sehingga dapat digunakan untuk kepentingan yang sesuai.
 
 \section{Metode Penelitian}
 \label{sec:1-MetodePenelitian}
 
 Penelitian dibagi menjadi tiga tahap besar terurut yang terdiri dari \textit{data preprocessing},
 pelatihan model jaringan saraf tiruan, dan visualisasi. Tahap pertama dan tahap ketiga tidak
-melibatkan pemelajaran mesin. Masalah utama dari penelitian ini berada pada tahap kedua tentang
+melibatkan pemelajaran mesin. Permasalahan utama dari penelitian ini berada pada tahap kedua tentang
 pelatihan jaringan saraf tiruan untuk melakukan pemetaan pose dua dimensi ke pose tiga dimensi.
 
 \textit{Dataset} yang digunakan dalam penelitian ini adalah \textit{Human3.6M} yang berisi 3,6 juta

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  12 MAY 2020 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  18 MAY 2020 02:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/code/kampus/skripsi/MainTemplateSkripsi.tex
-(d:/code/kampus/skripsi/MainTemplateSkripsi.tex
+**d:/work/kampus/skripsi/MainTemplateSkripsi.tex
+(d:/work/kampus/skripsi/MainTemplateSkripsi.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (d:/code/kampus/skripsi/skripsi.cls
+L3 programming layer <2020-03-06> (d:/work/kampus/skripsi/skripsi.cls
 Document Class: skripsi 2001/04/21 v1.4e Standard LaTeX document class
 (c:/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
@@ -40,7 +40,7 @@ File: babel.def 2020/03/22 3.42 Babel common definitions
 \bbl@dirlevel=\count177
 )))) (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (d:/code/kampus/skripsi/setspace.sty
+) (d:/work/kampus/skripsi/setspace.sty
 Package: setspace 1998/04/8 6.3 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.3 <1998/04/8>
@@ -129,7 +129,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
-) (d:/code/kampus/skripsi/multind.sty) (c:/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+) (d:/work/kampus/skripsi/multind.sty) (c:/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -270,11 +270,14 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count275
 \l__pdf_internal_box=\box55
-) (d:/code/kampus/skripsi/MainTemplateSkripsi.aux (d:/code/kampus/skripsi/cover.aux) (d:/code/kampus/skripsi/lembaroriginalitas.aux) (d:/code/kampus/skripsi/lembarpengesahan.aux) (d:/code/kampus/skripsi/abstraksi.aux) (d:/code/kampus/skripsi/abstract.aux) (d:/code/kampus/skripsi/katapengantar.aux) (d:/code/kampus/skripsi/daftarlampiran.aux)
+) (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux)
 
 LaTeX Warning: Label `fig:backprop' multiply defined.
 
-(d:/code/kampus/skripsi/lampiran.aux))
+
+LaTeX Warning: Label `sec:4-PersiapanPengujian' multiply defined.
+
+(d:/work/kampus/skripsi/lampiran.aux))
 \openout1 = `MainTemplateSkripsi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -374,7 +377,7 @@ Package caption Info: End \AtBeginDocument code.
 
 \openout2 = `cover.aux'.
 
-(d:/code/kampus/skripsi/cover.tex
+(d:/work/kampus/skripsi/cover.tex
 <gambar/LogoGunadarma.jpg, id=1, 27.14711pt x 26.78026pt>
 File: gambar/LogoGunadarma.jpg Graphic file (type jpg)
 <use gambar/LogoGunadarma.jpg>
@@ -409,50 +412,50 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ) [1
 
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <d:/code/kampus/skripsi/gambar/LogoGunadarma.jpg>]
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <d:/work/kampus/skripsi/gambar/LogoGunadarma.jpg>]
 \openout2 = `lembaroriginalitas.aux'.
 
- (d:/code/kampus/skripsi/lembaroriginalitas.tex) [2
+ (d:/work/kampus/skripsi/lembaroriginalitas.tex) [2
 
 
 ]
 \openout2 = `lembarpengesahan.aux'.
 
- (d:/code/kampus/skripsi/lembarpengesahan.tex) [3
+ (d:/work/kampus/skripsi/lembarpengesahan.tex) [3
 
 
 ]
 \openout2 = `abstraksi.aux'.
 
- (d:/code/kampus/skripsi/abstraksi.tex) [4
+ (d:/work/kampus/skripsi/abstraksi.tex) [4
 
 
 ]
 \openout2 = `abstract.aux'.
 
- (d:/code/kampus/skripsi/abstract.tex) [5
+ (d:/work/kampus/skripsi/abstract.tex) [5
 
 
 ]
 \openout2 = `katapengantar.aux'.
 
- (d:/code/kampus/skripsi/katapengantar.tex [6
+ (d:/work/kampus/skripsi/katapengantar.tex [6
 
 
-]) [7] (d:/code/kampus/skripsi/MainTemplateSkripsi.toc [8
+]) [7] (d:/work/kampus/skripsi/MainTemplateSkripsi.toc [8
 
 
 ])
 \tf@toc=\write3
 \openout3 = `MainTemplateSkripsi.toc'.
 
- [9] (d:/code/kampus/skripsi/MainTemplateSkripsi.lot)
+ [9] (d:/work/kampus/skripsi/MainTemplateSkripsi.lot)
 \tf@lot=\write4
 \openout4 = `MainTemplateSkripsi.lot'.
 
  [10
 
-] (d:/code/kampus/skripsi/MainTemplateSkripsi.lof)
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.lof)
 \tf@lof=\write5
 \openout5 = `MainTemplateSkripsi.lof'.
 
@@ -461,23 +464,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 \openout2 = `daftarlampiran.aux'.
 
- (d:/code/kampus/skripsi/daftarlampiran.tex) [12
+ (d:/work/kampus/skripsi/daftarlampiran.tex) [12
 
-] (d:/code/kampus/skripsi/bab1/bab1.tex
+] (d:/work/kampus/skripsi/bab1/bab1.tex
 BAB 1.
 [1
 
 
 ] [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 76.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 78.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3]) (d:/code/kampus/skripsi/bab2/bab2.tex [4]
+) [3]) (d:/work/kampus/skripsi/bab2/bab2.tex [4]
 BAB 2.
 <bab2/gambar/jaringansaraf.jpg, id=57, 338.76563pt x 245.41687pt>
 File: bab2/gambar/jaringansaraf.jpg Graphic file (type jpg)
 <use bab2/gambar/jaringansaraf.jpg>
-Package pdftex.def Info: bab2/gambar/jaringansaraf.jpg  used on input line 36.
+Package pdftex.def Info: bab2/gambar/jaringansaraf.jpg  used on input line 37.
 (pdftex.def)             Requested size: 338.76479pt x 245.41626pt.
 [5
 
@@ -485,100 +488,100 @@ Package pdftex.def Info: bab2/gambar/jaringansaraf.jpg  used on input line 36.
 <bab2/gambar/selsaraf.jpg, id=61, 338.76563pt x 148.30406pt>
 File: bab2/gambar/selsaraf.jpg Graphic file (type jpg)
 <use bab2/gambar/selsaraf.jpg>
-Package pdftex.def Info: bab2/gambar/selsaraf.jpg  used on input line 57.
+Package pdftex.def Info: bab2/gambar/selsaraf.jpg  used on input line 58.
 (pdftex.def)             Requested size: 338.76479pt x 148.30368pt.
- [6 <d:/code/kampus/skripsi/bab2/gambar/jaringansaraf.jpg> <d:/code/kampus/skripsi/bab2/gambar/selsaraf.jpg>]
+ [6 <d:/work/kampus/skripsi/bab2/gambar/jaringansaraf.jpg> <d:/work/kampus/skripsi/bab2/gambar/selsaraf.jpg>]
 <bab2/gambar/jaringansaraftiruan.jpg, id=65, 338.76563pt x 164.11313pt>
 File: bab2/gambar/jaringansaraftiruan.jpg Graphic file (type jpg)
 <use bab2/gambar/jaringansaraftiruan.jpg>
-Package pdftex.def Info: bab2/gambar/jaringansaraftiruan.jpg  used on input line 83.
+Package pdftex.def Info: bab2/gambar/jaringansaraftiruan.jpg  used on input line 84.
 (pdftex.def)             Requested size: 338.76479pt x 164.11272pt.
 <bab2/gambar/saraftiruan.jpg, id=66, 338.76563pt x 112.92188pt>
 File: bab2/gambar/saraftiruan.jpg Graphic file (type jpg)
 <use bab2/gambar/saraftiruan.jpg>
-Package pdftex.def Info: bab2/gambar/saraftiruan.jpg  used on input line 105.
+Package pdftex.def Info: bab2/gambar/saraftiruan.jpg  used on input line 106.
 (pdftex.def)             Requested size: 338.76479pt x 112.92159pt.
- [7 <d:/code/kampus/skripsi/bab2/gambar/jaringansaraftiruan.jpg> <d:/code/kampus/skripsi/bab2/gambar/saraftiruan.jpg>]
+ [7 <d:/work/kampus/skripsi/bab2/gambar/jaringansaraftiruan.jpg>]
 <bab2/gambar/relu.png, id=71, 338.76563pt x 255.20343pt>
 File: bab2/gambar/relu.png Graphic file (type png)
 <use bab2/gambar/relu.png>
-Package pdftex.def Info: bab2/gambar/relu.png  used on input line 137.
+Package pdftex.def Info: bab2/gambar/relu.png  used on input line 138.
 (pdftex.def)             Requested size: 338.76479pt x 255.2028pt.
- [8 <d:/code/kampus/skripsi/bab2/gambar/relu.png>]
-<bab2/gambar/resnet.jpg, id=82, 338.76563pt x 121.95563pt>
+ [8 <d:/work/kampus/skripsi/bab2/gambar/saraftiruan.jpg>]
+<bab2/gambar/resnet.jpg, id=81, 338.76563pt x 121.95563pt>
 File: bab2/gambar/resnet.jpg Graphic file (type jpg)
 <use bab2/gambar/resnet.jpg>
-Package pdftex.def Info: bab2/gambar/resnet.jpg  used on input line 162.
+Package pdftex.def Info: bab2/gambar/resnet.jpg  used on input line 163.
 (pdftex.def)             Requested size: 338.76479pt x 121.9553pt.
-<bab2/gambar/gradientdescent.jpg, id=83, 338.76563pt x 118.19156pt>
+ [9 <d:/work/kampus/skripsi/bab2/gambar/relu.png> <d:/work/kampus/skripsi/bab2/gambar/resnet.jpg>]
+<bab2/gambar/gradientdescent.jpg, id=86, 338.76563pt x 118.19156pt>
 File: bab2/gambar/gradientdescent.jpg Graphic file (type jpg)
 <use bab2/gambar/gradientdescent.jpg>
-Package pdftex.def Info: bab2/gambar/gradientdescent.jpg  used on input line 189.
+Package pdftex.def Info: bab2/gambar/gradientdescent.jpg  used on input line 190.
 (pdftex.def)             Requested size: 338.76479pt x 118.19127pt.
- [9 <d:/code/kampus/skripsi/bab2/gambar/resnet.jpg>]
 <bab2/gambar/backprop.png, id=87, 338.76563pt x 176.15813pt>
 File: bab2/gambar/backprop.png Graphic file (type png)
 <use bab2/gambar/backprop.png>
-Package pdftex.def Info: bab2/gambar/backprop.png  used on input line 215.
+Package pdftex.def Info: bab2/gambar/backprop.png  used on input line 216.
 (pdftex.def)             Requested size: 338.76479pt x 176.15768pt.
- [10 <d:/code/kampus/skripsi/bab2/gambar/gradientdescent.jpg> <d:/code/kampus/skripsi/bab2/gambar/backprop.png>]
-<bab2/gambar/lr.jpg, id=92, 338.76563pt x 112.92188pt>
+ [10 <d:/work/kampus/skripsi/bab2/gambar/gradientdescent.jpg>]
+<bab2/gambar/lr.jpg, id=91, 338.76563pt x 112.92188pt>
 File: bab2/gambar/lr.jpg Graphic file (type jpg)
 <use bab2/gambar/lr.jpg>
-Package pdftex.def Info: bab2/gambar/lr.jpg  used on input line 238.
+Package pdftex.def Info: bab2/gambar/lr.jpg  used on input line 239.
 (pdftex.def)             Requested size: 338.76479pt x 112.92159pt.
- [11 <d:/code/kampus/skripsi/bab2/gambar/lr.jpg>]
+ [11 <d:/work/kampus/skripsi/bab2/gambar/backprop.png> <d:/work/kampus/skripsi/bab2/gambar/lr.jpg>]
 <bab2/gambar/tdbu.jpg, id=98, 338.76563pt x 252.19218pt>
 File: bab2/gambar/tdbu.jpg Graphic file (type jpg)
 <use bab2/gambar/tdbu.jpg>
-Package pdftex.def Info: bab2/gambar/tdbu.jpg  used on input line 286.
+Package pdftex.def Info: bab2/gambar/tdbu.jpg  used on input line 287.
 (pdftex.def)             Requested size: 338.76479pt x 252.19156pt.
- [12 <d:/code/kampus/skripsi/bab2/gambar/tdbu.jpg>]
+ [12]
 <bab2/gambar/lokal.jpg, id=102, 338.76563pt x 188.95593pt>
 File: bab2/gambar/lokal.jpg Graphic file (type jpg)
 <use bab2/gambar/lokal.jpg>
-Package pdftex.def Info: bab2/gambar/lokal.jpg  used on input line 317.
+Package pdftex.def Info: bab2/gambar/lokal.jpg  used on input line 318.
 (pdftex.def)             Requested size: 338.76479pt x 188.95546pt.
- [13 <d:/code/kampus/skripsi/bab2/gambar/lokal.jpg>]
+ [13 <d:/work/kampus/skripsi/bab2/gambar/tdbu.jpg> <d:/work/kampus/skripsi/bab2/gambar/lokal.jpg>]
 <bab2/gambar/global.jpg, id=107, 338.76563pt x 219.82124pt>
 File: bab2/gambar/global.jpg Graphic file (type jpg)
 <use bab2/gambar/global.jpg>
-Package pdftex.def Info: bab2/gambar/global.jpg  used on input line 338.
+Package pdftex.def Info: bab2/gambar/global.jpg  used on input line 339.
 (pdftex.def)             Requested size: 338.76479pt x 219.8207pt.
-) (d:/code/kampus/skripsi/bab3/bab3.tex [14 <d:/code/kampus/skripsi/bab2/gambar/global.jpg>]
+) (d:/work/kampus/skripsi/bab3/bab3.tex [14 <d:/work/kampus/skripsi/bab2/gambar/global.jpg>]
 BAB 3.
-) (d:/code/kampus/skripsi/bab4/bab4.tex [15
+) (d:/work/kampus/skripsi/bab4/bab4.tex [15
 
 ]
 BAB 4.
-) (d:/code/kampus/skripsi/bab5/bab5.tex [16
+) (d:/work/kampus/skripsi/bab5/bab5.tex [16
 
 ]
 BAB 5.
 ) [17
 
-] (d:/code/kampus/skripsi/MainTemplateSkripsi.bbl [18
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [18
 
 ] [19]) [20]
 \openout2 = `lampiran.aux'.
 
- (d:/code/kampus/skripsi/lampiran.tex) [1
+ (d:/work/kampus/skripsi/lampiran.tex) [1
 
-] (d:/code/kampus/skripsi/MainTemplateSkripsi.aux (d:/code/kampus/skripsi/cover.aux) (d:/code/kampus/skripsi/lembaroriginalitas.aux) (d:/code/kampus/skripsi/lembarpengesahan.aux) (d:/code/kampus/skripsi/abstraksi.aux) (d:/code/kampus/skripsi/abstract.aux) (d:/code/kampus/skripsi/katapengantar.aux) (d:/code/kampus/skripsi/daftarlampiran.aux) (d:/code/kampus/skripsi/lampiran.aux))
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux) (d:/work/kampus/skripsi/lampiran.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6281 strings out of 480608
- 94447 string characters out of 5907537
- 357141 words of memory out of 5000000
- 21928 multiletter control sequences out of 15000+600000
+ 6284 strings out of 480608
+ 94524 string characters out of 5907537
+ 357174 words of memory out of 5000000
+ 21931 multiletter control sequences out of 15000+600000
  565236 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,12n,48p,301b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/code/kampus/skripsi/MainTemplateSkripsi.pdf (33 pages, 681810 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (33 pages, 681784 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams
