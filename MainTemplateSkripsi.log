@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  18 MAY 2020 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  18 MAY 2020 21:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -550,11 +550,11 @@ BAB 3.
 [15
 
 ]
-<bab3/gambar/kerangka_penelitian.jpg, id=114, 338.76563pt x 172.39406pt>
+<bab3/gambar/kerangka_penelitian.jpg, id=114, 338.76563pt x 173.89969pt>
 File: bab3/gambar/kerangka_penelitian.jpg Graphic file (type jpg)
 <use bab3/gambar/kerangka_penelitian.jpg>
 Package pdftex.def Info: bab3/gambar/kerangka_penelitian.jpg  used on input line 40.
-(pdftex.def)             Requested size: 338.76479pt x 172.39363pt.
+(pdftex.def)             Requested size: 338.76479pt x 173.89925pt.
 ) (d:/work/kampus/skripsi/bab4/bab4.tex [16 <d:/work/kampus/skripsi/bab3/gambar/kerangka_penelitian.jpg>] [17]
 BAB 4.
 ) (d:/work/kampus/skripsi/bab5/bab5.tex [18
@@ -584,7 +584,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  50i,12n,48p,301b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (35 pages, 716049 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (35 pages, 719002 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
