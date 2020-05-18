@@ -26,7 +26,7 @@ ditiru sifatnya oleh sebuah jaringan saraf tiruan dengan jumlah parameter yang s
 
 Otak manusia terdiri dari kumpulan sel saraf yang saling terkoneksi satu sama lain. Sebuah sel saraf
 adalah sel yang dapat memproses dan mengantarkan informasi apabila dirangsang dengan tegangan
-elektrokimia. Sel-sel saraf tidak pernah memperbanyak dirinya dan tidak digantikan apabila ada yang
+elektrokimia. Sel-sel saraf tidak membelah dirinya dan tidak digantikan apabila ada yang
 rusak. Jumlah sel saraf yang terdapat dalam otak manusia diperkirakan sebanyak satu miliar. Setiap
 sel saraf diperkirakan berkoneksi dengan sepuluh ribu sel saraf lainnya melalui sinapsis yang
 berarti otak manusia dewasa beroperasi seperti prosesor dengan kecepatan satu triliun bit per
@@ -76,7 +76,7 @@ memodelkan fungsi sembarang yang tingkat kesulitannya sesuai dengan jumlah konek
 Jarigan ini menyerupai jaringan saraf asli dimana
 sebuah saraf tiruan menerima banyak masukkan dari saraf lainnya
 kemudian dioperasikan dengan bobot yang terkadung pada sel tersebut dan akhirnya diteruskan ke sel
-berikutnya. Jaringan saraf umumnya dibentuk kedalam beberapa lapisan seperti pada
+berikutnya. Jaringan saraf umumnya terbentuk dari beberapa lapisan seperti pada
 gambar~\ref{fig:jaringansaraftiruan}~\cite{croann}.
 
 \begin{figure}[htbp]
@@ -93,7 +93,7 @@ gambar~\ref{fig:jaringansaraftiruan}~\cite{croann}.
     \label{fig:jaringansaraftiruan}
 \end{figure}
 
-Sebuah sel saraf saraf dapat dibagi menjadi empat bagian yang meliputi masukkan, bobot, fungsi
+Sebuah sel saraf dapat dibagi menjadi empat bagian yang meliputi masukkan, bobot, fungsi
 transfer atau aktivasi, dan keluaran. Jumlah masukkan pada suatu sel saraf tiruan berjumlah sebanyak
 output dari sel-sel yang berada pada layer sebelumnya. Bobot sel adalah nilai numerik yang menjadi
 identitas dari sel yang merupakan hasil penyesuaian dari proses latihan. Fungsi aktivasi adalah
@@ -119,7 +119,7 @@ yang diteruskan ke lapisan selanjutnya. Ilustrasi sebuah sel saraf tiruan dapat 
 \label{sec:2-FungsiAktivasi}
 
 Fungsi aktivasi pada sel saraf tiruan berfungsi untuk mengkonversi hasil operasi matriks antara
-masukkan dan bobot sebuah sel dari sistem linier ke sistem nonlinier. Konversi nilai ini dilakukan
+masukkan dan bobot sebuah sel dari sistem linier menjadi sistem nonlinier. Konversi nilai ini dilakukan
 agar setiap sel mengambil perannya pada saat proses pelatihan model. Beberapa fungsi aktivasi yang
 dipakai pada umumnya adalah \textit{Sigmoid}, \textit{ReLU}, \textit{Tanh}, dan \textit{Softmax}
 ~\cite{2014arXiv1412.6830A}.
@@ -205,7 +205,7 @@ pada gambar~\ref{fig:gradientdescent}.
 berulang-ulang kali menyesuaikan bobot setiap sel hingga selisih antara keluaran dan target menjadi
 lebih kecil. Algoritma ini merupakan mengorganisasikan sebuah model jaringan untuk secara mandiri
 mencari titik optimal secara berkala. Optimisasi dilakukan dengan melakukan \textit{forward-pass}
-pada satu atau sebagian atau semua data yang ada kedalam model untuk mendapatkan hasil prediksi.
+pada satu atau sebagian atau semua data yang ada ke dalam model untuk mendapatkan hasil prediksi.
 Hasil tersebut kemudian diukur selisihnya dengan target yang sebenarnya menggunakan sebuah fungsi
 kesalahan. Turuan parsial masing-masing bobot terhadap selisih kesalahan ini adalah kuantitas negatif
 yang harus ditambahkan bobot yang berkaitan~\cite{Rumelhart:1986we}. Skema algoritma \textit{backpropagation}
@@ -230,7 +230,7 @@ dapat dilihat pada gambar~\ref{fig:backprop}.
 \textit{Learning rate} adalah sebuah nilai skalar yang menentukan seberapa besar sebuah bobot pada
 jaringan saraf akan ditambahkan. Nilai \textit{learning rate} umumnya bernilai kecil karena
 besar turunan parsial pada setiap iterasi akan berubah-ubah. Nilai \textit{learning rate} yang besar
-akan merubah dalam skala yang besar sehingga akurasi model cederung tidak stabil. Nilai
+akan merubah bobot dengan skala yang besar sehingga akurasi model cederung tidak stabil. Nilai
 \textit{learning rate} yang kecil akan menghasilkan model yang stabil tetapi memerlukan jumlah iterasi
 yang banyak seperti pada gambar~\ref{fig:lr}~\cite{2019arXiv190801878Y}.
 
@@ -310,7 +310,7 @@ orientasi yang benar~\cite{2020arXiv200210322C}.
 Titik kunci tiga dimensi yang berada dalam koordinat lokal menjadikan posisi pinggang sebagai titik
 nol yang berarti lokasi pinggang akan selalu bernilai $\vec{hip} = [0.0, 0.0, 0.0]$. Posisi titik
 kunci lain relatif terhadap titik pinggang. Hal ini menyebabkan pose yang ditangkap hanya bersifat
-lokal yang berarti hanya memiliki sati orientasi lokal. Pencarian pose tiga dimensi lokal dari gambar
+lokal yang berarti hanya memiliki satu orientasi lokal. Pencarian pose tiga dimensi lokal dari gambar
 dua dimensi diilustrasikan pada gambar~\ref{fig:lokal}~\cite{martinez_2017_3dbaseline}.
 
 \begin{figure}[htbp]
@@ -330,7 +330,7 @@ dua dimensi diilustrasikan pada gambar~\ref{fig:lokal}~\cite{martinez_2017_3dbas
 Titik kunci tiga dimensi dapat juga berada dalam koordinat global yang berarti orientasi kamera
 saat mengambil gambar diperhitungkan sebagai sebuah observasi virtual. Kompleksitas yang dihadapi
 berkaitan dengan orientasi kamera yang berubah. Estimasi pose tiga dimensi global umumnya dilakukan
-dengan mendeteksi titik kunci anatomi tubuh manusia kedalam suatu dunia virtual tiga dimensi sehingga
+dengan mendeteksi titik kunci anatomi tubuh manusia ke dalam suatu dunia virtual tiga dimensi sehingga
 dapat diamati dari berbagai sudut yang berkorelasi dengan kamera~\cite{2017arXiv170402447Z, 2019arXiv190700837M}.
 Pencarian pose tiga dimensi global dari gambar dua dimensi diilustrasikan pada gambar~\ref{fig:global}.
 
@@ -352,7 +352,7 @@ Pencarian pose tiga dimensi global dari gambar dua dimensi diilustrasikan pada g
 \label{sec:2-PyTorch}
 
 PyTorch merupakan \textit{framework} untuk melakukan \textit{deep learning} dengan bahasa pemrograman
-python. Penggiat umumnya menggunakan bahasa pemrograman ini dalam melakukan
+python. Penggiat data umumnya menggunakan bahasa pemrograman ini dalam melakukan
 riset pemanfaatan dan pengolahan data. PyTorch menyediakan implementasi grafik jaringan saraf tiruan yang bersifat dinamis.
 Hal ini memungkinkan pengguna untuk mengubah arsitektur model secara cepat dalam setiap iterasi~\cite{2019arXiv191201703P}.
 

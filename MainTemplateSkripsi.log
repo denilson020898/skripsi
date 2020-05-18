@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  18 MAY 2020 04:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  18 MAY 2020 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,17 +549,17 @@ Package pdftex.def Info: bab2/gambar/global.jpg  used on input line 339.
 BAB 3.
 ) (d:/work/kampus/skripsi/bab4/bab4.tex [15
 
-]
+] [16]
 BAB 4.
-) (d:/work/kampus/skripsi/bab5/bab5.tex [16
+) (d:/work/kampus/skripsi/bab5/bab5.tex [17
 
 ]
 BAB 5.
-) [17
+) [18
 
-] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [18
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [19
 
-] [19]) [20]
+] [20]) [21]
 \openout2 = `lampiran.aux'.
 
  (d:/work/kampus/skripsi/lampiran.tex) [1
@@ -578,10 +578,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  50i,12n,48p,301b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (33 pages, 686040 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (34 pages, 686735 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
