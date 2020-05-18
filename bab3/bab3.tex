@@ -12,12 +12,42 @@ plot grafik tiga dimensi menyerupai struktur anatomi tubuh manusia sesuai dengan
 estimasi dari gambar masukkan. Hasil pelatihan model ditampilkan dalam grafik dua dimensi untuk
 analisis lebih lanjut.
 
-Data yang digunakan dalam penelitian ini terbagi menjadi tiga jenis meliputi data pelatihan model,
-data uji coba model, dan data implementasi aplikasi.
+\textit{Dataset} yang digunakan dalam penelitian ini terbagi menjadi dua jenis yang meliputi
+\textit{dataset} pembuatan model dan \textit{dataset} inferensi aplikasi.
+\textit{Dataset} pembuatan model dikategorikan menjadi data pelatihan model dan data validasi model.
+\textit{Dataset} pembuatan model berisi gambar dan target posisi titik kunci anatomi dalam jumlah besar.
+Data pelatihan model adalah data yang digunakan dalam proses pelatihan sebagai sampel bagi \textit{deep neural network}.
+Data validasi model adalah data yang digunakan untuk menguji kebenaran fungsionalitas pemetaan yang
+dipelajari saat pelatihan model. \textit{Dataset} inferensi aplikasi adalah data uji coba berbentuk
+video tanpa target titik kunci yang digunakan untuk estimasi pose tubuh manusia secara sekuensial.
 
-implementasi aplikasi dari gambar 2d ke plot.
+Pelatihan model \textit{deep neural network} diimplementasikan menggunakan \textit{framework} PyTorch.
+Kedua \textit{dataset} yang digunakan diolah terlebih dahulu sehingga memenuhi syarat PyTorch dalam melakukan
+\textit{deep learning}.
+Tiga buah model dengan arsitektur berbeda dilatih dengan \textit{dataset} pembuatan model dan
+\textit{hyper-parameter} yang sama. Setiap model kemudian digunakan terhadap \textit{dataset} inferensi
+aplikasi. Proses dan hasil estimasi diurai lebih lanjut dalam bentuk grafik visual.
 
 \section{Kerangka Penelitian} \label{sec:3-KerangkaPenelitian}
+
+Kerangka penelitian yang jelas dibutuhkan untuk memudahkan proses penelitian sehingga dapat
+mempersingkat waktu pengerjaan. Proses pengerjaan dibagi menjadi empat tahapan yaitu tahap
+perancangan aplikasi, tahap analisis data, tahap pembuatan model, dan tahap pelatihan model.
+Setiap tahapan dilakukan secara terurut seperti yang diilustrasikan pada gambar~\ref{fig:kerangkapenelitian}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab3/gambar/kerangka_penelitian.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Kerangka Penelitian}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:kerangkapenelitian}
+\end{figure}
 
 \section{Perancangan Aplikasi} \label{sec:3-PerancanganAplikasi}
 

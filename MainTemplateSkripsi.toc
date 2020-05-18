@@ -31,23 +31,23 @@
 \contentsline {section}{\numberline {2.9}PyTorch}{14}%
 \contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : PENDEKATAN}{15}%
 \contentsline {section}{\numberline {3.1}Gambaran Umum}{15}%
-\contentsline {section}{\numberline {3.2}Kerangka Penelitian}{15}%
-\contentsline {section}{\numberline {3.3}Perancangan Aplikasi}{15}%
-\contentsline {subsection}{\numberline {3.3.1}Skema Pelatihan Model}{15}%
-\contentsline {subsection}{\numberline {3.3.2}Skema Penerapan Aplikasi}{15}%
-\contentsline {section}{\numberline {3.4}Analisis Data}{15}%
-\contentsline {subsection}{\numberline {3.4.1}Pra-Pemrosesan Data}{15}%
-\contentsline {subsection}{\numberline {3.4.2}Definisi Titik Kunci}{15}%
-\contentsline {section}{\numberline {3.5}Pembuatan Model}{15}%
-\contentsline {subsection}{\numberline {3.5.1}Model A}{15}%
-\contentsline {subsection}{\numberline {3.5.2}Model B}{15}%
-\contentsline {subsection}{\numberline {3.5.3}Model C}{15}%
-\contentsline {section}{\numberline {3.6}Pelatihan Model}{15}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN ANALISIS}{17}%
-\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{17}%
-\contentsline {section}{\numberline {4.2}Uji Coba Model}{17}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{18}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{18}%
-\contentsline {section}{\numberline {5.2}Saran}{18}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{19}%
+\contentsline {section}{\numberline {3.2}Kerangka Penelitian}{16}%
+\contentsline {section}{\numberline {3.3}Perancangan Aplikasi}{16}%
+\contentsline {subsection}{\numberline {3.3.1}Skema Pelatihan Model}{16}%
+\contentsline {subsection}{\numberline {3.3.2}Skema Penerapan Aplikasi}{16}%
+\contentsline {section}{\numberline {3.4}Analisis Data}{16}%
+\contentsline {subsection}{\numberline {3.4.1}Pra-Pemrosesan Data}{16}%
+\contentsline {subsection}{\numberline {3.4.2}Definisi Titik Kunci}{16}%
+\contentsline {section}{\numberline {3.5}Pembuatan Model}{16}%
+\contentsline {subsection}{\numberline {3.5.1}Model A}{16}%
+\contentsline {subsection}{\numberline {3.5.2}Model B}{16}%
+\contentsline {subsection}{\numberline {3.5.3}Model C}{16}%
+\contentsline {section}{\numberline {3.6}Pelatihan Model}{16}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN ANALISIS}{18}%
+\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{18}%
+\contentsline {section}{\numberline {4.2}Uji Coba Model}{18}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{19}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{19}%
+\contentsline {section}{\numberline {5.2}Saran}{19}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{20}%
 \contentsline {chapter}{LAMPIRAN}{L1}%
