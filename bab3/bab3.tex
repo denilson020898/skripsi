@@ -1,6 +1,6 @@
 
-\chapter{PENDEKATAN}
-\label{cha:3-Pendekatan}
+\chapter{METODOLOGI PENELITIAN}
+\label{cha:3-MetodologiPenelitian}
 
 \section{Gambaran Umum} \label{sec:3-GambaranUmum}
 
@@ -24,50 +24,62 @@ video tanpa target titik kunci yang digunakan untuk estimasi pose tubuh manusia 
 Pelatihan model \textit{deep neural network} diimplementasikan menggunakan \textit{framework} PyTorch.
 Kedua \textit{dataset} yang digunakan diolah terlebih dahulu sehingga memenuhi syarat PyTorch dalam melakukan
 \textit{deep learning}.
-Tiga buah model dengan arsitektur berbeda dilatih dengan \textit{dataset} pembuatan model dan
-\textit{hyper-parameter} yang sama. Setiap model kemudian digunakan terhadap \textit{dataset} inferensi
+Setiap model kemudian digunakan terhadap \textit{dataset} inferensi
 aplikasi. Proses dan hasil estimasi diurai lebih lanjut dalam bentuk grafik visual.
 
 \section{Kerangka Penelitian} \label{sec:3-KerangkaPenelitian}
 
 Kerangka penelitian yang jelas dibutuhkan untuk memudahkan proses penelitian sehingga dapat
-mempersingkat waktu pengerjaan. Proses pengerjaan dibagi menjadi empat tahapan yaitu tahap
-perancangan aplikasi, tahap analisis data, tahap pembuatan model, dan tahap pelatihan model.
-Setiap tahapan dilakukan secara terurut seperti yang diilustrasikan pada gambar~\ref{fig:kerangkapenelitian}.
+mempersingkat waktu pengerjaan. Proses penelitian dibagi menjadi tiga tahapan besar yang meliputi
+tahap praproduksi, tahap produksi, dan tahap uji coba. Setiap tahapan tersebut dikerjakan secara
+terurut dan sistematis. Alur setiap tahap diilustrasikan pada gambar~\ref{fig:kerangkapenelitian}.
 
 \begin{figure}[htbp]
     \begin{center}
-        \fbox{\includegraphics[scale=1.0]{bab3/gambar/kerangka_penelitian.jpg}}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/kerangka_penelitian.jpg}}
     \end{center}
     \vspace{-20pt}
     \captionsetup{labelfont=bf, textfont=bf}
     \caption{Kerangka Penelitian}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    % \caption*{Sumber: sumber}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:kerangkapenelitian}
 \end{figure}
 
-\section{Perancangan Aplikasi} \label{sec:3-PerancanganAplikasi}
+\section{Tahap Praproduksi} \label{sec:3-TahapPraproduksi}
 
-\subsection{Skema Pelatihan Model}
+\subsection{Analisis Kebutuhan Proyek}
+Hardware dan software
 
-\subsection{Skema implementasi Aplikasi}
+\subsection{Analisis Struktur Proyek}
+Struktur Folder
 
-\section{Analisis Data} \label{sec:3-AnalisisData}
+\subsection{Analisis Data}
+Data Latihan
+Data Inferensi
 
-\subsection{Pra-Pemrosesan Data}
+\section{Tahap Produksi} \label{sec:3-TahapProduksi}
 
-\subsection{Definisi Titik Kunci}
-COCO Keypoints, Custom Keypoints
+\subsection{Prapemrosesan Data Pelatihan}
+Kelas DataLoader
 
-\section{Pembuatan Model} \label{sec:3-PerancanganModel}
-\subsection{Model A}
-\subsection{Model B}
-\subsection{Model C}
+\subsection{Arsitektur Model}
+DNN
 
-\section{Pelatihan Model} \label{sec:3-PelatihanModel}
+\subsection{Pelatihan Model}
+
+
+\section{Tahap Uji Coba} \label{sec:3-TahapUjiCoba}
+
+\subsection{Prapemrosesan Data Inferensi}
+
+\subsection{OpenPose}
+
+\subsection{Inferensi Model}
+
+\subsection{Visualisasi}
 
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}

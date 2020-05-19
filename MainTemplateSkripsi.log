@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  18 MAY 2020 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  20 MAY 2020 02:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -550,12 +550,12 @@ BAB 3.
 [15
 
 ]
-<bab3/gambar/kerangka_penelitian.jpg, id=114, 338.76563pt x 173.89969pt>
+<bab3/gambar/kerangka_penelitian.jpg, id=114, 845.1575pt x 284.06125pt>
 File: bab3/gambar/kerangka_penelitian.jpg Graphic file (type jpg)
 <use bab3/gambar/kerangka_penelitian.jpg>
-Package pdftex.def Info: bab3/gambar/kerangka_penelitian.jpg  used on input line 40.
-(pdftex.def)             Requested size: 338.76479pt x 173.89925pt.
-) (d:/work/kampus/skripsi/bab4/bab4.tex [16 <d:/work/kampus/skripsi/bab3/gambar/kerangka_penelitian.jpg>] [17]
+Package pdftex.def Info: bab3/gambar/kerangka_penelitian.jpg  used on input line 39.
+(pdftex.def)             Requested size: 338.58762pt x 113.80452pt.
+ [16 <d:/work/kampus/skripsi/bab3/gambar/kerangka_penelitian.jpg>]) (d:/work/kampus/skripsi/bab4/bab4.tex [17]
 BAB 4.
 ) (d:/work/kampus/skripsi/bab5/bab5.tex [18
 
@@ -576,15 +576,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6295 strings out of 480608
- 94831 string characters out of 5907537
- 357218 words of memory out of 5000000
- 21940 multiletter control sequences out of 15000+600000
+ 6294 strings out of 480608
+ 94815 string characters out of 5907537
+ 357207 words of memory out of 5000000
+ 21939 multiletter control sequences out of 15000+600000
  565236 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,12n,48p,301b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (35 pages, 719002 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (35 pages, 747999 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams

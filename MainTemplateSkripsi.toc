@@ -29,23 +29,25 @@
 \contentsline {section}{\numberline {2.7}Estimasi Pose Dua Dimensi}{11}%
 \contentsline {section}{\numberline {2.8}Estimasi Pose Tiga Dimensi}{13}%
 \contentsline {section}{\numberline {2.9}PyTorch}{14}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : PENDEKATAN}{15}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : METODOLOGI PENELITIAN}{15}%
 \contentsline {section}{\numberline {3.1}Gambaran Umum}{15}%
 \contentsline {section}{\numberline {3.2}Kerangka Penelitian}{16}%
-\contentsline {section}{\numberline {3.3}Perancangan Aplikasi}{16}%
-\contentsline {subsection}{\numberline {3.3.1}Skema Pelatihan Model}{16}%
-\contentsline {subsection}{\numberline {3.3.2}Skema implementasi Aplikasi}{16}%
-\contentsline {section}{\numberline {3.4}Analisis Data}{16}%
-\contentsline {subsection}{\numberline {3.4.1}Pra-Pemrosesan Data}{16}%
-\contentsline {subsection}{\numberline {3.4.2}Definisi Titik Kunci}{16}%
-\contentsline {section}{\numberline {3.5}Pembuatan Model}{16}%
-\contentsline {subsection}{\numberline {3.5.1}Model A}{16}%
-\contentsline {subsection}{\numberline {3.5.2}Model B}{16}%
-\contentsline {subsection}{\numberline {3.5.3}Model C}{16}%
-\contentsline {section}{\numberline {3.6}Pelatihan Model}{16}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN ANALISIS}{18}%
+\contentsline {section}{\numberline {3.3}Tahap Praproduksi}{16}%
+\contentsline {subsection}{\numberline {3.3.1}Analisis Kebutuhan Proyek}{16}%
+\contentsline {subsection}{\numberline {3.3.2}Analisis Struktur Proyek}{16}%
+\contentsline {subsection}{\numberline {3.3.3}Analisis Data}{16}%
+\contentsline {section}{\numberline {3.4}Tahap Produksi}{16}%
+\contentsline {subsection}{\numberline {3.4.1}Prapemrosesan Data Pelatihan}{16}%
+\contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{16}%
+\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{17}%
+\contentsline {section}{\numberline {3.5}Tahap Uji Coba}{17}%
+\contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{17}%
+\contentsline {subsection}{\numberline {3.5.2}OpenPose}{17}%
+\contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{17}%
+\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{17}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{18}%
 \contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{18}%
-\contentsline {section}{\numberline {4.2}Uji Coba Model}{18}%
+\contentsline {section}{\numberline {4.2}Kekurangan Model}{18}%
 \contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{19}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{19}%
 \contentsline {section}{\numberline {5.2}Saran}{19}%
