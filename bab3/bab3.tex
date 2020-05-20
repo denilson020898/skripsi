@@ -44,17 +44,86 @@ terurut dan sistematis. Alur setiap tahap diilustrasikan pada gambar~\ref{fig:ke
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
     % \caption*{Sumber: sumber}
-    % \caption*{Sumber: Zhang (2019)}
+    % \caption*{Sumber: nama(2019)}
     \label{fig:kerangkapenelitian}
 \end{figure}
 
 \section{Tahap Praproduksi} \label{sec:3-TahapPraproduksi}
 
+Tahap praproduksi berisi langkah-langkah analisis yang menentukan alur pada tahap selanjutnya. Tahap
+praproduksi dibagi menjadi beberapa langkah yang meliputi analisis kebutuhan proyek, analisis
+struktur proyek, dan analisis data. Tahap ini menganalisis bagian-bagian pokok yang diperlukan
+sehingga mengetahui langkah-langkah yang akan dilakukan pada tahap produksi.
+
 \subsection{Analisis Kebutuhan Proyek}
-Hardware dan software
+
+Pelatihan dan implementasi model ini memerlukan alat-alat pendukung berupa perangkat keras dan
+perangkat lunak yang mencukupi. Spesifikasi perangkat keras dan perangkat lunak yang lebih besar
+akan mempercepat proses pelatihan model jaringan saraf tiruan.
+Spesifikasi perangkat keras yang digunakan dalam penelitian ini
+dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatkeras}. Spesifikasi perangkat lunak yang
+digunakan dalam penelitian ini dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatlunak}.
+
+
+\begin{table}[htbp]
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Spesifikasi Perangkat Keras}
+    \label{tab:spesifikasiperangkatkeras}
+    \vspace{-20pt}
+    \begin{center}
+        \begin{tabular}{|c|c|}
+            \hline
+            \multicolumn{2}{|c|}{\textbf{Perangkat Keras (Laptop)}} \\ \hline
+            CPU & Intel Core I7 7700 HQ                             \\ \hline
+            GPU & NVIDIA GTX 1060 6 GB                              \\ \hline
+            RAM & 24 GB DDR4                                        \\ \hline
+            SSD & NVME SAMSUNG 120 GB                               \\ \hline
+            HDD & SATA 1 TB                                         \\ \hline
+            % \multicolumn{1}{|c|}{RDF-3X}    & a & b & c & d & e & f & g \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[htbp]
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Spesifikasi Perangkat Lunak}
+    \label{tab:spesifikasiperangkatlunak}
+    \vspace{-20pt}
+    \begin{center}
+        \begin{tabular}{|c|c|}
+            \hline
+            \multicolumn{2}{|c|}{\textbf{Perangkat Lunak}} \\ \hline
+            Sistem Operasi      & Ubuntu 19.10             \\ \hline
+            IDE                 & Jupyter Lab              \\ \hline
+            Bahasa Pemrograman  & Python 3.7               \\ \hline
+            \textit{Framework } & PyTorch 1.4              \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
 
 \subsection{Analisis Struktur Proyek}
-Struktur Folder
+
+Perancangan struktur proyek yang sistematis diperlukan untuk meminimalisir kompleksitas dalam
+melakukan pembuatan dan pelatihan model. \textit{Integrated development environment} Jupyter Lab
+memudahkan eksekusi perintah dengan sintaks bahasa pemrograman Python dalam bentuk sel interaktif.
+Setiap sel terdiri dari
+\textit{input} dan \textit{output}. Sel \textit{input} berisi perintah yang akan dieksekusi, sedangkan
+sel \textit{output} berisi hasil eksekusi yang dapat berupa teks ataupun grafik. Cara kerja Jupyter Lab
+dapat dilihat pada gambar~\ref{fig:jupyterlab}.
+\begin{figure}[htbp]
+
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/jupyterlab.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Jupyter Lab}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:jupyterlab}
+\end{figure}
 
 \subsection{Analisis Data}
 Data Latihan
