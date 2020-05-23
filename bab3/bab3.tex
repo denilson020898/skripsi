@@ -105,13 +105,13 @@ digunakan dalam penelitian ini dapat dilihat pada tabel~\ref{tab:spesifikasipera
 
 Perancangan struktur proyek yang sistematis diperlukan untuk meminimalisir kompleksitas dalam
 melakukan pembuatan dan pelatihan model. \textit{Integrated development environment} Jupyter Lab
-memudahkan eksekusi perintah dengan sintaks bahasa pemrograman Python dalam bentuk sel interaktif.
-Setiap sel terdiri dari
-\textit{input} dan \textit{output}. Sel \textit{input} berisi perintah yang akan dieksekusi, sedangkan
-sel \textit{output} berisi hasil eksekusi yang dapat berupa teks ataupun grafik. Cara kerja Jupyter Lab
+memudahkan eksekusi perintah dengan sintaks bahasa pemrograman Python dalam bentuk sel interaktif
+dalam berkas berekstensi "ipynb". Setiap sel terdiri dari
+\textit{input} dan \textit{output}. \textit{Input} berisi perintah yang akan dieksekusi, sedangkan
+\textit{output} berisi hasil eksekusi yang dapat berupa teks ataupun grafik. Tampilan Jupyter Lab
 dapat dilihat pada gambar~\ref{fig:jupyterlab}.
-\begin{figure}[htbp]
 
+\begin{figure}[htbp]
     \begin{center}
         \fbox{\includegraphics[width=11.9cm]{bab3/gambar/jupyterlab.jpg}}
     \end{center}
@@ -125,8 +125,65 @@ dapat dilihat pada gambar~\ref{fig:jupyterlab}.
     \label{fig:jupyterlab}
 \end{figure}
 
+
+Struktur direktori yang disusun terdiri dari empat folder dan enam berkas \textit{interactive python notebook}
+berekstensi "ipynb". Folder "data" berisi data latihan model seperti pada gambar~\ref{fig:strukturdirektori}.
+Folder "imgs" berisi rangkaian gambar yang
+diambil dari rekaman video. Folder "json" menampung berkas yang berisi informasi titik kunci dua dimensi saat
+inferensi. Folder "model" berisi \textit{checkpoint} model selama pelatihan.
+
+Berkas berekstensi "ipynb" berisi kode pemrograman yang dibagi menjadi enam modul.
+Berkas "00\_utils" merupakan modul utilitas yang memudahkan proses memuat data, menampilkan data, menyimpan data, dan memanipulasi data.
+Berkas "01\_viz" adalah modul percobaan menampilkan data pelatihan dan data inferensi.
+Berkas "03\_model" merupakan modul pendefinisian arsitektur model.
+Berkas "04\_train" adalah modul pelatihan model.
+Berkas "05\_sequence" adalah modul percobaan inferensi model terhadap rangkaian gambar.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[height=11cm, width=11.9cm]{bab3/gambar/struktur_direktori.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Struktur Direktori}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:strukturdirektori}
+\end{figure}
+
+
 \subsection{Analisis Data}
-Data Latihan
+
+Data pelatihan model yang digunakan adalah data pemetaan dari pose dua dimensi ke pose tiga dimensi.
+Pose dua dimensi merupakan sampel, sedangkan pose tiga dimensi merupakan target. Sumber data adalah
+"Human3.6M Dataset" mengenai informasi perakaman gerakan pose manusia yang menyimpan gambar dari
+beberapa sisi beserta dengan pose dua dimensi dan tiga dimensinya. Informasi kedua pose tersebut
+kemudian dipisah dan disimpan dalam file berekstensi "pt"~\cite{h36m_pami}. Informasi mengenai data
+pelatihan dapat dilihat pada tabel~\ref{tab:datapelatihanmodel}.
+
+\begin{table}[htbp]
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Data Pelatihan Model}
+    \label{tab:datapelatihanmodel}
+    \vspace{-20pt}
+    \begin{center}
+        \begin{tabular}{|c|c|}
+            \hline
+            Nama Berkas  & Isi                   \\ \hline
+            rcams.pt     & Intel Core I7 7700 HQ \\ \hline
+            stat\_2d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
+            stat\_3d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
+            test\_2d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
+            test\_3d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
+            train\_2d.pt & NVIDIA GTX 1060 6 GB  \\ \hline
+            train\_3d.pt & NVIDIA GTX 1060 6 GB  \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+
 Data Inferensi
 
 \section{Tahap Produksi} \label{sec:3-TahapProduksi}

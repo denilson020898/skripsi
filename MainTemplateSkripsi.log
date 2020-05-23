@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  20 MAY 2020 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  24 MAY 2020 01:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,22 +555,29 @@ File: bab3/gambar/kerangka_penelitian.jpg Graphic file (type jpg)
 <use bab3/gambar/kerangka_penelitian.jpg>
 Package pdftex.def Info: bab3/gambar/kerangka_penelitian.jpg  used on input line 39.
 (pdftex.def)             Requested size: 338.58762pt x 113.80452pt.
-<bab3/gambar/jupyterlab.jpg, id=115, 1445.4pt x 723.45282pt>
+ [16 <d:/work/kampus/skripsi/bab3/gambar/kerangka_penelitian.jpg>]
+<bab3/gambar/jupyterlab.jpg, id=118, 1445.4pt x 723.45282pt>
 File: bab3/gambar/jupyterlab.jpg Graphic file (type jpg)
 <use bab3/gambar/jupyterlab.jpg>
 Package pdftex.def Info: bab3/gambar/jupyterlab.jpg  used on input line 116.
 (pdftex.def)             Requested size: 338.58762pt x 169.47052pt.
- [16 <d:/work/kampus/skripsi/bab3/gambar/kerangka_penelitian.jpg>] [17 <d:/work/kampus/skripsi/bab3/gambar/jupyterlab.jpg>]) (d:/work/kampus/skripsi/bab4/bab4.tex [18]
+ [17 <d:/work/kampus/skripsi/bab3/gambar/jupyterlab.jpg>]
+<bab3/gambar/struktur_direktori.jpg, id=122, 221.82875pt x 413.545pt>
+File: bab3/gambar/struktur_direktori.jpg Graphic file (type jpg)
+<use bab3/gambar/struktur_direktori.jpg>
+Package pdftex.def Info: bab3/gambar/struktur_direktori.jpg  used on input line 144.
+(pdftex.def)             Requested size: 338.60818pt x 312.98494pt.
+ [18 <d:/work/kampus/skripsi/bab3/gambar/struktur_direktori.jpg>] [19]) (d:/work/kampus/skripsi/bab4/bab4.tex [20]
 BAB 4.
-) (d:/work/kampus/skripsi/bab5/bab5.tex [19
+) (d:/work/kampus/skripsi/bab5/bab5.tex [21
 
 ]
 BAB 5.
-) [20
+) [22
 
-] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [21
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [23
 
-] [22]) [23]
+] [24]) [25]
 \openout2 = `lampiran.aux'.
 
  (d:/work/kampus/skripsi/lampiran.tex) [1
@@ -581,18 +588,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6303 strings out of 480608
- 95056 string characters out of 5907537
- 358240 words of memory out of 5000000
- 21947 multiletter control sequences out of 15000+600000
+ 6311 strings out of 480608
+ 95314 string characters out of 5907537
+ 358262 words of memory out of 5000000
+ 21954 multiletter control sequences out of 15000+600000
  565236 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,12n,48p,301b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (36 pages, 1103350 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (38 pages, 1127414 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
