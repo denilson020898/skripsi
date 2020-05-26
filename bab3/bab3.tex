@@ -156,13 +156,12 @@ Berkas "05\_sequence" adalah modul percobaan inferensi model terhadap rangkaian 
 
 \subsection{Analisis Data}
 
-Data pelatihan model yang digunakan adalah data pemetaan dari pose dua dimensi ke pose tiga dimensi.
+Data pembuatan model yang digunakan adalah data pemetaan dari pose dua dimensi ke pose tiga dimensi.
 Pose dua dimensi merupakan sampel, sedangkan pose tiga dimensi merupakan target. Sumber data adalah
 "Human3.6M Dataset" mengenai informasi perakaman gerakan pose manusia yang menyimpan gambar dari
 beberapa sisi beserta dengan pose dua dimensi dan tiga dimensinya. Informasi kedua pose tersebut
-kemudian dipisah dan disimpan dalam file berekstensi "pt"~\cite{h36m_pami}. Informasi mengenai data
-pelatihan dapat dilihat pada tabel~\ref{tab:datapelatihanmodel}.
-
+kemudian dipisah dan disimpan dalam file berekstensi "pt"~\cite{h36m_pami}.
+Informasi mengenai data pelatihan dapat dilihat pada tabel~\ref{tab:datapelatihanmodel}.
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}
     \caption{Data Pelatihan Model}
@@ -171,22 +170,78 @@ pelatihan dapat dilihat pada tabel~\ref{tab:datapelatihanmodel}.
     \begin{center}
         \begin{tabular}{|c|c|}
             \hline
-            Nama Berkas  & Isi                   \\ \hline
-            rcams.pt     & Intel Core I7 7700 HQ \\ \hline
-            stat\_2d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
-            stat\_3d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
-            test\_2d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
-            test\_3d.pt  & NVIDIA GTX 1060 6 GB  \\ \hline
-            train\_2d.pt & NVIDIA GTX 1060 6 GB  \\ \hline
-            train\_3d.pt & NVIDIA GTX 1060 6 GB  \\ \hline
+            Nama Berkas  & Isi                                                                                 \\ \hline
+            rcams.pt     & matriks kamera \textit{motion capture} terhadap kamera perekam                      \\ \hline
+            stat\_2d.pt  & \textit{mean}, \textit{standard-deviation}, dan \textit{skeleton} pose dua dimensi  \\ \hline
+            stat\_3d.pt  & \textit{mean}, \textit{standard-deviation}, dan \textit{skeleton} pose tiga dimensi \\ \hline
+            test\_2d.pt  & data pose dua dimensi untuk validasi model                                          \\ \hline
+            test\_3d.pt  & data pose tiga dimensi untuk validasi model                                         \\ \hline
+            train\_2d.pt & data pose dua dimensi untuk pelatihan model                                         \\ \hline
+            train\_3d.pt & data pose tiga dimensi untuk pelatihan model                                        \\ \hline
         \end{tabular}
     \end{center}
+    \vspace{-10pt}
 \end{table}
 
+Data inferensi model yang digunakan berupa video yang direkam menggunakan kamera diatas sebuah
+\textit{tripod}. Hasil rekaman berupa sebuah video monokuler berisi seorang aktor yang memperagakan
+berbagai pose dasar. Pose-pose yang diperagakan mencakupi gerakan lengan, gerakan kaki, gerakan pinggang,
+gerakan kepala, dan gerakan memutar. Kompleksitas gerakan ini mengakibatkan terjadinya oklusi pada
+beberapa bagian badan yang berarti suatu anggota badan menutupi anggota badan lainnya.
 
-Data Inferensi
+Kualitas perekaman video diturunkan dengan menggunakan pencahayaan yang satu arah.
+Efek \textit{motion blur} diaktifkan sehingga gerakan yang cepat akan mengalami pengaburan.
+Kompleksitas gambar juga ditingkatkan dengan
+\textit{aspect ratio} yang bernilai 19 : 6 dengan tipe rekaman \textit{potrait} menyebabkan area rekaman
+hanya berada ditengah dan diapit oleh area piksel hitam.
+Beberapa \textit{frame} dari data inferensi model dapat dilihat pada gambar
+~\ref{fig:frame00077},~\ref{fig:frame00173}, dan~\ref{fig:frame00232}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/00077.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{\textit{Frame} 00077}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:frame00077}
+\end{figure}
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/00173.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{\textit{Frame} 00173}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:frame00173}
+\end{figure}
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/00232.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{\textit{Frame} 00232}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:frame00232}
+\end{figure}
 
 \section{Tahap Produksi} \label{sec:3-TahapProduksi}
+
+asdasd
 
 \subsection{Prapemrosesan Data Pelatihan}
 Kelas DataLoader
@@ -207,20 +262,20 @@ DNN
 
 \subsection{Visualisasi}
 
-\begin{table}[htbp]
-    \captionsetup{labelfont=bf, textfont=bf}
-    \caption{Sebuah tabel}
-    \vspace{-20pt}
-    \begin{center}
-        \begin{tabular}{| l c r |}
-            \hline
-            1 & 2 & 3 \\
-            4 & 5 & 6 \\
-            7 & 8 & 9 \\
-            \hline
-        \end{tabular}
-    \end{center}
-    \vspace{-10pt}
-    \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: Bego Lu}
-\end{table}
+% \begin{table}[htbp]
+%     \captionsetup{labelfont=bf, textfont=bf}
+%     \caption{Sebuah tabel}
+%     \vspace{-20pt}
+%     \begin{center}
+%         \begin{tabular}{| l c r |}
+%             \hline
+%             1 & 2 & 3 \\
+%             4 & 5 & 6 \\
+%             7 & 8 & 9 \\
+%             \hline
+%         \end{tabular}
+%     \end{center}
+%     \vspace{-10pt}
+%     \captionsetup{labelfont=md, textfont=md}
+%     % \caption*{Sumber: Bego Lu}
+% \end{table}

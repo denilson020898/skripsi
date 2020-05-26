@@ -36,20 +36,20 @@
 \contentsline {subsection}{\numberline {3.3.1}Analisis Kebutuhan Proyek}{16}%
 \contentsline {subsection}{\numberline {3.3.2}Analisis Struktur Proyek}{17}%
 \contentsline {subsection}{\numberline {3.3.3}Analisis Data}{19}%
-\contentsline {section}{\numberline {3.4}Tahap Produksi}{19}%
-\contentsline {subsection}{\numberline {3.4.1}Prapemrosesan Data Pelatihan}{19}%
-\contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{19}%
-\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{20}%
-\contentsline {section}{\numberline {3.5}Tahap Uji Coba}{20}%
-\contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{20}%
-\contentsline {subsection}{\numberline {3.5.2}OpenPose}{20}%
-\contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{20}%
-\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{20}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{21}%
-\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{21}%
-\contentsline {section}{\numberline {4.2}Kekurangan Model}{21}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{22}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{22}%
-\contentsline {section}{\numberline {5.2}Saran}{22}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{23}%
+\contentsline {section}{\numberline {3.4}Tahap Produksi}{21}%
+\contentsline {subsection}{\numberline {3.4.1}Prapemrosesan Data Pelatihan}{21}%
+\contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{21}%
+\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{21}%
+\contentsline {section}{\numberline {3.5}Tahap Uji Coba}{21}%
+\contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{21}%
+\contentsline {subsection}{\numberline {3.5.2}OpenPose}{21}%
+\contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{21}%
+\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{21}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{22}%
+\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{22}%
+\contentsline {section}{\numberline {4.2}Kekurangan Model}{22}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{23}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{23}%
+\contentsline {section}{\numberline {5.2}Saran}{23}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{24}%
 \contentsline {chapter}{LAMPIRAN}{L1}%

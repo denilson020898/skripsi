@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  24 MAY 2020 01:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  26 MAY 2020 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,9 +266,12 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidth=\dimen168
 \titlewidthlast=\dimen169
 \titlewidthfirst=\dimen170
+) (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
 ) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count275
+\l__kernel_color_stack_int=\count276
 \l__pdf_internal_box=\box55
 ) (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux)
 
@@ -277,60 +280,39 @@ LaTeX Warning: Label `sec:4-PersiapanPengujian' multiply defined.
 (d:/work/kampus/skripsi/lampiran.aux))
 \openout1 = `MainTemplateSkripsi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 73.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
+\scratchcounter=\count277
 \scratchdimen=\dimen171
 \scratchbox=\box56
-\nofMPsegments=\count277
-\nofMParguments=\count278
+\nofMPsegments=\count278
+\nofMParguments=\count279
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count279
+\MPscratchCnt=\count280
 \MPscratchDim=\dimen172
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (c:/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (c:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
- (c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (c:/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
@@ -567,17 +549,33 @@ File: bab3/gambar/struktur_direktori.jpg Graphic file (type jpg)
 <use bab3/gambar/struktur_direktori.jpg>
 Package pdftex.def Info: bab3/gambar/struktur_direktori.jpg  used on input line 144.
 (pdftex.def)             Requested size: 338.60818pt x 312.98494pt.
- [18 <d:/work/kampus/skripsi/bab3/gambar/struktur_direktori.jpg>] [19]) (d:/work/kampus/skripsi/bab4/bab4.tex [20]
+ [18 <d:/work/kampus/skripsi/bab3/gambar/struktur_direktori.jpg>]
+<bab3/gambar/00077.jpg, id=126, 642.4pt x 361.35pt>
+File: bab3/gambar/00077.jpg Graphic file (type jpg)
+<use bab3/gambar/00077.jpg>
+Package pdftex.def Info: bab3/gambar/00077.jpg  used on input line 202.
+(pdftex.def)             Requested size: 338.58762pt x 190.46146pt.
+<bab3/gambar/00173.jpg, id=127, 642.4pt x 361.35pt>
+File: bab3/gambar/00173.jpg Graphic file (type jpg)
+<use bab3/gambar/00173.jpg>
+Package pdftex.def Info: bab3/gambar/00173.jpg  used on input line 216.
+(pdftex.def)             Requested size: 338.58762pt x 190.46146pt.
+<bab3/gambar/00232.jpg, id=128, 642.4pt x 361.35pt>
+File: bab3/gambar/00232.jpg Graphic file (type jpg)
+<use bab3/gambar/00232.jpg>
+Package pdftex.def Info: bab3/gambar/00232.jpg  used on input line 230.
+(pdftex.def)             Requested size: 338.58762pt x 190.46146pt.
+ [19] [20 <d:/work/kampus/skripsi/bab3/gambar/00077.jpg> <d:/work/kampus/skripsi/bab3/gambar/00173.jpg> <d:/work/kampus/skripsi/bab3/gambar/00232.jpg>]) (d:/work/kampus/skripsi/bab4/bab4.tex [21]
 BAB 4.
-) (d:/work/kampus/skripsi/bab5/bab5.tex [21
+) (d:/work/kampus/skripsi/bab5/bab5.tex [22
 
 ]
 BAB 5.
-) [22
+) [23
 
-] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [23
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [24
 
-] [24]) [25]
+] [25]) [26]
 \openout2 = `lampiran.aux'.
 
  (d:/work/kampus/skripsi/lampiran.tex) [1
@@ -588,18 +586,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6311 strings out of 480608
- 95314 string characters out of 5907537
- 358262 words of memory out of 5000000
- 21954 multiletter control sequences out of 15000+600000
+ 6220 strings out of 480608
+ 92060 string characters out of 5907537
+ 356471 words of memory out of 5000000
+ 21884 multiletter control sequences out of 15000+600000
  565236 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,12n,48p,301b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,48p,820b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (38 pages, 1127414 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (39 pages, 1245405 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 195 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
