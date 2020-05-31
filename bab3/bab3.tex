@@ -106,7 +106,7 @@ digunakan dalam penelitian ini dapat dilihat pada tabel~\ref{tab:spesifikasipera
 Perancangan struktur proyek yang sistematis diperlukan untuk meminimalisir kompleksitas dalam
 melakukan pembuatan dan pelatihan model. \textit{Integrated development environment} Jupyter Lab
 memudahkan eksekusi perintah dengan sintaks bahasa pemrograman Python dalam bentuk sel interaktif
-dalam berkas berekstensi "ipynb". Setiap sel terdiri dari
+dalam berkas berekstensi ipynb. Setiap sel terdiri dari
 \textit{input} dan \textit{output}. \textit{Input} berisi perintah yang akan dieksekusi, sedangkan
 \textit{output} berisi hasil eksekusi yang dapat berupa teks ataupun grafik. Tampilan Jupyter Lab
 dapat dilihat pada gambar~\ref{fig:jupyterlab}.
@@ -127,17 +127,17 @@ dapat dilihat pada gambar~\ref{fig:jupyterlab}.
 
 
 Struktur direktori yang disusun terdiri dari empat folder dan enam berkas \textit{interactive python notebook}
-berekstensi "ipynb". Folder "data" berisi data latihan model seperti pada gambar~\ref{fig:strukturdirektori}.
-Folder "imgs" berisi rangkaian gambar yang
-diambil dari rekaman video. Folder "json" menampung berkas yang berisi informasi titik kunci dua dimensi saat
-inferensi. Folder "model" berisi \textit{checkpoint} model selama pelatihan.
+berekstensi ipynb. Folder data berisi data latihan model seperti pada gambar~\ref{fig:strukturdirektori}.
+Folder imgs berisi rangkaian gambar yang
+diambil dari rekaman video. Folder json menampung berkas yang berisi informasi titik kunci dua dimensi saat
+inferensi. Folder model berisi \textit{checkpoint} model selama pelatihan.
 
-Berkas berekstensi "ipynb" berisi kode pemrograman yang dibagi menjadi enam modul.
-Berkas "00\_utils" merupakan modul utilitas yang memudahkan proses memuat data, menampilkan data, menyimpan data, dan memanipulasi data.
-Berkas "01\_viz" adalah modul percobaan menampilkan data pelatihan dan data inferensi.
-Berkas "03\_model" merupakan modul pendefinisian arsitektur model.
-Berkas "04\_train" adalah modul pelatihan model.
-Berkas "05\_sequence" adalah modul percobaan inferensi model terhadap rangkaian gambar.
+Berkas berekstensi ipynb berisi kode pemrograman yang dibagi menjadi enam modul.
+Berkas 00\_utils merupakan modul utilitas yang memudahkan proses memuat data, menampilkan data, menyimpan data, dan memanipulasi data.
+Berkas 01\_viz adalah modul percobaan menampilkan data pelatihan dan data inferensi.
+Berkas 03\_model merupakan modul pendefinisian arsitektur model.
+Berkas 04\_train adalah modul pelatihan model.
+Berkas 05\_sequence adalah modul percobaan inferensi model terhadap rangkaian gambar.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -158,7 +158,7 @@ Berkas "05\_sequence" adalah modul percobaan inferensi model terhadap rangkaian 
 
 Data pembuatan model yang digunakan adalah data pemetaan dari pose dua dimensi ke pose tiga dimensi.
 Pose dua dimensi merupakan sampel, sedangkan pose tiga dimensi merupakan target. Sumber data adalah
-"Human3.6M Dataset" mengenai informasi perakaman gerakan pose manusia yang menyimpan gambar dari
+Human3.6M Dataset mengenai informasi perakaman gerakan pose manusia yang menyimpan gambar dari
 beberapa sisi beserta dengan pose dua dimensi dan tiga dimensinya. Informasi kedua pose tersebut
 kemudian dipisah dan disimpan dalam file berekstensi "pt"~\cite{h36m_pami}.
 Informasi mengenai data pelatihan dapat dilihat pada tabel~\ref{tab:datapelatihanmodel}.
@@ -241,16 +241,63 @@ Beberapa \textit{frame} dari data inferensi model dapat dilihat pada gambar
 
 \section{Tahap Produksi} \label{sec:3-TahapProduksi}
 
-asdasd
+Tahap produksi merupakan tahap kedua yang dimana pengerjaan program dilakukan. Tahap ini terdiri dari
+tiga langkah utama yaitu prapemrosesan data pelatihan, pembuatan arsitektur model, dan pelatihan model.
+
 
 \subsection{Prapemrosesan Data Pelatihan}
-Kelas DataLoader
+
+\textit{Dataset} pembuatan model terbagi menjadi dua kategori yaitu data pelatihan
+(train\_2d.pt dan train\_3d.pt) dan data validasi (test\_2d.pt dan test\_3d.pt) .
+Kedua data ini memiliki struktur dan bentuk yang sama sehingga prapemrosesan yang dilakukan juga sama.
+Setiap sampel pada data terdiri dari satu pose dua dimensi dan satu pose tiga dimensi.
+Perbedaan daripada kedua data ini terletak pada jumlah sampelnya. Data pelatihan berisi sebanyak
+1.559.752 pasang sampel sedangkan data validasi memiliki 550.644 pasang sampel.
+
+Berkas test\_2d.pt, test\_3d.pt, train\_2d.pt, dan train\_3d.pt merupakan berkas hasil konversi
+struktur data \textit{dictionary} yang telah berbentuk \textit{serialized}.
+Struktur \textit{dictionary} yang berada didalam memori disimpan ke media SSD dalam bentuk \textit{byte stream}.
+Berkas-berkas ini harus dibaca dengan mekanisme \textit{deserializing} yaitu membangun ulang sebuah
+struktur data yang sama dengan membaca rangkaian \textit{byte} sehingga dapat digunakan pada proses pelatihan model.
+
+Mekanisme pemuatan data dilakukan secara \textit{stochastic} dikarenakan hasil konversi data yang
+berukuran sangat besar. Serangkaian pasangan kunci dan target diproses dengan ukuran tertentu
+yang disebut dengan \textit{mini-batch} sehingga
+VRAM pada GPU tidak mengalami \textit{overflow}. Pemuatan data secara \textit{stochastic} juga
+mempercepat proses pelatihan model karena lebih sedikit data yang harus dikalkukasi sebelum melakukan
+pemuktahiran.
+
+Kelas Dataset dan DataLoader pada \textit{framework} PyTorch memiliki fungsionalitas untuk melakukan
+pembacaan dan pembagian rangkaian data secara \textit{stochastic}. Kelas Dataset dapat membaca berkas
+berekstensi "pt" dari media SSD kemudian dimuat kedalam memori. Kelas DataLoader dapat memindahkan
+informasi didalam kelas Dataset ke VRAM pada GPU berbentuk \textit{mini-batch} sehingga dapat diproses secara
+\textit{stochastic} dan paralel.
+
+Prapemrosesan data pelatihan dan data validasi dilakukan dengan cara yang sama. Langkah pertama
+yang dilakukan adalah melakukan cek apakah data yang diinginkan adalah data pelatihan atau data
+validasi. Data tersebut kemudian dimuat dan disimpan kedalam memori. DataLoader menerima objek
+tersebut kemudian melakukan pengacakan data dan pembagian \textit{mini-batch}. Hasil objek dapat
+diiterasi untuk melakukan pelatihan model. Skema prapemrosesan data dapat dilihat pada gambar~\ref{fig:act_diagram}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/act_diagram.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Act Diagram}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:act_diagram}
+\end{figure}
 
 \subsection{Arsitektur Model}
 DNN
 
 \subsection{Pelatihan Model}
-
+asd
 
 \section{Tahap Uji Coba} \label{sec:3-TahapUjiCoba}
 

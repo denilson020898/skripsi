@@ -38,18 +38,18 @@
 \contentsline {subsection}{\numberline {3.3.3}Analisis Data}{19}%
 \contentsline {section}{\numberline {3.4}Tahap Produksi}{21}%
 \contentsline {subsection}{\numberline {3.4.1}Prapemrosesan Data Pelatihan}{21}%
-\contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{21}%
-\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{21}%
-\contentsline {section}{\numberline {3.5}Tahap Uji Coba}{21}%
-\contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{21}%
-\contentsline {subsection}{\numberline {3.5.2}OpenPose}{21}%
-\contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{21}%
-\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{21}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{22}%
-\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{22}%
-\contentsline {section}{\numberline {4.2}Kekurangan Model}{22}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{23}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{23}%
-\contentsline {section}{\numberline {5.2}Saran}{23}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{24}%
+\contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{23}%
+\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{23}%
+\contentsline {section}{\numberline {3.5}Tahap Uji Coba}{23}%
+\contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{23}%
+\contentsline {subsection}{\numberline {3.5.2}OpenPose}{23}%
+\contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{23}%
+\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{23}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{24}%
+\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{24}%
+\contentsline {section}{\numberline {4.2}Kekurangan Model}{24}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{25}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{25}%
+\contentsline {section}{\numberline {5.2}Saran}{25}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{26}%
 \contentsline {chapter}{LAMPIRAN}{L1}%
