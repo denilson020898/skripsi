@@ -294,7 +294,53 @@ diiterasi untuk melakukan pelatihan model. Skema prapemrosesan data dapat diliha
 \end{figure}
 
 \subsection{Arsitektur Model}
-DNN
+
+Arsitektur model jaringan saraf tiruan yang digunakan memiliki \textit{input} berbentuk vektor dengan ukuran
+tiga puluh dua dan \textit{output} berbentuk vektor dengan ukuran empat puluh delapan. Rangkaian lapisan yang
+menghubungkan \textit{input} dan \textit{output} berupa lapisan \textit{residual network}. Bobot setiap
+lapisan diinisialisasi secara acak dengan distribusi normal.
+
+Sebuah lapisan \textit{residual network} merupakan jaringan dengan arsitektur kecil dan sederhana yang
+dapat dipasang atau dibongkar secara modular yang disebut ResLinear. Lapisan ResLinear melakukan operasi
+penjumlahan antara \textit{input} dan \textit{output}. Sebuah ResLinear memiliki dua
+lapisan linier, dua lapisan \textit{Batchnorm}, dua lapisan \textit{Dropout}, dan dua lapisan \textit{ReLU}.
+Komponen-komponen penyusun sebuah lapisan ResLinear dengan ukuran \textit{input a} dan ukuran \textit{output b} seperti
+pada gambar~\ref{fig:reslinear}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/reslinear.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Arsitektur Lapisan ResLinear}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:reslinear}
+\end{figure}
+
+Arsitektur model secara keseluruhan terdiri dari tiga kelompok yang meliputi lapisan awal, lapisan
+\textit{residual}, dan lapisan akhir. Lapisan awal menjembatani data \textit{input} dan lapisan \textit{residual}
+dengan menggunakan sebuah lapisan linier sebagai penyambung. Lapisan \textit{residual} terdiri dari
+dua buah lapisan ResLinear yang berfungsi untuk memetakan pola data \textit{input} terhadap data \textit{output}.
+Lapisan akhir menjembatani hasil pemetaan yang dilakukan oleh lapisan \textit{residual} terhadap data \textit{output}.
+Arsitektur model dapat dilihat pada gambar~\ref{fig:arsitektur}
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/arsitektur.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Arsitektur Model}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:arsitektur}
+\end{figure}
 
 \subsection{Pelatihan Model}
 asd
