@@ -29,27 +29,28 @@
 \contentsline {section}{\numberline {2.7}Estimasi Pose Dua Dimensi}{11}%
 \contentsline {section}{\numberline {2.8}Estimasi Pose Tiga Dimensi}{13}%
 \contentsline {section}{\numberline {2.9}PyTorch}{14}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : METODOLOGI PENELITIAN}{15}%
-\contentsline {section}{\numberline {3.1}Gambaran Umum}{15}%
-\contentsline {section}{\numberline {3.2}Kerangka Penelitian}{16}%
-\contentsline {section}{\numberline {3.3}Tahap Praproduksi}{16}%
-\contentsline {subsection}{\numberline {3.3.1}Analisis Kebutuhan Proyek}{16}%
-\contentsline {subsection}{\numberline {3.3.2}Analisis Struktur Proyek}{17}%
-\contentsline {subsection}{\numberline {3.3.3}Analisis Data}{19}%
-\contentsline {section}{\numberline {3.4}Tahap Produksi}{21}%
-\contentsline {subsection}{\numberline {3.4.1}Prapemrosesan Data Pelatihan}{21}%
-\contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{23}%
-\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{23}%
-\contentsline {section}{\numberline {3.5}Tahap Uji Coba}{23}%
-\contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{23}%
-\contentsline {subsection}{\numberline {3.5.2}OpenPose}{23}%
-\contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{23}%
-\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{23}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{24}%
-\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{24}%
-\contentsline {section}{\numberline {4.2}Kekurangan Model}{24}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{25}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{25}%
-\contentsline {section}{\numberline {5.2}Saran}{25}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{26}%
+\contentsline {section}{\numberline {2.10}\textit {Unified Modeling Language}}{14}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {III\hfil } : METODOLOGI PENELITIAN}{16}%
+\contentsline {section}{\numberline {3.1}Gambaran Umum}{16}%
+\contentsline {section}{\numberline {3.2}Kerangka Penelitian}{17}%
+\contentsline {section}{\numberline {3.3}Tahap Praproduksi}{17}%
+\contentsline {subsection}{\numberline {3.3.1}Analisis Kebutuhan Proyek}{17}%
+\contentsline {subsection}{\numberline {3.3.2}Analisis Struktur Proyek}{18}%
+\contentsline {subsection}{\numberline {3.3.3}Analisis Data}{20}%
+\contentsline {section}{\numberline {3.4}Tahap Produksi}{22}%
+\contentsline {subsection}{\numberline {3.4.1}Prapemrosesan Data Pelatihan}{22}%
+\contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{24}%
+\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{24}%
+\contentsline {section}{\numberline {3.5}Tahap Uji Coba}{24}%
+\contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{24}%
+\contentsline {subsection}{\numberline {3.5.2}OpenPose}{24}%
+\contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{24}%
+\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{24}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{25}%
+\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{25}%
+\contentsline {section}{\numberline {4.2}Kekurangan Model}{25}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{26}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{26}%
+\contentsline {section}{\numberline {5.2}Saran}{26}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{27}%
 \contentsline {chapter}{LAMPIRAN}{L1}%

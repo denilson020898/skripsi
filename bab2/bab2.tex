@@ -356,3 +356,63 @@ python. Penggiat data umumnya menggunakan bahasa pemrograman ini dalam melakukan
 riset pemanfaatan dan pengolahan data. PyTorch menyediakan implementasi grafik jaringan saraf tiruan yang bersifat dinamis.
 Hal ini memungkinkan pengguna untuk mengubah arsitektur model secara cepat dalam setiap iterasi~\cite{2019arXiv191201703P}.
 
+
+\section{\textit{Unified Modeling Language}}
+\label{sec:2-uml}
+
+\textit{Unified Modeling Language} (UML) merupakan bahasa pemodelan standar yang memiliki sintaks
+dan semantik. UML bukan hanya sekedar diagram, tetapi juga menceritakan konteksnya. UML
+diaplikasikan dengan beberapa maksud seperti percangan perangkat lunak, sarana komunikasi antara
+perangkat lunak dengan proses bisnis, penjabaran sistem secara rinci dan pendokumentasian sistem
+yang ada.
+
+Para pengembang sistem berorientasi objek menggunakan bahasa model untuk menggambarkan, membangun
+dan mendokumentasikan sistem yang mereka rancang. UML memungkinkan para pengembang aplikasi untuk
+bekerja sama dengan bahasa model yang sama dalam mengaplikasikan beragam sistem. UML merupakan Alat
+komunikasi yang konsisten dalam mendukung para pengembang saat ini. UML menyediakan sembilan jenis
+diagram yaitu : \textit{Class Diagram, Packet Diagram, Use Case Diagram, Sequence Diagram,
+    Communication Diagram, Statechart Diagram, Activity Diagram, Component Diagram} dan
+\textit{Deployment Diagram}.
+
+\textit{Activity Diagram} merupakan penggabungan dari berbagai alur aktivitas dalam sistem yang sedang
+dirancang, bagaimana masing-masing alur berawal, \textit{decision} yang  mungkin  terjadi dan bagaimana
+mereka  berakhir. \textit{Activity Diagram} juga dapat menggambarkan proses paralel yang mungkin terjadi
+pada beberapa  eksekusi.
+
+
+\begin{table}[htbp]
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Simbol-Simbol \textit{Activity Diagram}}
+    \label{tab:simbolactdiagram}
+    \vspace{-20pt}
+    \begin{center}
+        \begin{tabular}{|c|c|c|c| }
+            \hline
+            No & Nama                       & Gambar           & Keterangan                                \\ \hline
+
+            1. & \begin{minipage}{.1\textwidth}
+                \includegraphics[width=\linewidth]{bab2/gambar/uml/initial.jpg}
+            \end{minipage} & \textit{Initial} & Bagaimana  objek  dibentuk  atau diawali. \\ \hline
+
+            2. & \begin{minipage}{.1\textwidth}
+                \includegraphics[width=\linewidth]{bab2/gambar/uml/final.jpg}
+            \end{minipage} & \textit{Final}   & Bagaimana  objek dihancurkan.             \\ \hline
+
+            3. & \begin{minipage}{.2\textwidth}
+                \includegraphics[width=\linewidth]{bab2/gambar/uml/action.jpg}
+            \end{minipage} & \textit{Action}  & State eksekusi dari suatu aksi.           \\ \hline
+
+            4. & \begin{minipage}{.2\textwidth}
+                \includegraphics[width=\linewidth]{bab2/gambar/uml/fork.jpg}
+            \end{minipage} & \textit{Fork}    & Penggabungan atau pemisahan alur.            \\ \hline
+
+            5. & \begin{minipage}{.2\textwidth}
+                \includegraphics[width=\linewidth]{bab2/gambar/uml/object.jpg}
+            \end{minipage} & \textit{Object}  & State hasil dari suatu aksi.              \\ \hline
+
+            6. & \begin{minipage}{.2\textwidth}
+                \includegraphics[width=\linewidth]{bab2/gambar/uml/note.jpg}
+            \end{minipage} & \textit{Note}  & Keterangan tambahan suatu komponen.              \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
