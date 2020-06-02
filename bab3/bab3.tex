@@ -4,24 +4,24 @@
 
 \section{Gambaran Umum} \label{sec:3-GambaranUmum}
 
-Penelitian ini membahas pemanfaatan data gambar sebagai acuan dalam melakukan pelatihan dan
+Penelitian ini membahas pemanfaatan data gambar sebagai acuan dalam melakukan pemelajaran dan
 implementasi model \textit{deep neural network} untuk mencari dan memetakan koordinat tiga dimensi
 pose tubuh manusia dalam sebuah rangkaian gambar secara lokal. Pengerjaan aplikasi mengutamakan dua
 langkah penting yang meliputi pengolahan data dan pembuatan model. Aplikasi yang dibuat dapat menampilkan
 plot grafik tiga dimensi menyerupai struktur anatomi tubuh manusia sesuai dengan pose hasil
-estimasi dari gambar masukkan. Hasil pelatihan model ditampilkan dalam grafik dua dimensi untuk
+estimasi dari gambar masukkan. Hasil pemelajaran model ditampilkan dalam grafik dua dimensi untuk
 analisis lebih lanjut.
 
 \textit{Dataset} yang digunakan dalam penelitian ini terbagi menjadi dua jenis yang meliputi
-\textit{dataset} pembuatan model dan \textit{dataset} inferensi aplikasi.
-\textit{Dataset} pembuatan model dikategorikan menjadi data pelatihan model dan data validasi model.
-\textit{Dataset} pembuatan model berisi gambar dan target posisi titik kunci anatomi dalam jumlah besar.
+\textit{dataset} pemelajaran model dan \textit{dataset} inferensi aplikasi.
+\textit{Dataset} pemelajaran model dikategorikan menjadi data pelatihan model dan data validasi model.
+\textit{Dataset} pemelajaran model berisi gambar dan target posisi titik kunci anatomi dalam jumlah besar.
 Data pelatihan model adalah data yang digunakan dalam proses pelatihan sebagai sampel bagi \textit{deep neural network}.
 Data validasi model adalah data yang digunakan untuk menguji kebenaran fungsionalitas pemetaan yang
 dipelajari saat pelatihan model. \textit{Dataset} inferensi aplikasi adalah data uji coba berbentuk
 video tanpa target titik kunci yang digunakan untuk estimasi pose tubuh manusia secara sekuensial.
 
-Pelatihan model \textit{deep neural network} diimplementasikan menggunakan \textit{framework} PyTorch.
+Pemelajaran model \textit{deep neural network} diimplementasikan menggunakan \textit{framework} PyTorch.
 Kedua \textit{dataset} yang digunakan diolah terlebih dahulu sehingga memenuhi syarat PyTorch dalam melakukan
 \textit{deep learning}.
 Setiap model kemudian digunakan terhadap \textit{dataset} inferensi
@@ -57,9 +57,9 @@ sehingga mengetahui langkah-langkah yang akan dilakukan pada tahap produksi.
 
 \subsection{Analisis Kebutuhan Proyek}
 
-Pelatihan dan implementasi model ini memerlukan alat-alat pendukung berupa perangkat keras dan
+Pemelajaran dan implementasi model ini memerlukan alat-alat pendukung berupa perangkat keras dan
 perangkat lunak yang mencukupi. Spesifikasi perangkat keras dan perangkat lunak yang lebih besar
-akan mempercepat proses pelatihan model jaringan saraf tiruan.
+akan mempercepat proses pemelajaran model jaringan saraf tiruan.
 Spesifikasi perangkat keras yang digunakan dalam penelitian ini
 dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatkeras}. Spesifikasi perangkat lunak yang
 digunakan dalam penelitian ini dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatlunak}.
@@ -104,7 +104,7 @@ digunakan dalam penelitian ini dapat dilihat pada tabel~\ref{tab:spesifikasipera
 \subsection{Analisis Struktur Proyek}
 
 Perancangan struktur proyek yang sistematis diperlukan untuk meminimalisir kompleksitas dalam
-melakukan pembuatan dan pelatihan model. \textit{Integrated development environment} Jupyter Lab
+melakukan pembuatan dan pemelajaran model. \textit{Integrated development environment} Jupyter Lab
 memudahkan eksekusi perintah dengan sintaks bahasa pemrograman Python dalam bentuk sel interaktif
 dalam berkas berekstensi ipynb. Setiap sel terdiri dari
 \textit{input} dan \textit{output}. \textit{Input} berisi perintah yang akan dieksekusi, sedangkan
@@ -161,10 +161,10 @@ Pose dua dimensi merupakan sampel, sedangkan pose tiga dimensi merupakan target.
 Human3.6M Dataset mengenai informasi perakaman gerakan pose manusia yang menyimpan gambar dari
 beberapa sisi beserta dengan pose dua dimensi dan tiga dimensinya. Informasi kedua pose tersebut
 kemudian dipisah dan disimpan dalam file berekstensi "pt"~\cite{h36m_pami}.
-Informasi mengenai data pelatihan dapat dilihat pada tabel~\ref{tab:datapelatihanmodel}.
+Informasi mengenai data pemelajaran dapat dilihat pada tabel~\ref{tab:datapelatihanmodel}.
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}
-    \caption{Data Pelatihan Model}
+    \caption{Data Pemelajaran Model}
     \label{tab:datapelatihanmodel}
     \vspace{-20pt}
     \begin{center}
@@ -242,7 +242,7 @@ Beberapa \textit{frame} dari data inferensi model dapat dilihat pada gambar
 \section{Tahap Produksi} \label{sec:3-TahapProduksi}
 
 Tahap produksi merupakan tahap kedua yang dimana pengerjaan program dilakukan. Tahap ini terdiri dari
-tiga langkah utama yaitu prapemrosesan data pelatihan, pembuatan arsitektur model, dan pelatihan model.
+tiga langkah utama yaitu prapemrosesan data pelatihan, pembuatan arsitektur model, dan pemelajaran model.
 
 
 \subsection{Prapemrosesan Data Pelatihan}
@@ -342,7 +342,7 @@ Arsitektur model dapat dilihat pada gambar~\ref{fig:arsitektur}
     \label{fig:arsitektur}
 \end{figure}
 
-\subsection{Pelatihan Model}
+\subsection{Pemelajaran Model}
 asd
 
 \section{Tahap Uji Coba} \label{sec:3-TahapUjiCoba}

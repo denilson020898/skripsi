@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {3.4}Tahap Produksi}{22}%
 \contentsline {subsection}{\numberline {3.4.1}Prapemrosesan Data Pelatihan}{22}%
 \contentsline {subsection}{\numberline {3.4.2}Arsitektur Model}{24}%
-\contentsline {subsection}{\numberline {3.4.3}Pelatihan Model}{25}%
+\contentsline {subsection}{\numberline {3.4.3}Pemelajaran Model}{25}%
 \contentsline {section}{\numberline {3.5}Tahap Uji Coba}{25}%
 \contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{25}%
 \contentsline {subsection}{\numberline {3.5.2}OpenPose}{25}%
