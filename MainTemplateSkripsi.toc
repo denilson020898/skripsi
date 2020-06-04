@@ -46,11 +46,11 @@
 \contentsline {subsection}{\numberline {3.5.2}OpenPose}{25}%
 \contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{25}%
 \contentsline {subsection}{\numberline {3.5.4}Visualisasi}{25}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{26}%
-\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{26}%
-\contentsline {section}{\numberline {4.2}Kekurangan Model}{26}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{27}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{27}%
-\contentsline {section}{\numberline {5.2}Saran}{27}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{28}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{27}%
+\contentsline {section}{\numberline {4.1}Hasil Pelatihan Model}{27}%
+\contentsline {section}{\numberline {4.2}Kekurangan Model}{27}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{28}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{28}%
+\contentsline {section}{\numberline {5.2}Saran}{28}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{29}%
 \contentsline {chapter}{LAMPIRAN}{L1}%
