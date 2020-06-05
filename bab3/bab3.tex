@@ -241,7 +241,7 @@ Beberapa \textit{frame} dari data inferensi model dapat dilihat pada gambar
 
 \section{Tahap Produksi} \label{sec:3-TahapProduksi}
 
-Tahap produksi merupakan tahap kedua yang dimana pengerjaan program dilakukan. Tahap ini terdiri dari
+Tahap produksi merupakan tahap kedua yang dimana pengerjaan dilakukan. Tahap ini terdiri dari
 tiga langkah utama yaitu prapemrosesan data pelatihan, pembuatan arsitektur model, dan pemelajaran model.
 
 
@@ -343,8 +343,21 @@ Arsitektur model dapat dilihat pada gambar~\ref{fig:arsitektur}.
 \end{figure}
 
 \subsection{Pemelajaran Model}
-asdsd
-gambar~\ref{fig:learning}
+
+Pemelajaran model merupakan kelanjutan dari prapemrosesan data. Sebuah model baru diinstansiasii
+sehingga menghasilkan objek model. Objek model tersebut kemudian menginisialisasi bobot parameter
+dengan bilangan acak dari distribusi normal. \textit{Batch input} yang berasal dari interasi DataLoader
+diproses oleh model dengan metode \textit{feed-forward}. Hasil prediksi sementara dari model
+didapatkan yang kemudian dibandingkan tingkat kebenarannya menggunakan fungsi kesalahan.
+Fungsi kesalahan \textit{mean squared error} menghasilkan angka kuantitas kesalahan. Angka ini merupakan
+tolak ukur seberapa akurat kemampuan model dalam menghasilkan output yang relevan. Apabila model tidak
+berada dalam status "is\_train", maka kuantitas kesalahan yang didapatkan langsung disimpan dalam bentuk
+\textit{array} untuk keperluan analisis. Apabila model berada dalam status "is\_train", maka model
+melakukan \textit{backpropagation} untuk menghasilkan gradien bobot. \textit{Learning rate} kemudian
+dibagi dengan dua sehingga menjadi lebih kecil. Penyesuaian bobot dilakukan dengan menjumlahkan bobot
+dengan hasil operasi perkalian antara \textit{learning rate} dan gradien bobot. Bobot model yang telah
+diperbarui disimpan berserta dengan kuantitas kesalahannya. Algoritma yang sama akan diulangi pada setiap \textit{batch input}.
+Skema pemelajaran model dapat dilihat pada gambar~\ref{fig:learning}.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -361,6 +374,11 @@ gambar~\ref{fig:learning}
 \end{figure}
 
 \section{Tahap Uji Coba} \label{sec:3-TahapUjiCoba}
+
+Tahap uji coba berisi langkah-langkah uji coba penggunaan model.
+Tahap uji coba dibagi menjadi beberapa langkah yang meliputi prapemrosesan data inferensi,
+penggunaan OpenPose, inferensi model, dan visualisasi. Tahap ini bertujuan untuk menggunakan model
+sebagai aplikasi untuk mengestimasi pose tiga dimensi dari gambar monokuler.
 
 \subsection{Prapemrosesan Data Inferensi}
 
