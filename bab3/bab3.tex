@@ -382,26 +382,166 @@ sebagai aplikasi untuk mengestimasi pose tiga dimensi dari gambar monokuler.
 
 \subsection{Prapemrosesan Data Inferensi}
 
+Proses inferensi pose dua dimensi menjadi lebih cepat ketika gambar dua dimensi yang dioperasikan
+memiliki resolusi yang kecil. Tingkat resolusi yang digunakan saat merekam pose adalah 640 x 360.
+Memperkecil ukuran resolusi juga harus dilihat dari segi kualitas gambar yang dihasilkan.
+Gambar juga memiliki banyak informasi statis seperti pada area piksel berwarna hitam yang berada
+di kiri dan kanan gambar. Resolusi 290 x 290 dengan titik tengah berada pada titik kunci pinggang dianggap tepat
+karena mampu menjangkau semua pose badan dan kualitas gambar yang masih bagus.
+Inferensi yang lebih efisien dapat dilakukan dengan memperkecil resolusi
+dan area piksel mati seperti pada gambar~\ref{fig:prainferensi}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/prainferensi.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Resolusi Gambar Data Inferensi}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:prainferensi}
+\end{figure}
+
 \subsection{OpenPose}
+
+OpenPose merupakan aplikasi estimasi pose tubuh manusia dua dimensi. OpenPose menerima input gambar
+kemudian mencari titik kunci pose dua dimensi. Titik kunci pose dua dimensi berada pada koordinat
+lokal sesuai dengan bidang gambar. OpenPose menghasilkan berkas "json" yang berisi hierarki pose
+menurut spesifikasi COCO-MS. Anotasi COCO-MS berisi delapan belas titik kunci tubuh manusia dengan
+urutan tertentu seperti
+pada gambar ~\ref{fig:coco}. Visualisasi estimasi pose dua dimensi menggunakan OpenPose dapat dilihat
+pada gambar~\ref{fig:openpose}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/coco.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Spesifikasi Titik Kunci COCO-MS}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:coco}
+\end{figure}
+
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/openpose.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Inferensi Pose Dua Dimensi OpenPose}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:openpose}
+\end{figure}
 
 \subsection{Inferensi Model}
 
+Rangkaian titik kunci yang dihasilkan oleh OpenPose memiliki spesifikasi COCO-MS yang berbeda dengan
+spesifikasi \textit{dataset} pembuatan model. Spesifikasi COCO-MS yang memiliki delapan belas titik
+kunci dikonversi menjadi lima belas titik kunci dengan menyatukan titik kunci kedua mata dan kedua telinga
+serta membuat titik kunci pinggang berdasarkan rata-rata kedua kaki bagian atas seperti pada
+gambar~\ref{fig:konversi}. Konversi ini dilakukan supaya model dapat melakukan inferensi terhadap
+titik kunci yang mewakili pose tersebut. Visualisasi konversi titik kunci COCO-MS menggunakan warna
+biru mewakili anggota badan sebelah kanan bersamaan dengan warna merah yang mewakili anggota badan
+tengah dan kiri. seperti pada gambar~\ref{fig:konversi_keypoint}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/konversi.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Konversi Titik Kunci Dua Dimensi}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:konversi}
+\end{figure}
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/konversi_keypoint.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Visualisasi Titik Kunci Dua Dimensi}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:konversi_keypoint}
+\end{figure}
+
+Inferensi pada model \textit{deep neural network} menerima titik kunci pose dua dimensi yang telah
+dikonversi sebagai \textit{input} kemudian menghasilkan titik kunci pose tiga dimensi sebagai \textit{output}.
+Inferensi model menghasilkan tujuh belas titik yang berada dalam bidang tiga dimensi.
+Titik kunci pose tiga dimensi memiliki dua titik baru yang meliputi torso dan hidung. Titik torso
+mewakili lengkungan badan pada pose tiga dimensi sehingga pose terlihat akurat. Titik hidung
+mewakili arah hadapan kepala. Kedua titik tambahan ini memperjelas orientasi pose tiga dimensi.
+Proses inferensi model untuk mendapatkan pose tiga dimensi dapat
+dilihat pada gambar~\ref{fig:inferensi}. Visualisasi inferensi model dapat dilihat pada gambar~\ref{fig:bro118}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/inferensi.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Inferensi Model}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:inferensi}
+\end{figure}
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/bro118.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Visualisasi Titik Kunci Tiga Dimensi}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:bro118}
+\end{figure}
+
+
 \subsection{Visualisasi}
 
-% \begin{table}[htbp]
-%     \captionsetup{labelfont=bf, textfont=bf}
-%     \caption{Sebuah tabel}
-%     \vspace{-20pt}
-%     \begin{center}
-%         \begin{tabular}{| l c r |}
-%             \hline
-%             1 & 2 & 3 \\
-%             4 & 5 & 6 \\
-%             7 & 8 & 9 \\
-%             \hline
-%         \end{tabular}
-%     \end{center}
-%     \vspace{-10pt}
-%     \captionsetup{labelfont=md, textfont=md}
-%     % \caption*{Sumber: Bego Lu}
-% \end{table}
+Visualisasi mencakup penggunaan aplikasi dalam satu bingkai secara keseluruhan. Terdapat empat buah
+figur yang masing-masing mewakili langkah-langkah pada tahapan uji coba. Figur pertama (kiri atas)
+berisi prapemrosesan data inferensi dimana resolusi gambar diubah menjadi 290 x 290. Figur kedua
+(kanan atas) menggambarkan pose dua dimensi yang didapatkan oleh OpenPose. Figur ketiga (kiri bawah)
+menggambarkan konversi titik kunci OpenPose dengan spesifikasi COCO-MS menjadi titik kunci yang cocok
+dengan model. Figur keempat (kanan bawah) menggambarkan pose tiga dimensi yang dihasilkan oleh model
+kedalam sebuah sistem koordinat tiga dimensi. Contoh visualisasi aplikasi dapat dilihat pada
+gambar~\ref{fig:vizapp}.
+
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[width=11.9cm]{bab3/gambar/viz135.jpg}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Visualisasi Aplikasi}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    % \caption*{Sumber: sumber}
+    % \caption*{Sumber: nama(2019)}
+    \label{fig:vizapp}
+\end{figure}
