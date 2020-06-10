@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  8 JUN 2020 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  11 JUN 2020 05:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -451,7 +451,7 @@ BAB 1.
 
 
 ] [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 79.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3]) (d:/work/kampus/skripsi/bab2/bab2.tex [4]
@@ -666,15 +666,35 @@ Package pdftex.def Info: bab3/gambar/viz135.jpg  used on input line 537.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
 ) (d:/work/kampus/skripsi/bab4/bab4.tex [31 <d:/work/kampus/skripsi/bab3/gambar/viz135.jpg>]
 BAB 4.
+<bab4/gambar/pelatihan.jpg, id=192, 433.62pt x 289.08pt>
+File: bab4/gambar/pelatihan.jpg Graphic file (type jpg)
+<use bab4/gambar/pelatihan.jpg>
+Package pdftex.def Info: bab4/gambar/pelatihan.jpg  used on input line 9.
+(pdftex.def)             Requested size: 338.58762pt x 225.73732pt.
+<bab4/gambar/bro75.jpg, id=193, 1084.05pt x 958.58125pt>
+File: bab4/gambar/bro75.jpg Graphic file (type jpg)
+<use bab4/gambar/bro75.jpg>
+Package pdftex.def Info: bab4/gambar/bro75.jpg  used on input line 25.
+(pdftex.def)             Requested size: 338.58762pt x 299.395pt.
+<bab4/gambar/bro76.jpg, id=194, 1084.05pt x 958.58125pt>
+File: bab4/gambar/bro76.jpg Graphic file (type jpg)
+<use bab4/gambar/bro76.jpg>
+Package pdftex.def Info: bab4/gambar/bro76.jpg  used on input line 39.
+(pdftex.def)             Requested size: 338.58762pt x 299.395pt.
+<bab4/gambar/bro131.jpg, id=195, 1084.05pt x 958.58125pt>
+File: bab4/gambar/bro131.jpg Graphic file (type jpg)
+<use bab4/gambar/bro131.jpg>
+Package pdftex.def Info: bab4/gambar/bro131.jpg  used on input line 53.
+(pdftex.def)             Requested size: 338.58762pt x 299.395pt.
 ) (d:/work/kampus/skripsi/bab5/bab5.tex [32
 
-]
+ <d:/work/kampus/skripsi/bab4/gambar/pelatihan.jpg>] [33 <d:/work/kampus/skripsi/bab4/gambar/bro75.jpg> <d:/work/kampus/skripsi/bab4/gambar/bro76.jpg>] [34 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>]
 BAB 5.
-) [33
+) [35
 
-] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [34
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [36
 
-] [35]) [36]
+] [37]) [38]
 \openout2 = `lampiran.aux'.
 
  (d:/work/kampus/skripsi/lampiran.tex) [1
@@ -685,18 +705,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6343 strings out of 480608
- 95103 string characters out of 5907537
- 356635 words of memory out of 5000000
- 21988 multiletter control sequences out of 15000+600000
+ 6372 strings out of 480608
+ 95726 string characters out of 5907537
+ 356679 words of memory out of 5000000
+ 22012 multiletter control sequences out of 15000+600000
  565236 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,14n,48p,820b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (50 pages, 2358651 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (52 pages, 3018248 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
+ 258 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
