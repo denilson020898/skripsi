@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  11 JUN 2020 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  11 JUN 2020 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,7 +364,7 @@ Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count294
 \l__pdf_internal_box=\box103
-) (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux)
+) (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux)
 
 LaTeX Warning: Label `sec:4-PersiapanPengujian' multiply defined.
 
@@ -485,15 +485,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <d:/work/kampus/skripsi/gambar/LogoGunadarma.jpg>]
-\openout2 = `lembaroriginalitas.aux'.
+\openout2 = `lembarpengesahan.aux'.
 
- (d:/work/kampus/skripsi/lembaroriginalitas.tex) [2
+ (d:/work/kampus/skripsi/lembarpengesahan.tex) [2
 
 
 ]
-\openout2 = `lembarpengesahan.aux'.
+\openout2 = `lembaroriginalitas.aux'.
 
- (d:/work/kampus/skripsi/lembarpengesahan.tex) [3
+ (d:/work/kampus/skripsi/lembaroriginalitas.tex) [3
 
 
 ]
@@ -791,7 +791,7 @@ BAB 5.
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) [1
 
-] [2]) [3] (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux) (d:/work/kampus/skripsi/lampiran.aux))
+] [2]) [3] (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux) (d:/work/kampus/skripsi/lampiran.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -805,7 +805,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  50i,14n,48p,820b,1877s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (54 pages, 2911057 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (54 pages, 2911118 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
