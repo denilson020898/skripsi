@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {3.5.4}Visualisasi}{31}%
 \contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{32}%
 \contentsline {section}{\numberline {4.1}Hasil Pemelajaran Model}{32}%
-\contentsline {section}{\numberline {4.2}Kekurangan Model}{32}%
+\contentsline {section}{\numberline {4.2}Kekurangan Aplikasi}{32}%
 \contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{35}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{35}%
 \contentsline {section}{\numberline {5.2}Saran}{35}%

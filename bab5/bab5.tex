@@ -5,9 +5,23 @@
 \section{Kesimpulan}
 \label{sec:5-Kesimpulan}
 
-Berisi ringkasan dari metodologi dan kesimpulan penting dari hasil evaluasi.
+Aplikasi estimasi pose tiga dimensi menggunakan model \textit{deep neural network} berhasil dilatih.
+Model ini melakukan pemelajaran secara mandiri menggunakan informasi pose dua dimensi sebagai \textit{input}
+dan pose tiga dimensi sebagai \textit{output}.
+Model tersebut diuji untuk menemukan pose tiga dimensi pada data inferensi. Model melakukan pemelajaran
+selama sepuluh \textit{epochs} dengan hasil rata-rata kesalahan akhir bernilai 0.0584 pada data pelatihan
+dan 0.0437 pada data validasi. Nilai kesalahan data pelatihan masih lebih besar daripada nilai data validasi.
+Hal ini menandakan model masih berada pada kondisi \textit{underfitting} dimana selisih kedua nilai tersebut relatif
+besar. Model yang lebih baik dapat didapatkan dengan melatih model dalam jumlah \textit{epochs} yang
+lebih banyak dan berhenti saat mulai terjadi \textit{overfitting}.
 
 \section{Saran}
 \label{sec:5-Saran}
 
-Berisi saran-saran untuk pengembangan riset ini ke langkah ke depan.
+Pengembangan model \textit{deep neural network} ini masih menggunakan arsitektur minimalis, data dengan
+satu domain, dan memiliki tahapan yang tidak efisien. Pengembangan selanjutnya disarankan menggunakan
+arsitektur yang lebih efisien. Arsitekur \textit{residual network} merupakan arsitektur yang paling
+bagus pada saat penulisan ini dilakukan. Algoritma pemelajaran yang lebih efisien juga disarankan
+pada penelitian mendatang. Data dengan domain yang lebih luas juga merupakan hal yang penting seperti
+estimasi pose pada hewan tertentu. Dengan demikian penelitian ini dapat bermanfaat dan dapat dikembangkan
+menjadi jauh lebih baik lagi pada masa mendatang.
