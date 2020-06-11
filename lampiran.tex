@@ -9,8 +9,8 @@
 % \begin{multicols}{2}
 % \small
 
-\begin{lstlisting}[language=Python,multicols=2,basicstyle=\tiny,breaklines=true]
-    # Kelas untuk Dataset
+\begin{lstlisting}[language=Python,multicols=2,basicstyle=\scriptsize\mdseries,breaklines=true]
+    # Lampiran 1: Kelas Dataset
     class Human36Dataset(Dataset):
         def __init__(self, actions, data_path, is_train=True):
             self.actions, self.data_path, self.is_train = actions, data_path, is_train
@@ -42,7 +42,7 @@
         def __len__(self):
             return len(self.inp_list)
 
-    # ResLinear
+    # Lampiran 2: Kelas ResLinear
     class ResLinear(nn.Module):
         def __init__(self, size, pd=0.5):
             super().__init__()
@@ -59,7 +59,7 @@
             y = self.drop(self.relu(self.bn4(self.ln3(y))))
             return x + y
 
-    # Arsitektur Model
+    # Lampiran 3: Arsitektur Model
     class Model(nn.Module):
         def __init__(self, size=1024, num_res_lyr=2, pd=0.5):
             super().__init__()
@@ -87,7 +87,7 @@
             y = self.ln_out(y)
             return y
 
-    # Kelas Options
+    # Lampiran 4: Options
     class Options():
         def __init__(self):
             # paths
@@ -111,7 +111,7 @@
             self.stages = 2
             self.dropout = 0.5
 
-    # Muat dataset
+    # Lampiran 5: Pemuatan Data
     stat_3d = torch.load(data_path/'stat_3d.pt')
     stat_2d = torch.load(data_path/'stat_2d.pt')
     rcams = torch.load(data_path/'rcams.pt')
@@ -126,13 +126,13 @@
     dim_use_3d = stat_3d['dim_use']
     dim_ignore_3d = stat_3d['dim_ignore']
 
-    # Dataset dan DataLoader
+    # Lampiran 6: Instansiasi Dataset dan DataLoader
     train_ds = Human36Dataset(get_actions(options.actions), options.data_path, is_train=True)
     train_dl = DataLoader(train_ds, batch_size=options.bs, shuffle=True)
     test_ds = Human36Dataset(get_actions(options.actions), options.data_path, is_train=False)
     test_dl = DataLoader(test_ds, batch_size=options.bs, shuffle=False)
 
-    # Algoritma pelatihan
+    # Lampiran 7: Algoritma Pelatihan
     def train(train_dl, model, criterion, optimizer, options, mb):
         model.train()
         loss_list = []
@@ -153,7 +153,7 @@
             mb.child.comment = f'train loss: {loss.item()}'
         return loss_list, skel_loss_list
 
-    # Algoritma validasi
+    # Lampiran 8: Algoritma Validasi
     def test(test_dl, model, criterion, options, mb):
         model.eval()
         loss_list = []
@@ -169,7 +169,7 @@
             mb.child.comment = f'test loss: {loss.item()}'
         return loss_list, skel_loss_list
 
-    # Inisialisasi model
+    # Lampiran 9: Instansiasi Model
     model = Model()
     model = model.cuda()
     model.apply(init_kaiming)
@@ -185,7 +185,7 @@
         model.load_state_dict(model_state)
         optimizer.load_state_dict(optimizer_state)
 
-    # Visualisasi Titik Kunci Data
+    # Lampiran 10: Visualisasi Titik Kunci
     key = train_key_list[184]
     plt.figure(figsize=(16,6))
     gs2 = GridSpec(1,2)
@@ -206,7 +206,7 @@
 
     plt.show()
 
-    # Visualisasi inferensi
+    # Lampiran 11: Visualisasi Inferensi
     ## %matplotlib qt
     fig = plt.figure(figsize=(15,15))
     gs = GridSpec(2, 2)
@@ -241,7 +241,7 @@
         plt.draw()
         plt.savefig(f'imgs/asd/bro{i}.jpg')
 
-    # Plot grafik
+    # Lampiran 12: Plot Grafik
     train_loss_lists = []
     train_mean = []
     train_max = []

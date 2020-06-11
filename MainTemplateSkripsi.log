@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  11 JUN 2020 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  11 JUN 2020 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -791,7 +791,7 @@ BAB 5.
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) [1
 
-]) [2] (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux) (d:/work/kampus/skripsi/lampiran.aux))
+] [2]) [3] (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarlampiran.aux) (d:/work/kampus/skripsi/lampiran.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -799,16 +799,16 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  8433 strings out of 480608
  122361 string characters out of 5907537
- 1353495 words of memory out of 5000000
+ 1114498 words of memory out of 5000000
  24051 multiletter control sequences out of 15000+600000
  574256 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,14n,48p,820b,1861s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,14n,48p,820b,1877s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (53 pages, 2908997 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (54 pages, 2911057 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
+ 263 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
