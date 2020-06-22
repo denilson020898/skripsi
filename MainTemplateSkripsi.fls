@@ -173,6 +173,9 @@ INPUT d:/work/kampus/skripsi/lembaroriginalitas.tex
 OUTPUT d:/work/kampus/skripsi/abstraksi.aux
 INPUT d:/work/kampus/skripsi/abstraksi.tex
 INPUT d:/work/kampus/skripsi/abstraksi.tex
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 OUTPUT d:/work/kampus/skripsi/abstract.aux
 INPUT d:/work/kampus/skripsi/abstract.tex
 INPUT d:/work/kampus/skripsi/abstract.tex
@@ -181,9 +184,6 @@ INPUT d:/work/kampus/skripsi/katapengantar.tex
 INPUT d:/work/kampus/skripsi/katapengantar.tex
 INPUT d:/work/kampus/skripsi/MainTemplateSkripsi.toc
 INPUT d:/work/kampus/skripsi/MainTemplateSkripsi.toc
-INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT c:/texlive/2020/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
-INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 OUTPUT d:/work/kampus/skripsi/MainTemplateSkripsi.toc
 INPUT d:/work/kampus/skripsi/MainTemplateSkripsi.lot
 INPUT d:/work/kampus/skripsi/MainTemplateSkripsi.lot
