@@ -6,11 +6,14 @@
 
 Penelitian ini membahas pemanfaatan data gambar sebagai acuan dalam melakukan pemelajaran dan
 implementasi model \textit{deep neural network} untuk mencari dan memetakan koordinat tiga dimensi
-pose tubuh manusia dalam sebuah rangkaian gambar secara lokal. Pengerjaan aplikasi mengutamakan dua
+pose tubuh manusia dalam sebuah rangkaian gambar secara lokal.
+Pose yang digunakan tidak bersifat \textit{grounded} yang berarti koordinat pose tidak berpusat pada
+titik lantai tertentu.
+Pengerjaan aplikasi mengutamakan dua
 langkah penting yang meliputi pengolahan data dan pembuatan model. Aplikasi yang dibuat dapat menampilkan
 plot grafik tiga dimensi menyerupai struktur anatomi tubuh manusia sesuai dengan pose hasil
-estimasi dari gambar masukkan. Hasil pemelajaran model ditampilkan dalam grafik dua dimensi untuk
-analisis lebih lanjut.
+estimasi dari gambar masukkan.
+Hasil pemelajaran model ditampilkan dalam grafik dua dimensi untuk analisis lebih lanjut.
 
 \textit{Dataset} yang digunakan dalam penelitian ini terbagi menjadi dua jenis yang meliputi
 \textit{dataset} pemelajaran model dan \textit{dataset} inferensi aplikasi.
@@ -60,10 +63,12 @@ sehingga mengetahui langkah-langkah yang akan dilakukan pada tahap produksi.
 Pemelajaran dan implementasi model ini memerlukan alat-alat pendukung berupa perangkat keras dan
 perangkat lunak yang mencukupi. Spesifikasi perangkat keras dan perangkat lunak yang lebih besar
 akan mempercepat proses pemelajaran model jaringan saraf tiruan.
-Spesifikasi perangkat keras yang digunakan dalam penelitian ini
-dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatkeras}. Spesifikasi perangkat lunak yang
-digunakan dalam penelitian ini dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatlunak}.
 
+Spesifikasi perangkat keras yang digunakan dalam penelitian ini meliputi \textit{central processing unit}, \textit{graphics processing unit},
+\textit{random access memory}, \textit{solid state drive}, dan \textit{hard disk drive}
+dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatkeras}.
+
+\pagebreak
 
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}
@@ -83,6 +88,12 @@ digunakan dalam penelitian ini dapat dilihat pada tabel~\ref{tab:spesifikasipera
         \end{tabular}
     \end{center}
 \end{table}
+
+
+Spesifikasi perangkat lunak yang digunakan dalam penelitian ini yang meliputi sistem operasi,
+\textit{integrated development environment}, bahasa pemrograman, dan \textit{deep learning framework}
+dapat dilihat pada tabel~\ref{tab:spesifikasiperangkatlunak}
+
 
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}

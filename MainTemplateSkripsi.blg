@@ -7,6 +7,7 @@ A level-1 auxiliary file: lembaroriginalitas.aux
 A level-1 auxiliary file: abstraksi.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: katapengantar.aux
+A level-1 auxiliary file: daftarpersamaan.aux
 A level-1 auxiliary file: daftarlampiran.aux
 The style file: apa.bst
 A level-1 auxiliary file: lampiran.aux
@@ -16,7 +17,7 @@ Warning--empty year in Hinton_rectifiedlinear
 Warning--empty booktitle in Sharma2012ACS
 You've used 24 entries,
             1940 wiz_defined-function locations,
-            617 strings with 8845 characters,
+            618 strings with 8864 characters,
 and the built_in function-call counts, 14254 in all, are:
 = -- 1511
 > -- 587

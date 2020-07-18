@@ -1,34 +1,34 @@
 \babel@toc {bahasa}{}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ilustrasi Jaringan Saraf Manusia\relax }}{6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ilustrasi Sel Saraf Manusia\relax }}{6}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Ilustrasi Jaringan Saraf Tiruan\relax }}{7}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Teorema Penaksiran Universal\relax }}{5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ilustrasi Jaringan Saraf Manusia\relax }}{6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ilustrasi Sel Saraf Manusia\relax }}{7}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Ilustrasi Sel Saraf Tiruan\relax }}{8}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit {Rectified Linear Unit}\relax }}{8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit {Rectified Linear Unit}\relax }}{9}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces \textit {Residual Block}\relax }}{9}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces \textit {Gradient Descent}\relax }}{10}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Skema \textit {Backpropagation}\relax }}{10}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Skema \textit {Backpropagation}\relax }}{11}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Ilustrasi Perbedaan \textit {Learning Rate}\relax }}{11}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Pendekatan \textit {Top-Down} dan \textit {Bottom-Up}\relax }}{12}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Pencarian Pose Tiga Dimensi Lokal\relax }}{13}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Pencarian Pose Tiga Dimensi Global\relax }}{14}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Kerangka Penelitian\relax }}{17}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Jupyter Lab\relax }}{18}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Struktur Direktori\relax }}{19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Frame} 00077\relax }}{21}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Frame} 00173\relax }}{21}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Frame} 00232\relax }}{21}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Activity Diagram} Prapemrosesan Data\relax }}{23}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Arsitektur Lapisan ResLinear\relax }}{24}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Arsitektur Model\relax }}{25}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Activity Diagram} Pemelajaran Model\relax }}{26}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Resolusi Gambar Data Inferensi\relax }}{27}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Spesifikasi Titik Kunci COCO-MS\relax }}{28}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Inferensi Pose Dua Dimensi OpenPose\relax }}{28}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Konversi Titik Kunci Dua Dimensi\relax }}{29}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Visualisasi Titik Kunci Dua Dimensi\relax }}{29}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Inferensi Model\relax }}{30}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Visualisasi Titik Kunci Tiga Dimensi\relax }}{30}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Visualisasi Aplikasi\relax }}{31}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Grafik Pemelajaran Model\relax }}{32}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Inferensi Pose Hilang\relax }}{33}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Kesalahan Deteksi\relax }}{34}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Pendekatan \textit {Top-Down} dan \textit {Bottom-Up}\relax }}{13}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Pencarian Pose Tiga Dimensi Lokal\relax }}{14}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Pencarian Pose Tiga Dimensi Global\relax }}{15}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Kerangka Penelitian\relax }}{18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Jupyter Lab\relax }}{20}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Struktur Direktori\relax }}{21}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Frame} 00077\relax }}{22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Frame} 00173\relax }}{22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Frame} 00232\relax }}{23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Activity Diagram} Prapemrosesan Data\relax }}{25}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Arsitektur Lapisan ResLinear\relax }}{26}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Arsitektur Model\relax }}{27}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Activity Diagram} Pemelajaran Model\relax }}{28}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Resolusi Gambar Data Inferensi\relax }}{29}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Spesifikasi Titik Kunci COCO-MS\relax }}{30}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Inferensi Pose Dua Dimensi OpenPose\relax }}{31}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Konversi Titik Kunci Dua Dimensi\relax }}{31}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Visualisasi Titik Kunci Dua Dimensi\relax }}{31}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Inferensi Model\relax }}{32}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Visualisasi Titik Kunci Tiga Dimensi\relax }}{32}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Visualisasi Aplikasi\relax }}{33}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Grafik Pemelajaran Model\relax }}{34}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Inferensi Pose Hilang\relax }}{35}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Kesalahan Deteksi\relax }}{36}%

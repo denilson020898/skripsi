@@ -21,6 +21,20 @@ lapisan yang terdapat dalam model khususnya lapisan yang terdapat pada bagian ak
 Sifat kedua adalah sebuah fungsi kontinu dengan jumlah variabel sembarang dapat
 ditiru sifatnya oleh sebuah jaringan saraf tiruan dengan jumlah parameter yang sembarang~\cite{2019arXiv191003344K}.
 
+\begin{figure}[htbp]
+    \begin{center}
+        \fbox{\includegraphics[scale=1.0]{bab2/gambar/uat.png}}
+    \end{center}
+    \vspace{-20pt}
+    \captionsetup{labelfont=bf, textfont=bf}
+    \caption{Teorema Penaksiran Universal}
+    \vspace{-10pt}
+    \captionsetup{labelfont=md, textfont=md}
+    \caption*{Sumber: https://encrypted-tbn0.gstatic.com/images?q=tbn}
+    % \caption*{Sumber: Zhang (2019)}
+    \label{fig:uat}
+\end{figure}
+
 \section{Jaringan Saraf}
 \label{sec:2-JaringanSaraf}
 
@@ -41,7 +55,7 @@ detik~\cite{10.3389/neuro.09.031.2009}.
     \caption{Ilustrasi Jaringan Saraf Manusia}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://wccftech.com/scientists-artificial-neurons}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:jaringansaraf}
 \end{figure}
@@ -62,10 +76,12 @@ kepada sel saraf lainnya melalui \textit{axon}~\cite{2019arXiv190601703Z}.
     \caption{Ilustrasi Sel Saraf Manusia}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://en.wikipedia.org/wiki/Neuron}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:selsaraf}
 \end{figure}
+
+\pagebreak
 
 \section{Jaringan Saraf Tiruan}
 \label{sec:2-JaringanSarafTiruan}
@@ -76,22 +92,7 @@ memodelkan fungsi sembarang yang tingkat kesulitannya sesuai dengan jumlah konek
 Jarigan ini menyerupai jaringan saraf asli dimana
 sebuah saraf tiruan menerima banyak masukkan dari saraf lainnya
 kemudian dioperasikan dengan bobot yang terkadung pada sel tersebut dan akhirnya diteruskan ke sel
-berikutnya. Jaringan saraf umumnya terbentuk dari beberapa lapisan seperti pada
-gambar~\ref{fig:jaringansaraftiruan}~\cite{croann}.
-
-\begin{figure}[htbp]
-    \begin{center}
-        \fbox{\includegraphics[scale=1.0]{bab2/gambar/jaringansaraftiruan.jpg}}
-    \end{center}
-    \vspace{-20pt}
-    \captionsetup{labelfont=bf, textfont=bf}
-    \caption{Ilustrasi Jaringan Saraf Tiruan}
-    \vspace{-10pt}
-    \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
-    % \caption*{Sumber: Zhang (2019)}
-    \label{fig:jaringansaraftiruan}
-\end{figure}
+berikutnya~\cite{Sharma2012ACS}.
 
 Sebuah sel saraf dapat dibagi menjadi empat bagian yang meliputi masukkan, bobot, fungsi
 transfer atau aktivasi, dan keluaran. Jumlah masukkan pada suatu sel saraf tiruan berjumlah sebanyak
@@ -110,10 +111,12 @@ yang diteruskan ke lapisan selanjutnya. Ilustrasi sebuah sel saraf tiruan dapat 
     \caption{Ilustrasi Sel Saraf Tiruan}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://en.wikipedia.org/wiki/artificial\_neural\_network}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:saraftiruan}
 \end{figure}
+
+\pagebreak
 
 \section{Fungsi Aktivasi}
 \label{sec:2-FungsiAktivasi}
@@ -127,11 +130,12 @@ dipakai pada umumnya adalah \textit{Sigmoid}, \textit{ReLU}, \textit{Tanh}, dan 
 \textit{Rectified Linear Unit} adalah fungsi aktivasi yang paling umum digunakan dalam aplikasi
 jaringan saraf tiruan. Fungsi aktivasi \textit{ReLU} membatasi nilai masukkannya dimana nilai yang
 kurang dari nol akan diubah menjadi nol~\cite{Hinton_rectifiedlinear, 2018arXiv181103378N}.
-Persamaan fungsi aktivasi \textit{Rectified Linear Unit} dapat dilihat seperti pada persamaan dibawah.
+Fungsi aktivasi \textit{Rectified Linear Unit} dapat dilihat pada persamaan 2.1 dengan grafik yang
+dapat dilihat pada gambar~\ref{fig:relu}.
 
-\begin{equation*}
+\begin{equation}
     \;f(x)=\;max\left(0,x\right)=\;\left\{\begin{array}{l}x_{i,\;}\;\;if\;x_i\;\geq\;0\\0,\;\;\;\;if\;x_i<\;0\;\;\end{array}\right.\;\;
-\end{equation*}
+\end{equation}
 
 \begin{figure}[htbp]
     \begin{center}
@@ -142,7 +146,7 @@ Persamaan fungsi aktivasi \textit{Rectified Linear Unit} dapat dilihat seperti p
     \caption{\textit{Rectified Linear Unit}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://static.packt-cdn.com/products/graphics/B05478\_03\_11.png}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:relu}
 \end{figure}
@@ -167,7 +171,7 @@ Jenis-jenis \textit{residual block} dapat dilihat pada gambar~\ref{fig:resblock}
     \caption{\textit{Residual Block}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://arxiv.org/abs/1512.03385}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:resblock}
 \end{figure}
@@ -194,7 +198,7 @@ pada gambar~\ref{fig:gradientdescent}.
     \caption{\textit{Gradient Descent}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://arxiv.org/abs/1601.00013}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:gradientdescent}
 \end{figure}
@@ -220,10 +224,12 @@ dapat dilihat pada gambar~\ref{fig:backprop}.
     \caption{Skema \textit{Backpropagation}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://www.nature.com/articles/323533a0}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:backprop}
 \end{figure}
+
+\pagebreak
 
 \subsection{\textit{Learning Rate}}
 
@@ -243,7 +249,7 @@ yang banyak seperti pada gambar~\ref{fig:lr}~\cite{2019arXiv190801878Y}.
     \caption{Ilustrasi Perbedaan \textit{Learning Rate}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://arxiv.org/abs/1908.01878}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:lr}
 \end{figure}
@@ -253,11 +259,11 @@ yang banyak seperti pada gambar~\ref{fig:lr}~\cite{2019arXiv190801878Y}.
 hasil dari pangkat dua selisih antara dua vektor. Fungsi kesalahan ini dipakai untuk mengukur
 kesalahan model regresi dimana keluaran yang diukur bersifat kontinu. Persamaan ini akan selalu
 bernilai positif dan nilai yang mendekati nol menandakan bahwa selisih antara dua vektor semakin kecil
-seperti pada persamaan dibawah~\cite{TORABI201376}.
+seperti pada persamaan 2.2~\cite{TORABI201376}.
 
-\begin{equation*}
+\begin{equation}
     MSE = \frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}
-\end{equation*}
+\end{equation}
 
 \section{Estimasi Pose Dua Dimensi}
 \label{sec:2-EstimasiPoseDuaDimensi}
@@ -291,7 +297,7 @@ dapat dilihat pada gambar~\ref{fig:tdbu}~\cite{8765346}.
     \caption{Pendekatan \textit{Top-Down} dan \textit{Bottom-Up}}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://mc.ai/an-overview-of-human-pose-estimation-with-deep-learning}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:tdbu}
 \end{figure}
@@ -322,7 +328,7 @@ dua dimensi diilustrasikan pada gambar~\ref{fig:lokal}~\cite{martinez_2017_3dbas
     \caption{Pencarian Pose Tiga Dimensi Lokal}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: https://arxiv.org/abs/1705.03098}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:lokal}
 \end{figure}
@@ -343,7 +349,7 @@ Pencarian pose tiga dimensi global dari gambar dua dimensi diilustrasikan pada g
     \caption{Pencarian Pose Tiga Dimensi Global}
     \vspace{-10pt}
     \captionsetup{labelfont=md, textfont=md}
-    % \caption*{Sumber: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neuron.svg}
+    \caption*{Sumber: http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson}
     % \caption*{Sumber: Zhang (2019)}
     \label{fig:global}
 \end{figure}

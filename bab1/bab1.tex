@@ -32,7 +32,7 @@ seperti melakukan estimasi pose tiga dimensi tubuh manusia yang terdapat dalam s
 \section{Rumusan Masalah}
 \label{sec:1-RumusanMasalah}
 Permasalahan yang ingin diselesaikan adalah mengestimasi pose tubuh manusia yang
-bersifat laten dengan membuat sebuah pemetaan dari gambar yang ditangkap kamera monokuler ke
+bersifat laten dengan membuat sebuah fungsi pemetaan dari gambar yang ditangkap kamera monokuler ke
 koordinat setiap titik kunci pose menggunakan model \textit{deep neural network}.
 Model yang telah terlatih mampu melakukan proses
 inferensi terhadap gambar baru sehingga dapat dijadikan sebagai acuan aplikasi yang mampu membaca pose tubuh
@@ -42,7 +42,10 @@ manusia dari gambar monokuler.
 \label{sec:1-BatasMasalah}
 
 Penelitian ini menganggap setiap pose dua dimensi maupun pose tiga dimensi berada dalam koordinat
-lokal. Setiap pose ditransformasi ke dalam sistem koordinat kamera dengan titik kunci pinggang
+lokal.
+Pose yang dihasilkan tidak bersifat \textit{grounded} yang berarti pose tidak memperhitungkan lantai
+sebagai titik tengah.
+Setiap pose ditransformasi ke dalam sistem koordinat kamera dengan titik kunci pinggang
 sebagai titik koordinat tengah. Hal ini dilakukan karena pemetaan hanya menggunakan gambar dua dimensi
 tanpa informasi kedalaman titik kunci sehingga dapat mengesampingkan masalah kedalaman yang ambigu.
 
