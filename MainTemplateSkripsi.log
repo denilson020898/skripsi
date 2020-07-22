@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  22 JUL 2020 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  22 JUL 2020 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -612,49 +612,49 @@ Package pdftex.def Info: bab2/gambar/lr.jpg  used on input line 247.
 <bab2/gambar/tdbu.jpg, id=104, 338.76563pt x 252.19218pt>
 File: bab2/gambar/tdbu.jpg Graphic file (type jpg)
 <use bab2/gambar/tdbu.jpg>
-Package pdftex.def Info: bab2/gambar/tdbu.jpg  used on input line 295.
+Package pdftex.def Info: bab2/gambar/tdbu.jpg  used on input line 296.
 (pdftex.def)             Requested size: 338.76479pt x 252.19156pt.
  [12] [13 <d:/work/kampus/skripsi/bab2/gambar/tdbu.jpg>]
 <bab2/gambar/lokal.jpg, id=113, 338.76563pt x 188.95593pt>
 File: bab2/gambar/lokal.jpg Graphic file (type jpg)
 <use bab2/gambar/lokal.jpg>
-Package pdftex.def Info: bab2/gambar/lokal.jpg  used on input line 326.
+Package pdftex.def Info: bab2/gambar/lokal.jpg  used on input line 327.
 (pdftex.def)             Requested size: 338.76479pt x 188.95546pt.
 <bab2/gambar/global.jpg, id=114, 338.76563pt x 219.82124pt>
 File: bab2/gambar/global.jpg Graphic file (type jpg)
 <use bab2/gambar/global.jpg>
-Package pdftex.def Info: bab2/gambar/global.jpg  used on input line 347.
+Package pdftex.def Info: bab2/gambar/global.jpg  used on input line 348.
 (pdftex.def)             Requested size: 338.76479pt x 219.8207pt.
  [14 <d:/work/kampus/skripsi/bab2/gambar/lokal.jpg>] [15 <d:/work/kampus/skripsi/bab2/gambar/global.jpg>]
 <bab2/gambar/uml/initial.jpg, id=121, 61.22874pt x 61.22874pt>
 File: bab2/gambar/uml/initial.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/initial.jpg>
-Package pdftex.def Info: bab2/gambar/uml/initial.jpg  used on input line 402.
+Package pdftex.def Info: bab2/gambar/uml/initial.jpg  used on input line 405.
 (pdftex.def)             Requested size: 39.83629pt x 39.83743pt.
 <bab2/gambar/uml/final.jpg, id=122, 61.22874pt x 61.22874pt>
 File: bab2/gambar/uml/final.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/final.jpg>
-Package pdftex.def Info: bab2/gambar/uml/final.jpg  used on input line 406.
+Package pdftex.def Info: bab2/gambar/uml/final.jpg  used on input line 409.
 (pdftex.def)             Requested size: 39.83629pt x 39.83743pt.
 <bab2/gambar/uml/action.jpg, id=123, 121.45375pt x 51.19125pt>
 File: bab2/gambar/uml/action.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/action.jpg>
-Package pdftex.def Info: bab2/gambar/uml/action.jpg  used on input line 410.
+Package pdftex.def Info: bab2/gambar/uml/action.jpg  used on input line 413.
 (pdftex.def)             Requested size: 79.66649pt x 33.57776pt.
 <bab2/gambar/uml/fork.jpg, id=124, 168.63pt x 31.11626pt>
 File: bab2/gambar/uml/fork.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/fork.jpg>
-Package pdftex.def Info: bab2/gambar/uml/fork.jpg  used on input line 414.
+Package pdftex.def Info: bab2/gambar/uml/fork.jpg  used on input line 417.
 (pdftex.def)             Requested size: 79.66649pt x 14.70059pt.
 <bab2/gambar/uml/object.jpg, id=125, 91.34125pt x 51.19125pt>
 File: bab2/gambar/uml/object.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/object.jpg>
-Package pdftex.def Info: bab2/gambar/uml/object.jpg  used on input line 418.
+Package pdftex.def Info: bab2/gambar/uml/object.jpg  used on input line 421.
 (pdftex.def)             Requested size: 79.66649pt x 44.65005pt.
 <bab2/gambar/uml/note.jpg, id=126, 106.3975pt x 63.23625pt>
 File: bab2/gambar/uml/note.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/note.jpg>
-Package pdftex.def Info: bab2/gambar/uml/note.jpg  used on input line 422.
+Package pdftex.def Info: bab2/gambar/uml/note.jpg  used on input line 425.
 (pdftex.def)             Requested size: 79.66649pt x 47.35179pt.
 ) (d:/work/kampus/skripsi/bab3/bab3.tex [16 <d:/work/kampus/skripsi/bab2/gambar/uml/initial.jpg> <d:/work/kampus/skripsi/bab2/gambar/uml/final.jpg> <d:/work/kampus/skripsi/bab2/gambar/uml/action.jpg> <d:/work/kampus/skripsi/bab2/gambar/uml/fork.jpg> <d:/work/kampus/skripsi/bab2/gambar/uml/object.jpg> <d:/work/kampus/skripsi/bab2/gambar/uml/note.jpg>]
 BAB 3.
@@ -678,98 +678,84 @@ File: bab3/gambar/struktur_direktori.jpg Graphic file (type jpg)
 <use bab3/gambar/struktur_direktori.jpg>
 Package pdftex.def Info: bab3/gambar/struktur_direktori.jpg  used on input line 155.
 (pdftex.def)             Requested size: 338.58603pt x 256.07431pt.
- [20 <d:/work/kampus/skripsi/bab3/gambar/jupyterlab.jpg> <d:/work/kampus/skripsi/bab3/gambar/struktur_direktori.jpg>]
-<bab3/gambar/00077.jpg, id=146, 481.8pt x 271.0125pt>
+ [20 <d:/work/kampus/skripsi/bab3/gambar/jupyterlab.jpg> <d:/work/kampus/skripsi/bab3/gambar/struktur_direktori.jpg>] [21]
+<bab3/gambar/00077.jpg, id=149, 481.8pt x 271.0125pt>
 File: bab3/gambar/00077.jpg Graphic file (type jpg)
 <use bab3/gambar/00077.jpg>
-Package pdftex.def Info: bab3/gambar/00077.jpg  used on input line 218.
+Package pdftex.def Info: bab3/gambar/00077.jpg  used on input line 220.
 (pdftex.def)             Requested size: 338.58762pt x 190.46007pt.
-<bab3/gambar/00173.jpg, id=147, 481.8pt x 271.0125pt>
+<bab3/gambar/00173.jpg, id=150, 481.8pt x 271.0125pt>
 File: bab3/gambar/00173.jpg Graphic file (type jpg)
 <use bab3/gambar/00173.jpg>
-Package pdftex.def Info: bab3/gambar/00173.jpg  used on input line 232.
+Package pdftex.def Info: bab3/gambar/00173.jpg  used on input line 239.
 (pdftex.def)             Requested size: 338.58762pt x 190.46007pt.
-<bab3/gambar/00232.jpg, id=148, 481.8pt x 271.0125pt>
+ [22 <d:/work/kampus/skripsi/bab3/gambar/00077.jpg> <d:/work/kampus/skripsi/bab3/gambar/00173.jpg>]
+<bab3/gambar/00232.jpg, id=154, 481.8pt x 271.0125pt>
 File: bab3/gambar/00232.jpg Graphic file (type jpg)
 <use bab3/gambar/00232.jpg>
-Package pdftex.def Info: bab3/gambar/00232.jpg  used on input line 246.
+Package pdftex.def Info: bab3/gambar/00232.jpg  used on input line 259.
 (pdftex.def)             Requested size: 338.58762pt x 190.46007pt.
- [21] [22 <d:/work/kampus/skripsi/bab3/gambar/00077.jpg> <d:/work/kampus/skripsi/bab3/gambar/00173.jpg> <d:/work/kampus/skripsi/bab3/gambar/00232.jpg>] [23]
+ [23 <d:/work/kampus/skripsi/bab3/gambar/00232.jpg>]
 <bab3/gambar/act_diagram.jpg, id=159, 805.0075pt x 1015.795pt>
 File: bab3/gambar/act_diagram.jpg Graphic file (type jpg)
 <use bab3/gambar/act_diagram.jpg>
-Package pdftex.def Info: bab3/gambar/act_diagram.jpg  used on input line 300.
+Package pdftex.def Info: bab3/gambar/act_diagram.jpg  used on input line 314.
 (pdftex.def)             Requested size: 338.58762pt x 427.23549pt.
- [24 <d:/work/kampus/skripsi/bab3/gambar/act_diagram.jpg>]
-<bab3/gambar/reslinear.jpg, id=163, 703.62875pt x 462.72874pt>
+ [24] [25 <d:/work/kampus/skripsi/bab3/gambar/act_diagram.jpg>]
+<bab3/gambar/reslinear.jpg, id=166, 703.62875pt x 462.72874pt>
 File: bab3/gambar/reslinear.jpg Graphic file (type jpg)
 <use bab3/gambar/reslinear.jpg>
-Package pdftex.def Info: bab3/gambar/reslinear.jpg  used on input line 328.
+Package pdftex.def Info: bab3/gambar/reslinear.jpg  used on input line 345.
 (pdftex.def)             Requested size: 338.58762pt x 222.66507pt.
- [25 <d:/work/kampus/skripsi/bab3/gambar/reslinear.jpg>]
-<bab3/gambar/arsitektur.jpg, id=167, 512.91624pt x 362.35374pt>
+ [26 <d:/work/kampus/skripsi/bab3/gambar/reslinear.jpg>]
+<bab3/gambar/arsitektur.jpg, id=170, 512.91624pt x 362.35374pt>
 File: bab3/gambar/arsitektur.jpg Graphic file (type jpg)
 <use bab3/gambar/arsitektur.jpg>
-Package pdftex.def Info: bab3/gambar/arsitektur.jpg  used on input line 349.
+Package pdftex.def Info: bab3/gambar/arsitektur.jpg  used on input line 366.
 (pdftex.def)             Requested size: 338.58762pt x 239.19844pt.
- [26 <d:/work/kampus/skripsi/bab3/gambar/arsitektur.jpg>]
-<bab3/gambar/learning.jpg, id=171, 784.9325pt x 825.0825pt>
+ [27 <d:/work/kampus/skripsi/bab3/gambar/arsitektur.jpg>]
+<bab3/gambar/learning.jpg, id=174, 784.9325pt x 825.0825pt>
 File: bab3/gambar/learning.jpg Graphic file (type jpg)
 <use bab3/gambar/learning.jpg>
-Package pdftex.def Info: bab3/gambar/learning.jpg  used on input line 380.
+Package pdftex.def Info: bab3/gambar/learning.jpg  used on input line 397.
 (pdftex.def)             Requested size: 338.58762pt x 355.91164pt.
- [27 <d:/work/kampus/skripsi/bab3/gambar/learning.jpg>]
-<bab3/gambar/prainferensi.jpg, id=175, 731.73375pt x 292.84406pt>
+ [28 <d:/work/kampus/skripsi/bab3/gambar/learning.jpg>]
+<bab3/gambar/prainferensi.jpg, id=178, 731.73375pt x 292.84406pt>
 File: bab3/gambar/prainferensi.jpg Graphic file (type jpg)
 <use bab3/gambar/prainferensi.jpg>
-Package pdftex.def Info: bab3/gambar/prainferensi.jpg  used on input line 412.
+Package pdftex.def Info: bab3/gambar/prainferensi.jpg  used on input line 429.
 (pdftex.def)             Requested size: 338.58762pt x 135.50528pt.
-<bab3/gambar/coco.jpg, id=176, 534.49687pt x 498.36188pt>
-File: bab3/gambar/coco.jpg Graphic file (type jpg)
-<use bab3/gambar/coco.jpg>
-Package pdftex.def Info: bab3/gambar/coco.jpg  used on input line 436.
-(pdftex.def)             Requested size: 338.58762pt x 315.71104pt.
-<bab3/gambar/openpose.jpg, id=177, 476.53032pt x 218.31563pt>
-File: bab3/gambar/openpose.jpg Graphic file (type jpg)
-<use bab3/gambar/openpose.jpg>
-Package pdftex.def Info: bab3/gambar/openpose.jpg  used on input line 451.
-(pdftex.def)             Requested size: 338.58762pt x 155.12842pt.
- [28 <d:/work/kampus/skripsi/bab3/gambar/prainferensi.jpg>] [29 <d:/work/kampus/skripsi/bab3/gambar/coco.jpg> <d:/work/kampus/skripsi/bab3/gambar/openpose.jpg>]
-<bab3/gambar/konversi.jpg, id=185, 931.98187pt x 505.13719pt>
-File: bab3/gambar/konversi.jpg Graphic file (type jpg)
-<use bab3/gambar/konversi.jpg>
-Package pdftex.def Info: bab3/gambar/konversi.jpg  used on input line 476.
-(pdftex.def)             Requested size: 338.58762pt x 183.51411pt.
-<bab3/gambar/konversi_keypoint.jpg, id=186, 880.79062pt x 392.96812pt>
-File: bab3/gambar/konversi_keypoint.jpg Graphic file (type jpg)
-<use bab3/gambar/konversi_keypoint.jpg>
-Package pdftex.def Info: bab3/gambar/konversi_keypoint.jpg  used on input line 490.
-(pdftex.def)             Requested size: 338.58762pt x 151.06233pt.
- [30 <d:/work/kampus/skripsi/bab3/gambar/konversi.jpg> <d:/work/kampus/skripsi/bab3/gambar/konversi_keypoint.jpg>]
-<bab3/gambar/inferensi.jpg, id=190, 961.34157pt x 507.39563pt>
+<bab3/gambar/coco2.jpg, id=179, 534.49687pt x 704.6325pt>
+File: bab3/gambar/coco2.jpg Graphic file (type jpg)
+<use bab3/gambar/coco2.jpg>
+Package pdftex.def Info: bab3/gambar/coco2.jpg  used on input line 453.
+(pdftex.def)             Requested size: 338.58762pt x 446.383pt.
+ [29 <d:/work/kampus/skripsi/bab3/gambar/prainferensi.jpg>] [30 <d:/work/kampus/skripsi/bab3/gambar/coco2.jpg>]
+<bab3/gambar/konversi2.jpg, id=187, 930.47626pt x 930.47626pt>
+File: bab3/gambar/konversi2.jpg Graphic file (type jpg)
+<use bab3/gambar/konversi2.jpg>
+Package pdftex.def Info: bab3/gambar/konversi2.jpg  used on input line 493.
+(pdftex.def)             Requested size: 338.58762pt x 338.57747pt.
+ [31 <d:/work/kampus/skripsi/bab3/gambar/konversi2.jpg>]
+<bab3/gambar/inferensi.jpg, id=191, 993.7125pt x 993.7125pt>
 File: bab3/gambar/inferensi.jpg Graphic file (type jpg)
 <use bab3/gambar/inferensi.jpg>
-Package pdftex.def Info: bab3/gambar/inferensi.jpg  used on input line 513.
-(pdftex.def)             Requested size: 338.58762pt x 178.70601pt.
-<bab3/gambar/bro118.jpg, id=191, 1423.3175pt x 696.6025pt>
-File: bab3/gambar/bro118.jpg Graphic file (type jpg)
-<use bab3/gambar/bro118.jpg>
-Package pdftex.def Info: bab3/gambar/bro118.jpg  used on input line 527.
-(pdftex.def)             Requested size: 338.58762pt x 165.71054pt.
- [31 <d:/work/kampus/skripsi/bab3/gambar/inferensi.jpg> <d:/work/kampus/skripsi/bab3/gambar/bro118.jpg>]
+Package pdftex.def Info: bab3/gambar/inferensi.jpg  used on input line 532.
+(pdftex.def)             Requested size: 338.58762pt x 338.58559pt.
+ [32 <d:/work/kampus/skripsi/bab3/gambar/inferensi.jpg>]
 <bab3/gambar/viz135.jpg, id=195, 1084.05pt x 958.58125pt>
 File: bab3/gambar/viz135.jpg Graphic file (type jpg)
 <use bab3/gambar/viz135.jpg>
-Package pdftex.def Info: bab3/gambar/viz135.jpg  used on input line 553.
+Package pdftex.def Info: bab3/gambar/viz135.jpg  used on input line 572.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
-) (d:/work/kampus/skripsi/bab4/bab4.tex [32 <d:/work/kampus/skripsi/bab3/gambar/viz135.jpg>]
+) (d:/work/kampus/skripsi/bab4/bab4.tex [33 <d:/work/kampus/skripsi/bab3/gambar/viz135.jpg>]
 BAB 4.
 <bab4/gambar/pelatihan.jpg, id=199, 433.62pt x 289.08pt>
 File: bab4/gambar/pelatihan.jpg Graphic file (type jpg)
 <use bab4/gambar/pelatihan.jpg>
 Package pdftex.def Info: bab4/gambar/pelatihan.jpg  used on input line 15.
 (pdftex.def)             Requested size: 338.58762pt x 225.73732pt.
-[33
+[34
 
  <d:/work/kampus/skripsi/bab4/gambar/pelatihan.jpg>]
 <bab4/gambar/bro76.jpg, id=203, 1084.05pt x 958.58125pt>
@@ -777,19 +763,19 @@ File: bab4/gambar/bro76.jpg Graphic file (type jpg)
 <use bab4/gambar/bro76.jpg>
 Package pdftex.def Info: bab4/gambar/bro76.jpg  used on input line 62.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
- [34 <d:/work/kampus/skripsi/bab4/gambar/bro76.jpg>]
-<bab4/gambar/bro131.jpg, id=207, 1084.05pt x 958.58125pt>
+ [35 <d:/work/kampus/skripsi/bab4/gambar/bro76.jpg>]
+<bab4/gambar/bro131.jpg, id=208, 1084.05pt x 958.58125pt>
 File: bab4/gambar/bro131.jpg Graphic file (type jpg)
 <use bab4/gambar/bro131.jpg>
 Package pdftex.def Info: bab4/gambar/bro131.jpg  used on input line 83.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
-) (d:/work/kampus/skripsi/bab5/bab5.tex [35 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>]
+) (d:/work/kampus/skripsi/bab5/bab5.tex [36 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>]
 BAB 5.
-) [36
+) [37
 
-] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [37
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [38
 
-] [38]) [39]
+] [39]) [40]
 \openout2 = `lampiran.aux'.
 
  (d:/work/kampus/skripsi/lampiran.tex (c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -802,18 +788,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8444 strings out of 480608
- 122588 string characters out of 5907537
- 1115017 words of memory out of 5000000
- 24055 multiletter control sequences out of 15000+600000
+ 8423 strings out of 480608
+ 122056 string characters out of 5907537
+ 1114804 words of memory out of 5000000
+ 24037 multiletter control sequences out of 15000+600000
  574256 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,14n,48p,820b,1877s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (56 pages, 2902168 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (57 pages, 2907531 bytes).
 PDF statistics:
  271 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
