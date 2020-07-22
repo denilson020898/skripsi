@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {3.5.1}Prapemrosesan Data Inferensi}{29}%
 \contentsline {subsection}{\numberline {3.5.2}OpenPose}{29}%
 \contentsline {subsection}{\numberline {3.5.3}Inferensi Model}{31}%
-\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{32}%
+\contentsline {subsection}{\numberline {3.5.4}Visualisasi}{33}%
 \contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{34}%
 \contentsline {section}{\numberline {4.1}Hasil Pemelajaran Model}{34}%
 \contentsline {section}{\numberline {4.2}Analisis Uji Coba Aplikasi}{34}%
