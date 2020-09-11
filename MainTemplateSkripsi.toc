@@ -51,8 +51,8 @@
 \contentsline {chapter}{BAB \hbox to\@tempdima {IV\hfil } : HASIL DAN PEMBAHASAN}{35}%
 \contentsline {section}{\numberline {4.1}Hasil Pemelajaran Model}{35}%
 \contentsline {section}{\numberline {4.2}Analisis Uji Coba Aplikasi}{35}%
-\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{38}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{38}%
-\contentsline {section}{\numberline {5.2}Saran}{38}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{39}%
+\contentsline {chapter}{BAB \hbox to\@tempdima {V\hfil } : PENUTUP}{40}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{40}%
+\contentsline {section}{\numberline {5.2}Saran}{40}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{41}%
 \contentsline {chapter}{LAMPIRAN}{L1}%

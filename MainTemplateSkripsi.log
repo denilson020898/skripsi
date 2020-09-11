@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  8 SEP 2020 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  12 SEP 2020 05:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,50 +357,251 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidth=\dimen181
 \titlewidthlast=\dimen182
 \titlewidthfirst=\dimen183
-) (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen184
+\pgfutil@tempdimb=\dimen185
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box103
+ (c:/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen186
+\pgf@y=\dimen187
+\pgf@xa=\dimen188
+\pgf@ya=\dimen189
+\pgf@xb=\dimen190
+\pgf@yb=\dimen191
+\pgf@xc=\dimen192
+\pgf@yc=\dimen193
+\pgf@xd=\dimen194
+\pgf@yd=\dimen195
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count293
+\c@pgf@countb=\count294
+\c@pgf@countc=\count295
+\c@pgf@countd=\count296
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count297
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count298
+\pgfsyssoftpath@bigbuffer@items=\count299
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen196
+\pgfmath@count=\count300
+\pgfmath@box=\box104
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count301
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen256
+\pgf@pathminx=\dimen257
+\pgf@pathmaxx=\dimen258
+\pgf@pathminy=\dimen259
+\pgf@pathmaxy=\dimen260
+\pgf@xx=\dimen261
+\pgf@xy=\dimen262
+\pgf@yx=\dimen263
+\pgf@yy=\dimen264
+\pgf@zx=\dimen265
+\pgf@zy=\dimen266
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen267
+\pgf@path@lasty=\dimen268
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen269
+\pgf@shorten@start@additional=\dimen270
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box105
+\pgf@hbox=\box106
+\pgf@layerbox@main=\box107
+\pgf@picture@serial@count=\count302
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen271
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen272
+\pgf@pt@y=\dimen273
+\pgf@pt@temp=\dimen274
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen275
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen276
+\pgf@sys@shading@range@num=\count303
+\pgf@shadingcount=\count304
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box108
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box109
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen277
+\pgf@nodesepend=\dimen278
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen279
+\pgffor@skip=\dimen280
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count305
+\pgfplotmarksize=\dimen281
+)
+\tikz@lastx=\dimen282
+\tikz@lasty=\dimen283
+\tikz@lastxsaved=\dimen284
+\tikz@lastysaved=\dimen285
+\tikz@lastmovetox=\dimen286
+\tikz@lastmovetoy=\dimen287
+\tikzleveldistance=\dimen288
+\tikzsiblingdistance=\dimen289
+\tikz@figbox=\box110
+\tikz@figbox@bg=\box111
+\tikz@tempbox=\box112
+\tikz@tempbox@bg=\box113
+\tikztreelevel=\count306
+\tikznumberofchildren=\count307
+\tikznumberofcurrentchild=\count308
+\tikz@fig@count=\count309
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count310
+\pgfmatrixcurrentcolumn=\count311
+\pgf@matrix@numberofcolumns=\count312
+)
+\tikz@expandcount=\count313
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count293
+\etb@tempcnta=\count314
 ) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count294
-\l__pdf_internal_box=\box103
+\l__kernel_color_stack_int=\count315
+\l__pdf_internal_box=\box114
 ) (d:/work/kampus/skripsi/MainTemplateSkripsi.aux (d:/work/kampus/skripsi/cover.aux) (d:/work/kampus/skripsi/lembarpengesahan.aux) (d:/work/kampus/skripsi/lembaroriginalitas.aux) (d:/work/kampus/skripsi/abstraksi.aux) (d:/work/kampus/skripsi/abstract.aux) (d:/work/kampus/skripsi/katapengantar.aux) (d:/work/kampus/skripsi/daftarpersamaan.aux) (d:/work/kampus/skripsi/daftarlampiran.aux)
 
 LaTeX Warning: Label `sec:4-PersiapanPengujian' multiply defined.
 
+
+LaTeX Warning: Label `tab:datapelatihanmodel' multiply defined.
+
+
+LaTeX Warning: Label `tab:spesifikasiperangkatlunak' multiply defined.
+
 (d:/work/kampus/skripsi/lampiran.aux))
 \openout1 = `MainTemplateSkripsi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 78.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen184
-\scratchbox=\box104
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen185
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count316
+\scratchdimen=\dimen290
+\scratchbox=\box115
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen291
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks42
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -446,48 +647,59 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count301
+\c@lstlisting=\count322
+ABD: EveryShipout initializing macros
 \openout2 = `cover.aux'.
 
-(d:/work/kampus/skripsi/cover.tex
-<gambar/LogoGunadarma.jpg, id=1, 27.14711pt x 26.78026pt>
+ (d:/work/kampus/skripsi/cover.tex
+<gambar/LogoGunadarma.jpg, id=4, 27.14711pt x 26.78026pt>
 File: gambar/LogoGunadarma.jpg Graphic file (type jpg)
 <use gambar/LogoGunadarma.jpg>
-Package pdftex.def Info: gambar/LogoGunadarma.jpg  used on input line 14.
-(pdftex.def)             Requested size: 122.16158pt x 120.51074pt.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 24.
+Package pdftex.def Info: gambar/LogoGunadarma.jpg  used on input line 20.
+(pdftex.def)             Requested size: 135.73509pt x 133.90083pt.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 37.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 24.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 37.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 24.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 37.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 24.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 37.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 24.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 37.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 ) [1
 
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <d:/work/kampus/skripsi/gambar/LogoGunadarma.jpg>]
 \openout2 = `lembarpengesahan.aux'.
 
- (d:/work/kampus/skripsi/lembarpengesahan.tex) [2
+ (d:/work/kampus/skripsi/lembarpengesahan.tex
+Overfull \hbox (0.44873pt too wide) in paragraph at lines 12--25
+ [][] 
+ []
+
+
+Overfull \hbox (0.44873pt too wide) in paragraph at lines 37--54
+ [][] 
+ []
+
+) [2
 
 
 ]
@@ -518,12 +730,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 ])
-\tf@toc=\write3
-\openout3 = `MainTemplateSkripsi.toc'.
+\tf@toc=\write4
+\openout4 = `MainTemplateSkripsi.toc'.
 
  [9] (d:/work/kampus/skripsi/MainTemplateSkripsi.lot)
-\tf@lot=\write4
-\openout4 = `MainTemplateSkripsi.lot'.
+\tf@lot=\write5
+\openout5 = `MainTemplateSkripsi.lot'.
 
  [10
 
@@ -536,8 +748,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 ])
-\tf@lof=\write5
-\openout5 = `MainTemplateSkripsi.lof'.
+\tf@lof=\write6
+\openout6 = `MainTemplateSkripsi.lof'.
 
  [13]
 \openout2 = `daftarlampiran.aux'.
@@ -550,12 +762,12 @@ BAB 1.
 
 
 ] [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 82.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 84.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3]) (d:/work/kampus/skripsi/bab2/bab2.tex [4]
 BAB 2.
-<bab2/gambar/uat.png, id=63, 338.76563pt x 156.585pt>
+<bab2/gambar/uat.png, id=66, 338.76563pt x 156.585pt>
 File: bab2/gambar/uat.png Graphic file (type png)
 <use bab2/gambar/uat.png>
 Package pdftex.def Info: bab2/gambar/uat.png  used on input line 26.
@@ -563,95 +775,95 @@ Package pdftex.def Info: bab2/gambar/uat.png  used on input line 26.
 [5
 
  <d:/work/kampus/skripsi/bab2/gambar/uat.png>]
-<bab2/gambar/jaringansaraf.jpg, id=70, 338.76563pt x 245.41687pt>
+<bab2/gambar/jaringansaraf.jpg, id=73, 338.76563pt x 245.41687pt>
 File: bab2/gambar/jaringansaraf.jpg Graphic file (type jpg)
 <use bab2/gambar/jaringansaraf.jpg>
 Package pdftex.def Info: bab2/gambar/jaringansaraf.jpg  used on input line 51.
 (pdftex.def)             Requested size: 338.76479pt x 245.41626pt.
-<bab2/gambar/selsaraf.jpg, id=71, 338.76563pt x 148.30406pt>
+<bab2/gambar/selsaraf.jpg, id=74, 338.76563pt x 148.30406pt>
 File: bab2/gambar/selsaraf.jpg Graphic file (type jpg)
 <use bab2/gambar/selsaraf.jpg>
 Package pdftex.def Info: bab2/gambar/selsaraf.jpg  used on input line 72.
 (pdftex.def)             Requested size: 338.76479pt x 148.30368pt.
  [6 <d:/work/kampus/skripsi/bab2/gambar/jaringansaraf.jpg>]
-<bab2/gambar/saraftiruan.jpg, id=75, 338.76563pt x 114.4275pt>
+<bab2/gambar/saraftiruan.jpg, id=78, 338.76563pt x 114.4275pt>
 File: bab2/gambar/saraftiruan.jpg Graphic file (type jpg)
 <use bab2/gambar/saraftiruan.jpg>
 Package pdftex.def Info: bab2/gambar/saraftiruan.jpg  used on input line 107.
 (pdftex.def)             Requested size: 338.76479pt x 114.42722pt.
  [7 <d:/work/kampus/skripsi/bab2/gambar/selsaraf.jpg>]
-<bab2/gambar/relu.png, id=79, 338.76563pt x 149.05687pt>
+<bab2/gambar/relu.png, id=82, 338.76563pt x 149.05687pt>
 File: bab2/gambar/relu.png Graphic file (type png)
 <use bab2/gambar/relu.png>
 Package pdftex.def Info: bab2/gambar/relu.png  used on input line 142.
 (pdftex.def)             Requested size: 338.76479pt x 149.0565pt.
  [8 <d:/work/kampus/skripsi/bab2/gambar/saraftiruan.jpg>]
-<bab2/gambar/resnet.jpg, id=88, 338.76563pt x 121.95563pt>
+<bab2/gambar/resnet.jpg, id=91, 338.76563pt x 121.95563pt>
 File: bab2/gambar/resnet.jpg Graphic file (type jpg)
 <use bab2/gambar/resnet.jpg>
 Package pdftex.def Info: bab2/gambar/resnet.jpg  used on input line 169.
 (pdftex.def)             Requested size: 338.76479pt x 121.9553pt.
  [9 <d:/work/kampus/skripsi/bab2/gambar/relu.png> <d:/work/kampus/skripsi/bab2/gambar/resnet.jpg>]
-<bab2/gambar/gradientdescent.jpg, id=93, 338.76563pt x 118.19156pt>
+<bab2/gambar/gradientdescent.jpg, id=96, 338.76563pt x 118.19156pt>
 File: bab2/gambar/gradientdescent.jpg Graphic file (type jpg)
 <use bab2/gambar/gradientdescent.jpg>
 Package pdftex.def Info: bab2/gambar/gradientdescent.jpg  used on input line 196.
 (pdftex.def)             Requested size: 338.76479pt x 118.19127pt.
-<bab2/gambar/backprop.png, id=94, 338.76563pt x 176.15813pt>
+<bab2/gambar/backprop.png, id=97, 338.76563pt x 176.15813pt>
 File: bab2/gambar/backprop.png Graphic file (type png)
 <use bab2/gambar/backprop.png>
 Package pdftex.def Info: bab2/gambar/backprop.png  used on input line 222.
 (pdftex.def)             Requested size: 338.76479pt x 176.15768pt.
  [10 <d:/work/kampus/skripsi/bab2/gambar/gradientdescent.jpg>]
-<bab2/gambar/lr.jpg, id=98, 338.76563pt x 112.92188pt>
+<bab2/gambar/lr.jpg, id=101, 338.76563pt x 112.92188pt>
 File: bab2/gambar/lr.jpg Graphic file (type jpg)
 <use bab2/gambar/lr.jpg>
 Package pdftex.def Info: bab2/gambar/lr.jpg  used on input line 247.
 (pdftex.def)             Requested size: 338.76479pt x 112.92159pt.
  [11 <d:/work/kampus/skripsi/bab2/gambar/backprop.png> <d:/work/kampus/skripsi/bab2/gambar/lr.jpg>]
-<bab2/gambar/tdbu.jpg, id=104, 338.76563pt x 252.19218pt>
+<bab2/gambar/tdbu.jpg, id=107, 338.76563pt x 252.19218pt>
 File: bab2/gambar/tdbu.jpg Graphic file (type jpg)
 <use bab2/gambar/tdbu.jpg>
 Package pdftex.def Info: bab2/gambar/tdbu.jpg  used on input line 296.
 (pdftex.def)             Requested size: 338.76479pt x 252.19156pt.
  [12] [13 <d:/work/kampus/skripsi/bab2/gambar/tdbu.jpg>]
-<bab2/gambar/lokal.jpg, id=113, 338.76563pt x 188.95593pt>
+<bab2/gambar/lokal.jpg, id=116, 338.76563pt x 188.95593pt>
 File: bab2/gambar/lokal.jpg Graphic file (type jpg)
 <use bab2/gambar/lokal.jpg>
 Package pdftex.def Info: bab2/gambar/lokal.jpg  used on input line 327.
 (pdftex.def)             Requested size: 338.76479pt x 188.95546pt.
-<bab2/gambar/global.jpg, id=114, 338.76563pt x 219.82124pt>
+<bab2/gambar/global.jpg, id=117, 338.76563pt x 219.82124pt>
 File: bab2/gambar/global.jpg Graphic file (type jpg)
 <use bab2/gambar/global.jpg>
 Package pdftex.def Info: bab2/gambar/global.jpg  used on input line 348.
 (pdftex.def)             Requested size: 338.76479pt x 219.8207pt.
  [14 <d:/work/kampus/skripsi/bab2/gambar/lokal.jpg>] [15 <d:/work/kampus/skripsi/bab2/gambar/global.jpg>]
-<bab2/gambar/uml/initial.jpg, id=121, 61.22874pt x 61.22874pt>
+<bab2/gambar/uml/initial.jpg, id=124, 61.22874pt x 61.22874pt>
 File: bab2/gambar/uml/initial.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/initial.jpg>
 Package pdftex.def Info: bab2/gambar/uml/initial.jpg  used on input line 405.
 (pdftex.def)             Requested size: 39.83629pt x 39.83743pt.
-<bab2/gambar/uml/final.jpg, id=122, 61.22874pt x 61.22874pt>
+<bab2/gambar/uml/final.jpg, id=125, 61.22874pt x 61.22874pt>
 File: bab2/gambar/uml/final.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/final.jpg>
 Package pdftex.def Info: bab2/gambar/uml/final.jpg  used on input line 409.
 (pdftex.def)             Requested size: 39.83629pt x 39.83743pt.
-<bab2/gambar/uml/action.jpg, id=123, 121.45375pt x 51.19125pt>
+<bab2/gambar/uml/action.jpg, id=126, 121.45375pt x 51.19125pt>
 File: bab2/gambar/uml/action.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/action.jpg>
 Package pdftex.def Info: bab2/gambar/uml/action.jpg  used on input line 413.
 (pdftex.def)             Requested size: 79.66649pt x 33.57776pt.
-<bab2/gambar/uml/fork.jpg, id=124, 168.63pt x 31.11626pt>
+<bab2/gambar/uml/fork.jpg, id=127, 168.63pt x 31.11626pt>
 File: bab2/gambar/uml/fork.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/fork.jpg>
 Package pdftex.def Info: bab2/gambar/uml/fork.jpg  used on input line 417.
 (pdftex.def)             Requested size: 79.66649pt x 14.70059pt.
-<bab2/gambar/uml/object.jpg, id=125, 91.34125pt x 51.19125pt>
+<bab2/gambar/uml/object.jpg, id=128, 91.34125pt x 51.19125pt>
 File: bab2/gambar/uml/object.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/object.jpg>
 Package pdftex.def Info: bab2/gambar/uml/object.jpg  used on input line 421.
 (pdftex.def)             Requested size: 79.66649pt x 44.65005pt.
-<bab2/gambar/uml/note.jpg, id=126, 106.3975pt x 63.23625pt>
+<bab2/gambar/uml/note.jpg, id=129, 106.3975pt x 63.23625pt>
 File: bab2/gambar/uml/note.jpg Graphic file (type jpg)
 <use bab2/gambar/uml/note.jpg>
 Package pdftex.def Info: bab2/gambar/uml/note.jpg  used on input line 425.
@@ -661,96 +873,96 @@ BAB 3.
 [17
 
 ]
-<bab3/gambar/kerangka_penelitian.jpg, id=134, 845.1575pt x 284.06125pt>
+<bab3/gambar/kerangka_penelitian.jpg, id=137, 845.1575pt x 284.06125pt>
 File: bab3/gambar/kerangka_penelitian.jpg Graphic file (type jpg)
 <use bab3/gambar/kerangka_penelitian.jpg>
 Package pdftex.def Info: bab3/gambar/kerangka_penelitian.jpg  used on input line 42.
 (pdftex.def)             Requested size: 338.58762pt x 113.80452pt.
  [18 <d:/work/kampus/skripsi/bab3/gambar/kerangka_penelitian.jpg>]
-<bab3/gambar/jupyterlab.jpg, id=138, 1445.4pt x 723.45282pt>
+<bab3/gambar/jupyterlab.jpg, id=141, 1445.4pt x 723.45282pt>
 File: bab3/gambar/jupyterlab.jpg Graphic file (type jpg)
 <use bab3/gambar/jupyterlab.jpg>
 Package pdftex.def Info: bab3/gambar/jupyterlab.jpg  used on input line 127.
 (pdftex.def)             Requested size: 338.58762pt x 169.47052pt.
  [19]
-<bab3/gambar/struktur_direktori.jpg, id=142, 402.50375pt x 495.8525pt>
+<bab3/gambar/struktur_direktori.jpg, id=145, 402.50375pt x 495.8525pt>
 File: bab3/gambar/struktur_direktori.jpg Graphic file (type jpg)
 <use bab3/gambar/struktur_direktori.jpg>
 Package pdftex.def Info: bab3/gambar/struktur_direktori.jpg  used on input line 155.
 (pdftex.def)             Requested size: 338.58603pt x 256.07431pt.
  [20 <d:/work/kampus/skripsi/bab3/gambar/jupyterlab.jpg> <d:/work/kampus/skripsi/bab3/gambar/struktur_direktori.jpg>] [21]
-<bab3/gambar/00077.jpg, id=149, 481.8pt x 271.0125pt>
+<bab3/gambar/00077.jpg, id=152, 481.8pt x 271.0125pt>
 File: bab3/gambar/00077.jpg Graphic file (type jpg)
 <use bab3/gambar/00077.jpg>
 Package pdftex.def Info: bab3/gambar/00077.jpg  used on input line 220.
 (pdftex.def)             Requested size: 338.58762pt x 190.46007pt.
-<bab3/gambar/00173.jpg, id=150, 481.8pt x 271.0125pt>
+<bab3/gambar/00173.jpg, id=153, 481.8pt x 271.0125pt>
 File: bab3/gambar/00173.jpg Graphic file (type jpg)
 <use bab3/gambar/00173.jpg>
 Package pdftex.def Info: bab3/gambar/00173.jpg  used on input line 239.
 (pdftex.def)             Requested size: 338.58762pt x 190.46007pt.
  [22 <d:/work/kampus/skripsi/bab3/gambar/00077.jpg> <d:/work/kampus/skripsi/bab3/gambar/00173.jpg>]
-<bab3/gambar/00232.jpg, id=154, 481.8pt x 271.0125pt>
+<bab3/gambar/00232.jpg, id=157, 481.8pt x 271.0125pt>
 File: bab3/gambar/00232.jpg Graphic file (type jpg)
 <use bab3/gambar/00232.jpg>
 Package pdftex.def Info: bab3/gambar/00232.jpg  used on input line 259.
 (pdftex.def)             Requested size: 338.58762pt x 190.46007pt.
  [23 <d:/work/kampus/skripsi/bab3/gambar/00232.jpg>]
-<bab3/gambar/act_diagram.jpg, id=159, 805.0075pt x 1015.795pt>
+<bab3/gambar/act_diagram.jpg, id=162, 805.0075pt x 1015.795pt>
 File: bab3/gambar/act_diagram.jpg Graphic file (type jpg)
 <use bab3/gambar/act_diagram.jpg>
 Package pdftex.def Info: bab3/gambar/act_diagram.jpg  used on input line 314.
 (pdftex.def)             Requested size: 338.58762pt x 427.23549pt.
  [24] [25 <d:/work/kampus/skripsi/bab3/gambar/act_diagram.jpg>]
-<bab3/gambar/reslinear.jpg, id=166, 703.62875pt x 462.72874pt>
+<bab3/gambar/reslinear.jpg, id=169, 703.62875pt x 462.72874pt>
 File: bab3/gambar/reslinear.jpg Graphic file (type jpg)
 <use bab3/gambar/reslinear.jpg>
 Package pdftex.def Info: bab3/gambar/reslinear.jpg  used on input line 345.
 (pdftex.def)             Requested size: 338.58762pt x 222.66507pt.
  [26 <d:/work/kampus/skripsi/bab3/gambar/reslinear.jpg>]
-<bab3/gambar/arsitektur.jpg, id=170, 512.91624pt x 362.35374pt>
+<bab3/gambar/arsitektur.jpg, id=173, 512.91624pt x 362.35374pt>
 File: bab3/gambar/arsitektur.jpg Graphic file (type jpg)
 <use bab3/gambar/arsitektur.jpg>
 Package pdftex.def Info: bab3/gambar/arsitektur.jpg  used on input line 366.
 (pdftex.def)             Requested size: 338.58762pt x 239.19844pt.
  [27 <d:/work/kampus/skripsi/bab3/gambar/arsitektur.jpg>]
-<bab3/gambar/learning.jpg, id=174, 784.9325pt x 825.0825pt>
+<bab3/gambar/learning.jpg, id=177, 784.9325pt x 825.0825pt>
 File: bab3/gambar/learning.jpg Graphic file (type jpg)
 <use bab3/gambar/learning.jpg>
 Package pdftex.def Info: bab3/gambar/learning.jpg  used on input line 397.
 (pdftex.def)             Requested size: 338.58762pt x 355.91164pt.
  [28 <d:/work/kampus/skripsi/bab3/gambar/learning.jpg>]
-<bab3/gambar/prainferensi.jpg, id=178, 731.73375pt x 292.84406pt>
+<bab3/gambar/prainferensi.jpg, id=181, 731.73375pt x 292.84406pt>
 File: bab3/gambar/prainferensi.jpg Graphic file (type jpg)
 <use bab3/gambar/prainferensi.jpg>
 Package pdftex.def Info: bab3/gambar/prainferensi.jpg  used on input line 429.
 (pdftex.def)             Requested size: 338.58762pt x 135.50528pt.
-<bab3/gambar/coco2.jpg, id=179, 534.49687pt x 704.6325pt>
+<bab3/gambar/coco2.jpg, id=182, 534.49687pt x 704.6325pt>
 File: bab3/gambar/coco2.jpg Graphic file (type jpg)
 <use bab3/gambar/coco2.jpg>
 Package pdftex.def Info: bab3/gambar/coco2.jpg  used on input line 453.
 (pdftex.def)             Requested size: 338.58762pt x 446.383pt.
  [29 <d:/work/kampus/skripsi/bab3/gambar/prainferensi.jpg>] [30 <d:/work/kampus/skripsi/bab3/gambar/coco2.jpg>]
-<bab3/gambar/konversi2.jpg, id=187, 930.47626pt x 930.47626pt>
+<bab3/gambar/konversi2.jpg, id=190, 930.47626pt x 930.47626pt>
 File: bab3/gambar/konversi2.jpg Graphic file (type jpg)
 <use bab3/gambar/konversi2.jpg>
 Package pdftex.def Info: bab3/gambar/konversi2.jpg  used on input line 493.
 (pdftex.def)             Requested size: 338.58762pt x 338.57747pt.
  [31 <d:/work/kampus/skripsi/bab3/gambar/konversi2.jpg>]
-<bab3/gambar/inferensi.jpg, id=191, 993.7125pt x 993.7125pt>
+<bab3/gambar/inferensi.jpg, id=194, 993.7125pt x 993.7125pt>
 File: bab3/gambar/inferensi.jpg Graphic file (type jpg)
 <use bab3/gambar/inferensi.jpg>
 Package pdftex.def Info: bab3/gambar/inferensi.jpg  used on input line 532.
 (pdftex.def)             Requested size: 338.58762pt x 338.58559pt.
  [32 <d:/work/kampus/skripsi/bab3/gambar/inferensi.jpg>]
-<bab3/gambar/viz135.jpg, id=195, 1084.05pt x 958.58125pt>
+<bab3/gambar/viz135.jpg, id=198, 1084.05pt x 958.58125pt>
 File: bab3/gambar/viz135.jpg Graphic file (type jpg)
 <use bab3/gambar/viz135.jpg>
 Package pdftex.def Info: bab3/gambar/viz135.jpg  used on input line 573.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
  [33 <d:/work/kampus/skripsi/bab3/gambar/viz135.jpg>]) (d:/work/kampus/skripsi/bab4/bab4.tex [34]
 BAB 4.
-<bab4/gambar/pelatihan.jpg, id=202, 433.62pt x 289.08pt>
+<bab4/gambar/pelatihan.jpg, id=205, 433.62pt x 289.08pt>
 File: bab4/gambar/pelatihan.jpg Graphic file (type jpg)
 <use bab4/gambar/pelatihan.jpg>
 Package pdftex.def Info: bab4/gambar/pelatihan.jpg  used on input line 15.
@@ -758,24 +970,33 @@ Package pdftex.def Info: bab4/gambar/pelatihan.jpg  used on input line 15.
 [35
 
  <d:/work/kampus/skripsi/bab4/gambar/pelatihan.jpg>]
-<bab4/gambar/bro76.jpg, id=207, 1084.05pt x 958.58125pt>
+<bab4/gambar/bro76.jpg, id=210, 1084.05pt x 958.58125pt>
 File: bab4/gambar/bro76.jpg Graphic file (type jpg)
 <use bab4/gambar/bro76.jpg>
 Package pdftex.def Info: bab4/gambar/bro76.jpg  used on input line 62.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
  [36 <d:/work/kampus/skripsi/bab4/gambar/bro76.jpg>]
-<bab4/gambar/bro131.jpg, id=212, 1084.05pt x 958.58125pt>
+<bab4/gambar/bro131.jpg, id=215, 1084.05pt x 958.58125pt>
 File: bab4/gambar/bro131.jpg Graphic file (type jpg)
 <use bab4/gambar/bro131.jpg>
 Package pdftex.def Info: bab4/gambar/bro131.jpg  used on input line 85.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
-) (d:/work/kampus/skripsi/bab5/bab5.tex [37 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (1.92441pt too wide) in paragraph at lines 133--179
+ [] 
+ []
+
+) (d:/work/kampus/skripsi/bab5/bab5.tex [37 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>] [38] [39]
 BAB 5.
-) [38
+) [40
 
-] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [39
+] (d:/work/kampus/skripsi/MainTemplateSkripsi.bbl [41
 
-] [40]) [41]
+] [42]) [43]
 \openout2 = `lampiran.aux'.
 
  (d:/work/kampus/skripsi/lampiran.tex (c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -788,18 +1009,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8423 strings out of 480608
- 122056 string characters out of 5907537
- 1114802 words of memory out of 5000000
- 24037 multiletter control sequences out of 15000+600000
+ 18691 strings out of 480608
+ 340444 string characters out of 5907537
+ 1309581 words of memory out of 5000000
+ 34087 multiletter control sequences out of 15000+600000
  574256 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,14n,48p,820b,1877s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,60p,820b,1881s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (58 pages, 2901458 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (60 pages, 2909686 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 283 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
