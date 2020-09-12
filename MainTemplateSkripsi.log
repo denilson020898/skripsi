@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  12 SEP 2020 05:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  12 SEP 2020 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -563,12 +563,6 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 
 LaTeX Warning: Label `sec:4-PersiapanPengujian' multiply defined.
 
-
-LaTeX Warning: Label `tab:datapelatihanmodel' multiply defined.
-
-
-LaTeX Warning: Label `tab:spesifikasiperangkatlunak' multiply defined.
-
 (d:/work/kampus/skripsi/lampiran.aux))
 \openout1 = `MainTemplateSkripsi.aux'.
 
@@ -981,16 +975,17 @@ File: bab4/gambar/bro131.jpg Graphic file (type jpg)
 <use bab4/gambar/bro131.jpg>
 Package pdftex.def Info: bab4/gambar/bro131.jpg  used on input line 85.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
+ [37 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (1.92441pt too wide) in paragraph at lines 133--179
+Overfull \hbox (8.35953pt too wide) in paragraph at lines 145--191
  [] 
  []
 
-) (d:/work/kampus/skripsi/bab5/bab5.tex [37 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>] [38] [39]
+) (d:/work/kampus/skripsi/bab5/bab5.tex [38] [39]
 BAB 5.
 ) [40
 
@@ -1009,15 +1004,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18691 strings out of 480608
- 340444 string characters out of 5907537
- 1309581 words of memory out of 5000000
- 34087 multiletter control sequences out of 15000+600000
- 574256 words of font info for 80 fonts, out of 8000000 for 9000
+ 18711 strings out of 480608
+ 340741 string characters out of 5907537
+ 1309602 words of memory out of 5000000
+ 34105 multiletter control sequences out of 15000+600000
+ 585201 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,60p,820b,1881s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (60 pages, 2909686 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (60 pages, 2910698 bytes).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams

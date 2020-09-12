@@ -94,87 +94,99 @@ Inferensi pose yang mengalami kesalahan deteksi dapat dilihat pada gambar~\ref{f
     \label{fig:bro131}
 \end{figure}
 
-\begin{table}[h]
+\pagebreak
+
+Kesalahan estimasi pose tiga dimensi yang terjadi pada masukkan video uji coba dapat dianalisis
+lebih mendalam. Pemberian nama kode seperti pada tabel \ref{tab:definisititikkunci} dilakukan
+terlebih dahulu untuk mempermudah analisis.
+
+\begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}
     \caption{Definisi Titik Kunci}
-    \label{tab:datapelatihanmodel}
+    \label{tab:definisititikkunci}
     \vspace{-20pt}
     \begin{center}
         \begin{tabular}{|c|c|l|}
             \hline
-            \textbf{No.} & \textbf{Kode} & \hspace{2cm}\textbf{Titik} \\ \hline
-            1            & A             & Pinggang                   \\ \hline
-            2            & B             & Paha Kanan                 \\ \hline
-            3            & C             & Lutut Kanan                \\ \hline
-            4            & D             & Pergelangan Kaki Kanan     \\ \hline
-            5            & E             & Paha Kiri                  \\ \hline
-            6            & F             & Lutut Kiri                 \\ \hline
-            7            & G             & Pergelangan Kaki Kiri      \\ \hline
-            8            & H             & Leher                      \\ \hline
-            9            & I             & Bahu Kanan                 \\ \hline
-            10           & J             & Siku Kanan                 \\ \hline
-            11           & K             & Pergelangan Tangan Kanan   \\ \hline
-            12           & L             & Bahu Kiri                  \\ \hline
-            13           & M             & Siku Kiri                  \\ \hline
-            14           & N             & Pergelangan Tangan Kiri    \\ \hline
-            15           & O             & Kepala                     \\ \hline
+            \textbf{No.} & \textbf{Kode} & \hspace{2cm}\textbf{Titik Kunci} \\ \hline
+            1            & A             & Pinggang                         \\ \hline
+            2            & B             & Paha Kanan                       \\ \hline
+            3            & C             & Lutut Kanan                      \\ \hline
+            4            & D             & Pergelangan Kaki Kanan           \\ \hline
+            5            & E             & Paha Kiri                        \\ \hline
+            6            & F             & Lutut Kiri                       \\ \hline
+            7            & G             & Pergelangan Kaki Kiri            \\ \hline
+            8            & H             & Leher                            \\ \hline
+            9            & I             & Bahu Kanan                       \\ \hline
+            10           & J             & Siku Kanan                       \\ \hline
+            11           & K             & Pergelangan Tangan Kanan         \\ \hline
+            12           & L             & Bahu Kiri                        \\ \hline
+            13           & M             & Siku Kiri                        \\ \hline
+            14           & N             & Pergelangan Tangan Kiri          \\ \hline
+            15           & O             & Kepala                           \\ \hline
         \end{tabular}
     \end{center}
     \vspace{-10pt}
 \end{table}
 
+Hasil uji akurasi estimasi pose untuk setiap pose ditampilkan pada tabel \ref{tab:hasilujiakurasiestimasipose}.
+Setiap kode titik kunci yang diisi dengan tanda "\checkmark" mewakili kesalahan estimasi yang terjadi.
+Keberadaan kuantitas kesalahan tersebut dikalikan dengan banyaknya jumlah frame untuk mendapatkan
+total jumlah kesalahan. Kuantitas kesalahan setiap titik kunci juga dijumlahkan sehingga pada akhirnya
+didapatkan persentase kesalahan estimasi setiap titik kunci terhadap kesalahan estimasi keseluruhan.
+
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}
     \caption{Hasil Uji Akurasi Estimasi Pose}
-    \label{tab:spesifikasiperangkatlunak}
+    \label{tab:hasilujiakurasiestimasipose}
     \vspace{-20pt}
     \begin{center}
-        % \footnotesize
+        \tiny
         \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
             \hline
-            No.     & \multicolumn{16}{c|}{Header}                                                                                                                                                                                             \\
+            \textbf{No.}   & \multicolumn{16}{c|}{\textbf{Kode Titik Kunci}}                                                                                                                                                                                                      \\
             \cline{2-17}
-            Frame   & A                            & B          & C          & D          & E          & F          & G          & H          & I          & J          & K          & L          & M          & N          & O          & Jlh \\ \hline
-            1-77    &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            78-82   &                              &            & \checkmark & \checkmark &            & \checkmark & \checkmark &            &            &            &            &            &            &            &            & 20  \\ \hline
-            83-86   &                              &            &            &            &            &            &            &            &            & \checkmark & \checkmark &            &            &            &            & 8   \\ \hline
-            87-89   &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            90      &                              &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            &            & 1   \\ \hline
-            91-92   &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            93      &                              &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            &            & 1   \\ \hline
-            94-97   &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            98-100  &                              &            &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark &            & 6   \\ \hline
-            101     &                              &            &            &            &            &            & \checkmark &            &            &            &            &            &            &            &            & 1   \\ \hline
-            102-104 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            105     &                              &            &            &            &            &            & \checkmark &            &            &            &            &            &            &            &            & 1   \\ \hline
-            106     &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            107     &                              &            &            &            &            &            &            &            &            &            &            &            &            & \checkmark &            & 1   \\ \hline
-            108-122 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            123-124 &                              &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 16  \\ \hline
-            125     &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            126     &                              &            &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            & 1   \\ \hline
-            127-129 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            130     &                              &            &            &            &            &            &            &            &            &            & \checkmark &            &            &            &            & 1   \\ \hline
-            131-132 & \checkmark                   & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 30  \\ \hline
-            133-134 &                              &            & \checkmark & \checkmark &            &            &            &            &            &            &            &            &            &            &            & 4   \\ \hline
-            135-137 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            138     &                              &            &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            & 1   \\ \hline
-            139-140 &                              &            &            &            &            &            &            &            &            &            & \checkmark &            &            &            &            & 2   \\ \hline
-            141-169 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            170-173 &                              &            &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark &            & 8   \\ \hline
-            174-190 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            191-192 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            & \checkmark & 2   \\ \hline
-            193-196 &                              &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & \checkmark & 16  \\ \hline
-            197-201 & \checkmark                   & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 75  \\ \hline
-            202-223 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            224-232 &                              &            &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & 27  \\ \hline
-            233-309 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            310-359 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
-            360-362 & \checkmark                   &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 27  \\ \hline
-            363-374 &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0   \\ \hline
+            \textbf{Frame} & \textbf{A}                                      & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{E} & \textbf{F} & \textbf{G} & \textbf{H} & \textbf{I} & \textbf{J} & \textbf{K} & \textbf{L} & \textbf{M} & \textbf{N} & \textbf{O} & \textbf{Jlh} \\ \hline
+            1-77           &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            78-82          &                                                 &            & \checkmark & \checkmark &            & \checkmark & \checkmark &            &            &            &            &            &            &            &            & 20           \\ \hline
+            83-86          &                                                 &            &            &            &            &            &            &            &            & \checkmark & \checkmark &            &            &            &            & 8            \\ \hline
+            87-89          &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            90             &                                                 &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            &            & 1            \\ \hline
+            91-92          &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            93             &                                                 &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            &            & 1            \\ \hline
+            94-97          &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            98-100         &                                                 &            &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark &            & 6            \\ \hline
+            101            &                                                 &            &            &            &            &            & \checkmark &            &            &            &            &            &            &            &            & 1            \\ \hline
+            102-104        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            105            &                                                 &            &            &            &            &            & \checkmark &            &            &            &            &            &            &            &            & 1            \\ \hline
+            106            &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            107            &                                                 &            &            &            &            &            &            &            &            &            &            &            &            & \checkmark &            & 1            \\ \hline
+            108-122        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            123-124        &                                                 &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 16           \\ \hline
+            125            &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            126            &                                                 &            &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            & 1            \\ \hline
+            127-129        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            130            &                                                 &            &            &            &            &            &            &            &            &            & \checkmark &            &            &            &            & 1            \\ \hline
+            131-132        & \checkmark                                      & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 30           \\ \hline
+            133-134        &                                                 &            & \checkmark & \checkmark &            &            &            &            &            &            &            &            &            &            &            & 4            \\ \hline
+            135-137        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            138            &                                                 &            &            & \checkmark &            &            &            &            &            &            &            &            &            &            &            & 1            \\ \hline
+            139-140        &                                                 &            &            &            &            &            &            &            &            &            & \checkmark &            &            &            &            & 2            \\ \hline
+            141-169        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            170-173        &                                                 &            &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark &            & 8            \\ \hline
+            174-190        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            191-192        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            & \checkmark & 2            \\ \hline
+            193-196        &                                                 &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & \checkmark & 16           \\ \hline
+            197-201        & \checkmark                                      & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 75           \\ \hline
+            202-223        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            224-232        &                                                 &            &            &            &            &            &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & 27           \\ \hline
+            233-309        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            310-359        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
+            360-362        & \checkmark                                      &            &            &            &            &            &            & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & 27           \\ \hline
+            363-374        &                                                 &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 0            \\ \hline
             \hline
-            Total   &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 249 \\ \hline
-            Persen  &                              &            &            &            &            &            &            &            &            &            &            &            &            &            &            & 5\% \\ \hline
+            Total          & 10                                              & 7          & 16         & 16         & 7          & 12         & 14         & 12         & 12         & 16         & 19         & 16         & 32         & 33         & 27         & 249          \\ \hline
+            Persen         & 4.02                                            & 2.81       & 6.43       & 6.43       & 2.81       & 4.82       & 5.62       & 4.82       & 4.82       & 6.43       & 7.63       & 6.43       & 12.85      & 13.25      & 10.84      & \%           \\\hline %5\% \\ \hline
         \end{tabular}
     \end{center}
 \end{table}
