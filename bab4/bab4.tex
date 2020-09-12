@@ -97,8 +97,12 @@ Inferensi pose yang mengalami kesalahan deteksi dapat dilihat pada gambar~\ref{f
 \pagebreak
 
 Kesalahan estimasi pose tiga dimensi yang terjadi pada masukkan video uji coba dapat dianalisis
-lebih mendalam. Pemberian nama kode seperti pada tabel \ref{tab:definisititikkunci} dilakukan
-terlebih dahulu untuk mempermudah analisis.
+lebih mendalam.
+Setiap titik kunci memiliki peran kontribusi terhadap estimasi pose secara keseluruhan. Analisis
+setiap titik kunci secara tersendiri dilakukan dengan
+pemberian nama kode.
+Kode-kode terdiri dari lima belas titik kunci yang diwakilkan dengan kode huruf kapital terurut seperti pada
+tabel \ref{tab:definisititikkunci} untuk mempermudah analisis.
 
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}
@@ -130,10 +134,13 @@ terlebih dahulu untuk mempermudah analisis.
 \end{table}
 
 Hasil uji akurasi estimasi pose untuk setiap pose ditampilkan pada tabel \ref{tab:hasilujiakurasiestimasipose}.
-Setiap kode titik kunci yang diisi dengan tanda "\checkmark" mewakili kesalahan estimasi yang terjadi.
+Setiap kode titik kunci yang diisi dengan tanda "\checkmark" mewakili kesalahan estimasi yang terjadi
+pada titik kunci tersebut.
 Keberadaan kuantitas kesalahan tersebut dikalikan dengan banyaknya jumlah frame untuk mendapatkan
 total jumlah kesalahan. Kuantitas kesalahan setiap titik kunci juga dijumlahkan sehingga pada akhirnya
 didapatkan persentase kesalahan estimasi setiap titik kunci terhadap kesalahan estimasi keseluruhan.
+
+\pagebreak
 
 \begin{table}[htbp]
     \captionsetup{labelfont=bf, textfont=bf}
@@ -190,3 +197,14 @@ didapatkan persentase kesalahan estimasi setiap titik kunci terhadap kesalahan e
         \end{tabular}
     \end{center}
 \end{table}
+
+Nilai akurasi dan kesalahan estimasi titik kunci berbeda-beda pada setiap titik kunci.
+Titik kunci B dan C yang mewakili titik paha kanan dan lutut kanan secara berurut merupakan
+titik dengan hasil estimasi paling akurat. Kedua titik tersebut salah diestimasi sebanyak tujuh kali
+dari total dua ratus empat puluh sembilan kesalahan estimasi. Persentase kesalahan akhir
+bernilai dua koma delapan puluh satu persen dari total kesalahan estimasi.
+
+Titik kunci N yang mewakili titik kunci pergelangan tangan kiri merupakan titik dengan hasil estimasi
+paling tidak akurat. Titik tersebut salah diestimasi sebanyak tiga puluh tiga kali dari total
+dua ratus empat puluh sembilang kesalahan estimasi. Hasil akhir kesalahan pada titik ini bernilai
+tiga belas koma dua puluh lima persen dari keseluruhan kesalahan estimasi.

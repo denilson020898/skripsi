@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  12 SEP 2020 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  12 SEP 2020 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -975,17 +975,17 @@ File: bab4/gambar/bro131.jpg Graphic file (type jpg)
 <use bab4/gambar/bro131.jpg>
 Package pdftex.def Info: bab4/gambar/bro131.jpg  used on input line 85.
 (pdftex.def)             Requested size: 338.58762pt x 299.395pt.
- [37 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>]
+ [37 <d:/work/kampus/skripsi/bab4/gambar/bro131.jpg>] [38]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
 
-Overfull \hbox (8.35953pt too wide) in paragraph at lines 145--191
+Overfull \hbox (8.35953pt too wide) in paragraph at lines 152--198
  [] 
  []
 
-) (d:/work/kampus/skripsi/bab5/bab5.tex [38] [39]
+) (d:/work/kampus/skripsi/bab5/bab5.tex [39]
 BAB 5.
 ) [40
 
@@ -1012,7 +1012,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,14n,60p,820b,1881s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (60 pages, 2910698 bytes).
+Output written on d:/work/kampus/skripsi/MainTemplateSkripsi.pdf (60 pages, 2911562 bytes).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams
