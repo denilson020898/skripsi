@@ -85,6 +85,8 @@ INPUT c:/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
 INPUT c:/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+INPUT c:/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -348,8 +350,6 @@ INPUT d:/work/kampus/skripsi/bab5/bab5.tex
 INPUT d:/work/kampus/skripsi/bab5/bab5.tex
 INPUT d:/work/kampus/skripsi/MainTemplateSkripsi.bbl
 INPUT d:/work/kampus/skripsi/MainTemplateSkripsi.bbl
-INPUT c:/texlive/2020/texmf-dist/fonts/vf/adobe/times/ptmro8t.vf
-INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmro8r.tfm
 OUTPUT d:/work/kampus/skripsi/lampiran.aux
 INPUT d:/work/kampus/skripsi/lampiran.tex
 INPUT d:/work/kampus/skripsi/lampiran.tex
@@ -396,6 +396,5 @@ INPUT c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
-INPUT c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
