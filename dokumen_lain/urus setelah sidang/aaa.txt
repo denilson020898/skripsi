@@ -1,14 +1,13 @@
 kampus D senin rabu jumat
 
-# setelah sidang
-form foto di dokumen sidang, 
-foto kertas DOFF
-fotokopi KTP
-fotokopi ijasah KTP
+// # setelah sidang
+// form foto di dokumen sidang,
+// foto kertas DOFF
+// fotokopi KTP
+// fotokopi ijasah KTP
 
-################# TRANSKRIP
 
-################# 
+#################
 HARDCOVER
 
 COVER, LEMB PENGESAHAN, KATA PENGANTAR CEK DI dokumen SIDANG
@@ -20,7 +19,7 @@ bawa revisi, jika ada
 
 lihat pengumuman D21
 
-######################
+################# TRANSKRIP
 
 untuk ijasah / transkrip s-ma:
 
