@@ -1,7 +1,7 @@
 \contentsline {chapter}{HALAMAN JUDUL}{i}%
 \babel@toc {bahasa}{}
-\contentsline {chapter}{LEMBAR PENGESAHAN}{ii}%
-\contentsline {chapter}{LEMBAR ORIGINALITAS DAN PUBLIKASI}{iii}%
+\contentsline {chapter}{LEMBAR ORIGINALITAS DAN PUBLIKASI}{ii}%
+\contentsline {chapter}{LEMBAR PENGESAHAN}{iii}%
 \contentsline {chapter}{ABSTRAKSI}{iv}%
 \contentsline {chapter}{ABSTRACT}{v}%
 \contentsline {chapter}{KATA PENGANTAR}{vi}%
