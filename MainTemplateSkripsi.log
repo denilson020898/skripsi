@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.4)  28 SEP 2020 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.14)  14 OCT 2020 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -817,7 +817,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8554 strings out of 480608
- 123617 string characters out of 5907537
+ 123617 string characters out of 5907535
  1116963 words of memory out of 5000000
  24164 multiletter control sequences out of 15000+600000
  574256 words of font info for 80 fonts, out of 8000000 for 9000

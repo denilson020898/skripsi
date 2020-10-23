@@ -1,7 +1,7 @@
 PWD d:/work/kampus/skripsi
 INPUT c:/texlive/2020/texmf.cnf
 INPUT c:/texlive/2020/texmf-dist/web2c/texmf.cnf
-INPUT c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/denil/.texlive2020/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT d:/work/kampus/skripsi/MainTemplateSkripsi.tex
 OUTPUT d:/work/kampus/skripsi/MainTemplateSkripsi.log
 INPUT d:/work/kampus/skripsi/skripsi.cls
